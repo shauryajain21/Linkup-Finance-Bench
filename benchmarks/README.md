@@ -15,7 +15,6 @@ Each one is rated on the same three simple rules:
 | **BigFinanceBench** | Agentic research over filings, rubric-graded | ✅ Yes — 50 public items (928 total, 878 held out) | Medium | No |
 | **FinanceBench** | Answering questions from SEC filings | ✅ Yes — 150 public Q&A with gold answers | Cheap (a few $) | No |
 | **FinSearchComp** | Financial search & reasoning (live + historical) | ✅ Yes — 635 public Q&A with gold answers | Low–medium ($tens) | No |
-| **You.com web-search-api-evals** | Search APIs head-to-head (uses FinSearchComp + others) | ✅ Yes — runnable framework | Medium ($100–300 full field) | No — *the opening for us* |
 | **Hebbia "Who Evaluates the Evaluator"** | Model-vs-model over private docs | ❌ No — method only, no data released | N/A | No |
 
 ---
@@ -104,35 +103,6 @@ open-source grading harness.
 
 **How Linkup fits.** Linkup's equivalent of the deep-research endpoints is `depth: deep`
 search or the `/research` endpoint.
-
----
-
-## You.com — web-search-api-evals
-
-**Context.** Not a dataset — a **runnable framework** that turns benchmarks into a
-scoreboard for web-search APIs. For each question it: (1) calls a search API, (2) has an
-LLM write the answer from the results, (3) has a second LLM judge grade it. It already
-wires up **Exa, Perplexity, Tavily, Parallel, You.com, and Google**, and ships several
-datasets including **FinSearchComp (T2/T3 Global)**, SimpleQA, FRAMES, DeepSearchQA, and
-BrowseComp. For the finance tiers it points every provider at its **deep-research /
-agentic endpoint** (Exa `research_pro`, Perplexity Sonar deep research, Parallel
-`pro`/`ultra`, Tavily `research_pro`, You.com finance research).
-
-**Links.**
-- Repo: https://github.com/youdotcom-oss/web-search-api-evals
-
-**Cost.** Medium. The LLM synth + judge calls are a few dollars total; the cost is the
-deep-research search calls. Full head-to-head across all providers × the finance sets is
-ballpark **$100–300**, mostly Perplexity deep research, Parallel Ultra, and Exa Research
-Pro. Running **just Linkup** is a few dollars.
-
-**Reproducibility.** ✅ **Yes.** Clone, add API keys, run one command; results write to
-per-provider CSVs plus an aggregate.
-
-**How Linkup fits.** **Linkup is not in it yet** — this is the opening. Fork it, add a
-Linkup "sampler," and run it head-to-head against the others on the finance sets. Caveat:
-it's You.com's own repo, so treat their framing as friendly-to-them — but we run it
-ourselves, so we control the setup.
 
 ---
 
