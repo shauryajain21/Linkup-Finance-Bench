@@ -3,6 +3,9 @@
 How we'd run the [FinSearchComp](https://arxiv.org/abs/2509.13160) financial-search
 benchmark with Linkup as a contestant.
 
+> ✅ **Smoke test done:** Linkup research (XL) scored **20/20** on a T2 Global pilot —
+> see [`SMOKE_TEST.md`](SMOKE_TEST.md). Runners: `run_t2_research_xl.py` + `grade_stored.py`.
+
 ## The benchmark
 
 - 635 expert-written finance questions, single objective gold answer each, graded **1/0**.
