@@ -54,6 +54,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--start", type=int, default=20)
     ap.add_argument("--end", type=int, default=120)
+    ap.add_argument("--indices", default=None, help="comma-separated 0-based indices; overrides start/end")
     ap.add_argument("--qps", type=float, default=10.0)
     ap.add_argument("--out", default=os.path.join(RESULTS, "t2_research_xl_remaining.jsonl"))
     ap.add_argument("--tasks", default=os.path.join(RESULTS, "t2_research_xl_remaining_tasks.json"))
@@ -66,7 +67,11 @@ def main():
     os.makedirs(RESULTS, exist_ok=True)
 
     all_rows = list(csv.DictReader(open(T2_CSV)))
-    rows = [(i, all_rows[i]) for i in range(args.start, min(args.end, len(all_rows)))]
+    if args.indices:
+        idxs = [int(x) for x in args.indices.split(",") if x.strip() != ""]
+        rows = [(i, all_rows[i]) for i in idxs]
+    else:
+        rows = [(i, all_rows[i]) for i in range(args.start, min(args.end, len(all_rows)))]
     print(f"Running T2 idx [{args.start},{min(args.end,len(all_rows))}) = {len(rows)} questions "
           f"| Linkup research XL | submit+poll throttled to {args.qps} QPS\n", flush=True)
 
