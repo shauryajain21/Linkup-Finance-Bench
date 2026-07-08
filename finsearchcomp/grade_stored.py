@@ -8,10 +8,12 @@ rounding errors allowed, sign ignored where the gold lists both signs. It reads 
 stored JSONL (no Linkup re-run) and writes a graded file. An LLM judge (e.g.
 gpt-5-mini) can re-grade the same stored answers later for a second opinion.
 """
-import json, os, re
+import glob, json, os, re
 
 RESULTS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "results")
-FULL = os.path.join(RESULTS, "t2_research_xl_full.jsonl")
+# Grade over every stored XL run file, deduped by idx (covers the full 120).
+FULL_GLOB = os.path.join(RESULTS, "t2_research_xl*full*.jsonl")
+FULL_GLOB2 = os.path.join(RESULTS, "t2_research_xl_remaining.jsonl")
 
 
 def nums(text):
@@ -40,8 +42,16 @@ def matches(pred, gold_text):
 
 
 def main():
-    recs = [json.loads(l) for l in open(FULL)]
-    recs.sort(key=lambda r: r["idx"])
+    files = sorted(set(glob.glob(FULL_GLOB) + glob.glob(FULL_GLOB2)))
+    by_idx = {}
+    for fp in files:
+        for line in open(fp):
+            r = json.loads(line)
+            # keep the completed/latest record per idx
+            if r["idx"] not in by_idx or r.get("status") == "completed":
+                by_idx[r["idx"]] = r
+    recs = sorted(by_idx.values(), key=lambda r: r["idx"])
+    print(f"grading {len(recs)} questions from {len(files)} file(s)\n")
     graded = []
     total = 0
     for r in recs:

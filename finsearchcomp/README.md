@@ -3,8 +3,10 @@
 How we'd run the [FinSearchComp](https://arxiv.org/abs/2509.13160) financial-search
 benchmark with Linkup as a contestant.
 
-> ✅ **Smoke test done:** Linkup research (XL) scored **20/20** on a T2 Global pilot —
-> see [`SMOKE_TEST.md`](SMOKE_TEST.md). Runners: `run_t2_research_xl.py` + `grade_stored.py`.
+> ✅ **Full T2 done:** Linkup research (XL) scored **96/119 = 80.7%** on all of T2 Global
+> — see [`RESULTS_T2.md`](RESULTS_T2.md). Pilot (first 20) was 20/20 — see
+> [`SMOKE_TEST.md`](SMOKE_TEST.md). Runners: `run_t2_research_xl.py`,
+> `run_t2_research_xl_batch.py`, `grade_stored.py`.
 
 ## The benchmark
 

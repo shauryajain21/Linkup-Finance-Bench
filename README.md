@@ -16,7 +16,8 @@ contestant, and see where it lands.
 - **[`analysis/`](analysis/)** — deeper looks at specific harnesses:
   - [`you-com-harness-audit.md`](analysis/you-com-harness-audit.md) — fairness audit of You.com's `web-search-api-evals` + full comparator config matrix
   - [`comparator-matrix.html`](analysis/comparator-matrix.html) — the same config matrix as a visual reference
-- **[`finsearchcomp/`](finsearchcomp/)** — run plan + runners for FinSearchComp with Linkup, and the first result:
-  [`SMOKE_TEST.md`](finsearchcomp/SMOKE_TEST.md) — Linkup research (XL) scored **20/20** on a T2 Global pilot
+- **[`finsearchcomp/`](finsearchcomp/)** — run plan + runners for FinSearchComp with Linkup, and results:
+  [`RESULTS_T2.md`](finsearchcomp/RESULTS_T2.md) — Linkup research (XL) scored **96/119 = 80.7%** on full T2 Global
+  (pilot [`SMOKE_TEST.md`](finsearchcomp/SMOKE_TEST.md) was 20/20)
 
 More folders (runners, results) will be added as we start running them.
