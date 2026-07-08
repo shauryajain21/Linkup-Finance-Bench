@@ -1,0 +1,48 @@
+Submitting 20 T2 questions -> Linkup research (mode=answer, reasoningDepth=XL)
+
+  submitted 01/20  id=2ecfdd1d-ae62-4ccb-bf8e-591870b0c604
+  submitted 02/20  id=1039dfab-e7c4-4cd9-b8bc-7325f4e671b9
+  submitted 03/20  id=a1afa9bb-7ecc-4cf1-82d0-a429631d84b9
+  submitted 04/20  id=080ad1ed-f186-42d0-affe-37d260289815
+  submitted 05/20  id=960ea026-6768-4595-9766-91df6015b388
+  submitted 06/20  id=2ec3cae6-c807-41c7-a4fc-2b8bd1f5565b
+  submitted 07/20  id=6469eb8e-c727-41d9-8cb3-d60fc47ecde6
+  submitted 08/20  id=93561ec4-0769-46f3-894d-04b3cefddf28
+  submitted 09/20  id=5f44c958-26f6-4ac0-9430-1cba51041c20
+  submitted 10/20  id=c458d3f8-c38c-4998-bd77-f3d840dd2009
+  submitted 11/20  id=85665051-70c6-4c40-88c3-458398b47a71
+  submitted 12/20  id=7fda7cf4-9a7c-4ef1-8b93-39de4b33918d
+  submitted 13/20  id=9d147957-f60a-4e39-ab30-0096830da90d
+  submitted 14/20  id=821a0f22-e34d-4267-9be5-706b266978a3
+  submitted 15/20  id=407123e3-fa54-40f4-aa8f-71dfef8b140b
+  submitted 16/20  id=add9a8a2-f8e9-4760-b451-c2db031fae5e
+  submitted 17/20  id=2f49dede-bbdb-4b50-9acc-f5172b05fa4b
+  submitted 18/20  id=a6e6845e-d1a9-4109-a1ea-f44372827312
+  submitted 19/20  id=dc572889-6d3c-47d9-8739-f47d66749f42
+  submitted 20/20  id=de4b45cc-1eaa-452b-bfc5-c9eb157c4142
+
+All submitted. Polling every 8s until each completes...
+
+  [completed] 03/20 (33.2s)  **Answer:** 22743  **Interpretation:** The value is taken directly from the "Total costs and expenses" line it
+  [completed] 06/20 (35.5s)  **Answer:** 373396  **Interpretation:** The value represents Walmart's "Cost of sales" for the fiscal year 201
+  [completed] 08/20 (37.2s)  **Answer:** 163.6  **Interpretation:** The value represents the "Property and equipment, net" line item from G
+  [completed] 13/20 (41.1s)  **Answer:** 106148  **Interpretation:** The question asks for the net accounts receivable of AMC Entertainment
+  [completed] 14/20 (41.9s)  **Answer:** $4.76  **Interpretation:** The question asks for the reported diluted earnings per share (EPS) of 
+  [completed] 17/20 (44.5s)  **Answer:** 15,909.5  **Interpretation:** The question asks for the total long-term debt, including the curren
+  [completed] 20/20 (46.8s)  **Answer:** 70697  **Interpretation:** The question asks for Facebook's (now Meta Platforms, Inc.) total annua
+  [completed] 02/20 (56.4s)  **Answer:** 4626  **Interpretation:** The question asks for the marketing expenses of Uber for the full year 2
+  [completed] 05/20 (57.9s)  **Answer:** 43783  **Interpretation:** Walmart's 2018 fiscal year ended on January 31, 2018. The value is extr
+  [completed] 07/20 (58.8s)  **Answer:** 1896.8  **Interpretation:** The value was extracted directly from the "Total liabilities" line ite
+  [completed] 10/20 (60.3s)  **Answer:** 93353  **Interpretation:** The question asks for the amount of cash used in financing activities b
+  [completed] 11/20 (61.1s)  **Answer:** 14545  **Interpretation:** The question asks for the amount of cash *used* in investing activities
+  [completed] 12/20 (62.1s)  **Answer:** 104038  **Interpretation:** "Cash generated from operating activities" refers to the "Net cash pro
+  [completed] 18/20 (64.5s)  **Answer:** 29374.5  **Interpretation:** The question asks for the total assets of Starbucks as of September 2
+  [completed] 09/20 (75.6s)  **Answer:** 2598.8  **Interpretation:** The question asks for GameStop's total current assets as of January 29
+  [completed] 15/20 (88.2s)  **Answer:** 35058  **Interpretation:** The question asks for Microsoft's operating income for the fiscal year 
+  [completed] 19/20 (111.7s)  **Answer:** 19079  **Interpretation:** Facebook's (now Meta Platforms, Inc.) fiscal year 2019 ended on Decembe
+  [completed] 01/20 (120.5s)  **Answer:** 4836  **Interpretation:** The research and development expenses for Uber Technologies, Inc. for th
+  [completed] 04/20 (130.9s)  **Answer:** 3511  **Interpretation:** The question asks for the prepaid expenses of Walmart for the 2018 fisca
+  [completed] 16/20 (597.3s)  **Answer:** 82718  **Interpretation:** The question asks for the total shareholder equity (also reported as "t
+
+DONE. 20 tasks stored -> /Users/shaurya/Linkup-Finance-Bench/finsearchcomp/results/t2_research_xl_full.jsonl
+Next: grade the stored answers (judge phase).

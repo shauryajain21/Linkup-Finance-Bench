@@ -1,0 +1,1082 @@
+{
+  "dataset": "fin_search_comp_t2_global",
+  "sampler": "linkup_research (mode=answer, reasoningDepth=XL, sourcedAnswer)",
+  "judge": "deterministic numeric match (FinSearchComp rubric)",
+  "n": 119,
+  "score": 96,
+  "accuracy": 0.8067226890756303,
+  "avg_latency_s": 1560.4,
+  "graded": [
+    {
+      "idx": 0,
+      "question": "What were the research and development expenses of Uber for the full year 2019?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$4,836 million, rounding errors are allowed.",
+      "extracted_answer": 4836.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 120.5
+    },
+    {
+      "idx": 1,
+      "question": "What were the marketing expenses of Uber for the full year 2019?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$4,626 million, rounding errors are allowed.",
+      "extracted_answer": 4626.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 56.4
+    },
+    {
+      "idx": 2,
+      "question": "What were the total costs and expenses of Uber for the full year 2019?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$22,743 million, rounding errors are allowed.",
+      "extracted_answer": 22743.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 33.2
+    },
+    {
+      "idx": 3,
+      "question": "What were the prepaid expenses of Walmart in the 2018 fiscal year?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$3,511 million, rounding errors are allowed.",
+      "extracted_answer": 3511.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 130.9
+    },
+    {
+      "idx": 4,
+      "question": "What were the inventories of Walmart in the 2018 fiscal year?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$43,783 million, rounding errors are allowed.",
+      "extracted_answer": 43783.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 57.9
+    },
+    {
+      "idx": 5,
+      "question": "What was the cost of sales of Walmart in the 2018 fiscal year?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$373,396 million, rounding errors are allowed.",
+      "extracted_answer": 373396.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 35.5
+    },
+    {
+      "idx": 6,
+      "question": "What were the total liabilities of GameStop as of January 29, 2022?(answer in Millions of dollars, rounded to one decimal place)",
+      "gold_answer": "$1,896.8 million, rounding errors are allowed.",
+      "extracted_answer": 1896.8,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 58.8
+    },
+    {
+      "idx": 7,
+      "question": "What was the property and equipment, net of GameStop as of January 29, 2022?(answer in Millions of dollars, rounded to one decimal place)",
+      "gold_answer": "$163.6 million, rounding errors are allowed.",
+      "extracted_answer": 163.6,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 37.2
+    },
+    {
+      "idx": 8,
+      "question": "What were the current assets of GameStop as of January 29, 2022?(answer in Millions of dollars, rounded to one decimal place)",
+      "gold_answer": "$2,598.8 million, rounding errors are allowed.",
+      "extracted_answer": 2598.8,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 75.6
+    },
+    {
+      "idx": 9,
+      "question": "How much cash was used in financing activities by Apple in the 2021 fiscal year?(answer in Millions of dollars, rounded to nearest integer)",
+      "gold_answer": "$93,353millions, rounding errors are allowed.",
+      "extracted_answer": 93353.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 60.3
+    },
+    {
+      "idx": 10,
+      "question": "How much cash was used in investing activities by Apple in the 2021 fiscal year?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$-14,545 million or $14,545 million, rounding errors are allowed.",
+      "extracted_answer": 14545.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 61.1
+    },
+    {
+      "idx": 11,
+      "question": "How much cash was generated from operating activities by Apple in the 2021 fiscal year?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$104,038 million, rounding errors are allowed.",
+      "extracted_answer": 104038.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 62.1
+    },
+    {
+      "idx": 12,
+      "question": "What was the accounts receivable (net) of AMC Entertainment in the fiscal year of 2013?(answer in thousand of dollars, rounded to  nearest integer)",
+      "gold_answer": "$106,148 thousands, rounding errors are allowed.",
+      "extracted_answer": 106148.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 41.1
+    },
+    {
+      "idx": 13,
+      "question": "What was the diluted earnings per share of AMC Entertainment in the fiscal year of 2013?(answer in dollars, rounded to two decimal place)",
+      "gold_answer": "$4.76 dollars, rounding errors are allowed.",
+      "extracted_answer": 4.76,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 41.9
+    },
+    {
+      "idx": 14,
+      "question": "What was the operating income of Microsoft in the fiscal year of 2018?(answer in Millions of dollars, rounded to nearest integer)",
+      "gold_answer": "$35,058 millions, rounding errors are allowed.",
+      "extracted_answer": 35058.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 88.2
+    },
+    {
+      "idx": 15,
+      "question": "What was the shareholder equity of Microsoft as of June 30, 2018?(answer in Millions of dollars, rounded to nearest integer)",
+      "gold_answer": "$82,718 million, rounding errors are allowed.",
+      "extracted_answer": 82718.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 597.3
+    },
+    {
+      "idx": 16,
+      "question": "As of September 27, 2020, what was the amount of long-term debt (including the current portion) of Starbucks?(answer in Millions of dollars, rounded to one decimal place)",
+      "gold_answer": "$15,909.5 million , rounding errors are allowed.",
+      "extracted_answer": 15909.5,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 44.5
+    },
+    {
+      "idx": 17,
+      "question": "What was the total assets of Starbucks as of September 27, 2020?(answer in Millions of dollars, rounded to one decimal place)",
+      "gold_answer": "$29374.5 million, rounding errors are allowed.",
+      "extracted_answer": 29374.5,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 64.5
+    },
+    {
+      "idx": 18,
+      "question": "As of the end of the fiscal year 2019, what was the amount of cash and cash equivalents on Facebook's books?(answer in Millions of dollars, rounded to  nearest integer)",
+      "gold_answer": "$19079 millions, rounding errors are allowed.",
+      "extracted_answer": 19079.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 111.7
+    },
+    {
+      "idx": 19,
+      "question": "What was the total annual revenue of Facebook as of December 31, 2019?(answer in Millions of dollars, rounded to nearest integer)",
+      "gold_answer": "$70697 million , rounding errors are allowed.",
+      "extracted_answer": 70697.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 46.8
+    },
+    {
+      "idx": 20,
+      "question": "In 2020, what was the total coal supply in Israel? (answer in terajoules, rounded to one decimal place)",
+      "gold_answer": "188864.0 TJ, rounding errors are allowed.",
+      "extracted_answer": 185701.3,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3486.9
+    },
+    {
+      "idx": 21,
+      "question": "In 2023, what was the total petroleum supply in the United States (answer in trillion joules, rounded to the nearest integer)?",
+      "gold_answer": "31889337 TJ, rounding errors are allowed.",
+      "extracted_answer": 37342647.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3487.7
+    },
+    {
+      "idx": 22,
+      "question": "In 2023, what was the total natural gas supply of Egypt (answer in TJ, rounded to the nearest integer)?",
+      "gold_answer": "2169248 TJ, rounding errors are allowed.",
+      "extracted_answer": 2169248.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 87.0
+    },
+    {
+      "idx": 23,
+      "question": "What were the sales of pure electric cars in Europe in 2022? (answer in million of vehicles, rounded to one decimal place)",
+      "gold_answer": "1.6 million units, rounding errors are allowed.",
+      "extracted_answer": 1.6,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3.3
+    },
+    {
+      "idx": 24,
+      "question": "In 2015, what was the nuclear power capacity in developed economies in the Announced Pledges Scenario (answer in gigawatts, rounded to one decimal place)?",
+      "gold_answer": "317.4 Gwh, rounding errors are allowed.",
+      "extracted_answer": 315.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3489.1
+    },
+    {
+      "idx": 25,
+      "question": "On July 15, 2022, what was the 6-Month Treasury Bill Secondary Market Rate? (answer in percentage, rounded to two decimal places)",
+      "gold_answer": "The results between 2.80% to 2.90% are considered correct.",
+      "extracted_answer": 2.86,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3490.6
+    },
+    {
+      "idx": 26,
+      "question": "In December 2021, what were the total Reserves of Depository Institutions in the United States? (answer in billions of dollars, rounded to one decimal place)",
+      "gold_answer": "$4187.9 billions, rounding errors are allowed.",
+      "extracted_answer": 4187.9,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3491.6
+    },
+    {
+      "idx": 27,
+      "question": "In April 2023, what was the total borrowing amount in millions of dollars from the Federal Reserve? (answer in Millions of dollars, rounded to two decimal places)",
+      "gold_answer": "The results within the range of 329,660 to 329,662 (in million of dollars) are considered correct.",
+      "extracted_answer": 329661.6,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 169.7
+    },
+    {
+      "idx": 28,
+      "question": "In the third quarter of 2020, what was the Velocity of M2 Money Stock in the United States? (rounded to three decimal places)",
+      "gold_answer": "1.177, rounding errors are allowed.",
+      "extracted_answer": 1.141,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3492.7
+    },
+    {
+      "idx": 29,
+      "question": "On 2024 Dec, what was the seasonally adjusted M2 money supply in the United States (answer in billions of dollars, rounded to the nearest integer)?",
+      "gold_answer": "$21,442 billion, rounding errors are allowed.",
+      "extracted_answer": 21486.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 92.3
+    },
+    {
+      "idx": 30,
+      "question": "What was the average LBMA Platinum AM annual price in January 2024? (answer in USD/oz, rounded to two decimal places)",
+      "gold_answer": "955.74 USD/oz, rounding errors are allowed.",
+      "extracted_answer": 926.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3493.6
+    },
+    {
+      "idx": 31,
+      "question": "What was the closing price of LME Copper - 2025 AUG on May 27, 2025? (answer in USD/MT, rounded to 2 decimal places)",
+      "gold_answer": "9610.25 USD/MT, rounding errors are allowed.",
+      "extracted_answer": 2025.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3494.7
+    },
+    {
+      "idx": 32,
+      "question": "On June 7, 2023, what was the closing price of the Dow Jones Industrial Average (DJI)? (answer in USD, rounded to two decimal places)",
+      "gold_answer": "The results within the range of $33664 to $33667 are considered correct.",
+      "extracted_answer": 33665.02,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 10.9
+    },
+    {
+      "idx": 33,
+      "question": "On April 4, 2025, what was the price of the US 10-Year T-Note Futures (September 2025 contract)? (unit: =100, rounded to two decimal places)",
+      "gold_answer": "113.05 or 113\u201808\u20185\u2019(in futures quote hexadecimal notation), rounding errors are allowed.",
+      "extracted_answer": 113.05,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3495.6
+    },
+    {
+      "idx": 34,
+      "question": "On June 16, 2025, what was the settlement price of the WTI crude oil July 2025 contract? (answer in USD/Barrel, rounded to 2 decimal places)",
+      "gold_answer": "71.77 USD/Barrel, rounding errors are allowed.",
+      "extracted_answer": 71.77,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3151.2
+    },
+    {
+      "idx": 35,
+      "question": "What was the high for the Chicago soybean July 2025 contract on July 26, 2024? (answer in Cents/Bushel, rounded to one decimal place)",
+      "gold_answer": "1121.0 Cents/Bushel, rounding errors are allowed.",
+      "extracted_answer": 1124.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3496.5
+    },
+    {
+      "idx": 36,
+      "question": "What was the closing price of Chicago corn for the July 2025 contract on December 28, 2024 (answer in Cents/Bushel, rounded to one decimal place)?",
+      "gold_answer": "464.0 Cents/Bushel, rounding errors are allowed.",
+      "extracted_answer": 464.5,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 289.0
+    },
+    {
+      "idx": 37,
+      "question": "What was the closing price of the WTI crude oil August contract on January 16, 2025? (answer in USD/Barrel, rounded to two decimal places)",
+      "gold_answer": "72.65 USD/Barrel, rounding errors are allowed.",
+      "extracted_answer": 78.68,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3433.9
+    },
+    {
+      "idx": 38,
+      "question": "On November 23, 2020, what was the closing price of Indonesia's IDX30 index? (answer in IDR, rounded to four decimal places)",
+      "gold_answer": "499.9320 IDR, rounding errors are allowed.",
+      "extracted_answer": 490.95,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3434.8
+    },
+    {
+      "idx": 39,
+      "question": "What was the closing value of the VIX on April 25, 2022? (rounded to two decimal places)",
+      "gold_answer": "27.02, rounding errors are allowed.",
+      "extracted_answer": 27.02,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 16.7
+    },
+    {
+      "idx": 40,
+      "question": "What was the closing price of the German DAX index on May 30, 2022? (answer in EUR, rounded to two decimal places)",
+      "gold_answer": "14575.98 EUR, rounding errors are allowed.",
+      "extracted_answer": 14575.98,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 17.6
+    },
+    {
+      "idx": 41,
+      "question": "What was the highest price of the Japan 225 Index on November 15, 2024? (answer in JPY, rounded to two decimal places)",
+      "gold_answer": "39101.64 JPY, rounding errors are allowed.",
+      "extracted_answer": 39101.64,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 18.5
+    },
+    {
+      "idx": 42,
+      "question": "On July 4, 2024, what was the closing price of the UK's FTSE 100 Index? (answer in GBP, rounded to two decimal places)",
+      "gold_answer": "8241.26 GBP, rounding errors are allowed.",
+      "extracted_answer": 8241.3,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 100.1
+    },
+    {
+      "idx": 43,
+      "question": "On July 3, 2024, what was the US 3-month treasury bond yield? (answer in percentage, rounded to 2 decimal places)",
+      "gold_answer": "5.47%, rounding errors are allowed.",
+      "extracted_answer": 5.47,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 385.1
+    },
+    {
+      "idx": 44,
+      "question": "On May 22, 2023, what was the US 10-year treasury bond yield?(answer in percentage, rounded to two decimal places)",
+      "gold_answer": "3.72%, rounding errors are allowed.",
+      "extracted_answer": 3.72,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 101.8
+    },
+    {
+      "idx": 45,
+      "question": "In April 2025, what was the Disposable personal income in the United States? (answer in billions of dollars, rounded to one decimal place)",
+      "gold_answer": "$22579.6 billions, rounding errors are allowed.",
+      "extracted_answer": 22873.1,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3435.9
+    },
+    {
+      "idx": 46,
+      "question": "In July 2022, what was the value of advance retail and food services sales in the United States? (Data updated: Jul 17, 2025, seasonally Adjusted. answer in billions of dollars, rounded to one decimal place)",
+      "gold_answer": "$659.5 billions, rounding errors are allowed.",
+      "extracted_answer": 659.6,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3436.9
+    },
+    {
+      "idx": 47,
+      "question": "In September 2021, what was the Business Inventory in the United States?(answer in billions of dollars, rounded to one decimal place)",
+      "gold_answer": "2139.1 (in billion of dollars), rounding errors are allowed.",
+      "extracted_answer": 2101.8,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 180.7
+    },
+    {
+      "idx": 48,
+      "question": "In August 2009, what was the unemployment rate of Japan? (answer in percentage, rounded to one decimal place)",
+      "gold_answer": "The result within the range of 5.3% to 5.5% are considered correct.",
+      "extracted_answer": 5.5,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3438.0
+    },
+    {
+      "idx": 49,
+      "question": "In 2022, what was the amount of Aviation gasoline - Final energy consumption in Brazil? (answer in thousand metric tons, rounded to the nearest integer)",
+      "gold_answer": "33 thousand metric tons, rounding errors are allowed.",
+      "extracted_answer": 33.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 295.2
+    },
+    {
+      "idx": 50,
+      "question": "How many kilograms of husked (brown) rice were exported by Brazil in 2023 (answer in kilograms, rounded to the nearest integer)?",
+      "gold_answer": "The results between 21691200 to 21691400 kg are considered correct.",
+      "extracted_answer": 21691400.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 106.8
+    },
+    {
+      "idx": 51,
+      "question": "On March 8, 2023, what was the U.S. Dollar Index? (rounded to 3 decimal places)",
+      "gold_answer": "The results between $105.360 to $105.880 are considered correct.",
+      "extracted_answer": 105.66,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 388.9
+    },
+    {
+      "idx": 52,
+      "question": "In June 2015, what was Germany's Ifo Business Climate Index? (data from June 24,2025, rounded to one decimal place)",
+      "gold_answer": "100.2, rounding errors are allowed.",
+      "extracted_answer": 100.1,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3439.9
+    },
+    {
+      "idx": 53,
+      "question": "In April 2015, what was the CPI of Russia? (base year 2015=100, rounded to two decimal place)",
+      "gold_answer": "99.03, rounding errors are allowed.",
+      "extracted_answer": 99.03,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 244.8
+    },
+    {
+      "idx": 54,
+      "question": "What was the U.S. Housing Market Index (HMI) in November 2014? (answer rounded to the nearest integer)",
+      "gold_answer": "58, rounding errors are allowed.",
+      "extracted_answer": 58.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3440.9
+    },
+    {
+      "idx": 55,
+      "question": "In February 2015, what was the annual sales volume of finished houses in the United States (data from July 24,2025, Seasonally adjusted, rounded to the nearest integer)?",
+      "gold_answer": "4970000, rounding errors are allowed.",
+      "extracted_answer": 180000.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3441.7
+    },
+    {
+      "idx": 56,
+      "question": "What were total retail trade in the United States in December 2014 (Not Seasonally Adjusted, answer in millions of dollars, rounded to the nearest integer)?",
+      "gold_answer": "$440,713 million dollar, rounding errors are allowed.",
+      "extracted_answer": 440713.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3442.7
+    },
+    {
+      "idx": 57,
+      "question": "As of January 30, 2016, what was the working capital of GameStop? (answer in millions of dollars, rounded to one decimal place)",
+      "gold_answer": "$144.4 million, rounding errors are allowed.",
+      "extracted_answer": 144.4,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 32.6
+    },
+    {
+      "idx": 58,
+      "question": "As of January 30, 2016, what was the total area of GameStop's manufacturing and distribution facilities in Grapevine, Texas? (answer in Square Footage, rounded to the nearest integer)",
+      "gold_answer": "182000 Square Footage, rounding errors are allowed.",
+      "extracted_answer": 182000.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3443.8
+    },
+    {
+      "idx": 59,
+      "question": "As of January 30, 2016, what was the number of GameStop stores in Alaska? (rounded to the nearest integer)",
+      "gold_answer": "7",
+      "extracted_answer": 7.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 189.5
+    },
+    {
+      "idx": 60,
+      "question": "What was the total gross profit of Planet Labs in fiscal year 2023? (answer in thousands of dollars, rounded to the nearest integer)",
+      "gold_answer": "$94008 thousand, rounding errors are allowed.",
+      "extracted_answer": 94008.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 394.3
+    },
+    {
+      "idx": 61,
+      "question": "What was the deferred rent of Planet Labs for the fiscal year 2022? (answer in thousands of dollars, rounded to the nearest integer)",
+      "gold_answer": "$798 thousand, rounding errors are allowed.",
+      "extracted_answer": 3700.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3444.9
+    },
+    {
+      "idx": 62,
+      "question": "For the fiscal year 2023, what was Planet Labs' Net cash provided by Investing activities? (answer in thousands of dollars, rounded to the nearest integer)",
+      "gold_answer": "$-242263, rounding errors are allowed.",
+      "extracted_answer": -242263.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 302.9
+    },
+    {
+      "idx": 63,
+      "question": "As of December 31, 2020, what was the Contribution Profit of Upstart Holdings? (answer in thousands of dollars, rounded to the nearest integer)",
+      "gold_answer": "The results between $105,100 thousand to $105,050 thousand are considered correct.",
+      "extracted_answer": 105088.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 193.5
+    },
+    {
+      "idx": 64,
+      "question": "As of the end of 2020, what was the total amount of Upstart Holdings' Total liabilities, convertible preferred stock and stockholders\u2019 equity (deficit)? (answer in thousands of dollars, rounded to the nearest integer)",
+      "gold_answer": "$477255 thousand, rounding errors are allowed.",
+      "extracted_answer": 477255.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 194.4
+    },
+    {
+      "idx": 65,
+      "question": "As of the end of December 2019, what was the value of Upstart Holdings' convertible preferred stock (answer in thousands of dollars, rounded to the nearest integer)?",
+      "gold_answer": "$162546 thousand, rounding errors are allowed.",
+      "extracted_answer": 162546.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 39.2
+    },
+    {
+      "idx": 66,
+      "question": "As of the end of fiscal year 2021, what was the total stockholders' deficit of Knightscope? (answer in thousands of dollars, rounded to the nearest integer)",
+      "gold_answer": "-$82933 thousand, rounding errors are allowed.",
+      "extracted_answer": 82933.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 119.6
+    },
+    {
+      "idx": 67,
+      "question": "In 2021, what was Knightscope's Accounts payable? (answer in thousands of dollars, rounded to the nearest integer)",
+      "gold_answer": "The results between $1510 thousand to $1550 thousand are considered correct.",
+      "extracted_answer": 1514.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 41.0
+    },
+    {
+      "idx": 68,
+      "question": "In 2021, what was Knightscope's General and administrative expense as a percentage of revenue? (answer in percentage, rounded to the nearest integer)",
+      "gold_answer": "143%, rounding errors are allowed.",
+      "extracted_answer": 143.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 195.4
+    },
+    {
+      "idx": 69,
+      "question": "What was Knightscope's sales and marketing spending as a percentage of total revenue in 2021? (answer in percentage, rounded to the nearest integer)",
+      "gold_answer": "353%, rounding errors are allowed.",
+      "extracted_answer": 353.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 121.4
+    },
+    {
+      "idx": 70,
+      "question": "As of September 25, 2016, what were the total current liabilities of QUALCOMM (in millions of U.S. dollars, rounded to the nearest integer)?",
+      "gold_answer": "$7311 million, rounding errors are allowed.",
+      "extracted_answer": 7311.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3446.1
+    },
+    {
+      "idx": 71,
+      "question": "As of September 25, 2016, what was the Short-term debt of QUALCOMM (answer in millions of dollars, rounded to the nearest integer)?",
+      "gold_answer": "The results between $1700 to $1750 million are considered correct.",
+      "extracted_answer": 1749.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 44.7
+    },
+    {
+      "idx": 72,
+      "question": "As of September 25, 2016, what was the Total stockholders\u2019 equity of QUALCOMM (answer in millions of dollars, rounded to the nearest integer)?",
+      "gold_answer": "$31768 million, rounding errors are allowed.",
+      "extracted_answer": 31768.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 197.3
+    },
+    {
+      "idx": 73,
+      "question": "In 2016, what were Plug Power's intangible assets, net? (answer in thousands of dollars, rounded to the nearest integer)",
+      "gold_answer": "$3933 thousand, rounding errors are allowed.",
+      "extracted_answer": 3933.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 124.1
+    },
+    {
+      "idx": 74,
+      "question": "As of the end of December 2016, what was the long-term debt (1-3 Years) of Plug Power (answer in thousands of dollars, rounded to the nearest integer)?",
+      "gold_answer": "$20829 thousand, rounding errors are allowed.",
+      "extracted_answer": 22000.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3447.2
+    },
+    {
+      "idx": 75,
+      "question": "As of the end of December 2016, what was the loss before income taxes of Plug Power (answer in thousands of dollars, rounded to the nearest integer)?",
+      "gold_answer": "-$57879 thousand, rounding errors are allowed.",
+      "extracted_answer": 57879.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 48.5
+    },
+    {
+      "idx": 76,
+      "question": "Between July 10, 2020, and December 31, 2020, what was the Accrued expenses of SoFi Technologies? (answer in dollars, rounded to the nearest integer)",
+      "gold_answer": "$178450, rounding errors are allowed.",
+      "extracted_answer": 178450.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3448.2
+    },
+    {
+      "idx": 77,
+      "question": "As of December 31, 2020, what was the ending cash of SoFi Technologies? (answer in dollars, rounded to the nearest integer)",
+      "gold_answer": "$259,714, rounding errors are allowed.",
+      "extracted_answer": 1323428000.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3449.9
+    },
+    {
+      "idx": 78,
+      "question": "What was the Net cash provided by financing activities of SoFi Technologies between July 10, 2020, and December 31, 2020? (answer in dollars, rounded to the nearest integer)",
+      "gold_answer": "$806,545,938, rounding errors are allowed.",
+      "extracted_answer": 806545938.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3450.9
+    },
+    {
+      "idx": 79,
+      "question": "What was the Additional paid-in capital of Lands' End as of the end of the fiscal year 2020? (answer in thousand dollars, rounded to the nearest integer)",
+      "gold_answer": "$369372 thousand, rounding errors are allowed.",
+      "extracted_answer": 369372.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3451.9
+    },
+    {
+      "idx": 80,
+      "question": "As of the end of the fiscal year of 2020, what was the amount of Lands' End's Prepaid expenses and other current assets? (answer in thousand dollars, rounded to the nearest integer)",
+      "gold_answer": "$40356 thousand, rounding errors are allowed.",
+      "extracted_answer": 40356.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 129.9
+    },
+    {
+      "idx": 81,
+      "question": "In the fiscal year 2020, what was the Interest expense of Lands' End? (answer in thousand dollars, rounded to the nearest integer)",
+      "gold_answer": "$27754 thousand, rounding errors are allowed.",
+      "extracted_answer": 27754.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 203.1
+    },
+    {
+      "idx": 82,
+      "question": "In the fiscal year 2022, what was the goodwill of NVIDIA disclosed? (answer in million dollars, rounded to the nearest integer)",
+      "gold_answer": "$4349 million, rounding errors are allowed.",
+      "extracted_answer": 4349.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 131.8
+    },
+    {
+      "idx": 83,
+      "question": "As of the end of the fiscal year 2022, what was the value of NVIDIA's long-lived assets in Taiwan? (answer in million dollars, rounded to the nearest integer)",
+      "gold_answer": "$379 million, rounding errors are allowed.",
+      "extracted_answer": 379.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 132.9
+    },
+    {
+      "idx": 84,
+      "question": "In the fiscal year 2022, what was the total operating income of NVIDIA's Graphic? (answer in million dollars, rounded to the nearest integer)",
+      "gold_answer": "$8492 million, rounding errors are allowed.",
+      "extracted_answer": 8492.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 134.3
+    },
+    {
+      "idx": 85,
+      "question": "In the fiscal year 2022, what was NVIDIA's total deferred tax assets? (answer in million dollars, rounded to the nearest integer)",
+      "gold_answer": "$1408 million, rounding errors are allowed.",
+      "extracted_answer": 1222.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3452.9
+    },
+    {
+      "idx": 86,
+      "question": "In the fiscal year 2022, what was the retain earning of NVIDIA? (answer in million dollars, rounded to the nearest integer)",
+      "gold_answer": "$16235 million, rounding errors are allowed.",
+      "extracted_answer": 16235.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 204.7
+    },
+    {
+      "idx": 87,
+      "question": "Based on current prices, In 2021, what was the GDP per hour worked in the United States (in purchasing - power - parity terms)? (answer in dollars per hour, rounded to two decimal places)",
+      "gold_answer": "87.01 dollar/hour, rounding errors are allowed.",
+      "extracted_answer": 85.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3454.5
+    },
+    {
+      "idx": 88,
+      "question": "In 2006, what was the amount of private flows in the United States in million dollars (rounded to the nearest integer)?",
+      "gold_answer": "$92270 million, rounding errors are allowed.",
+      "extracted_answer": 71539.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3455.5
+    },
+    {
+      "idx": 89,
+      "question": "In 2008, what was the proportion of Canada's public pension spending to GDP? (answer in percentage, rounded to one decimal place)",
+      "gold_answer": "4.9%, rounding errors are allowed.",
+      "extracted_answer": 4.5,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3456.6
+    },
+    {
+      "idx": 90,
+      "question": "In 2007, what was the proportion of the Tax on personal income to GDP in South Korea? (answer in percentage, rounded to two decimal places)",
+      "gold_answer": "3.97%, rounding errors are allowed.",
+      "extracted_answer": 4.15,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3457.6
+    },
+    {
+      "idx": 91,
+      "question": "In 2008, what was the public unemployment spending as a percentage of GDP in Germany? (answer in percentage, rounded to two decimal places)",
+      "gold_answer": "1.21%, rounding errors are allowed.",
+      "extracted_answer": 1.34,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3458.6
+    },
+    {
+      "idx": 92,
+      "question": "In 2020, what was the number of passenger car registrations in the United States? (answer in units, rounded to the nearest integer)",
+      "gold_answer": "28348330, rounding errors are allowed.",
+      "extracted_answer": 105135300.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3460.4
+    },
+    {
+      "idx": 93,
+      "question": "What was the number of passenger car registrations in Australia in 2006? (answer in units, rounded to the nearest integer)",
+      "gold_answer": "4986617, rounding errors are allowed.",
+      "extracted_answer": 598454.0,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3462.2
+    },
+    {
+      "idx": 94,
+      "question": "Taking 2020 as the reference year, what was the nni of South Africa in 2002? (2020 = 100, rounded to two decimal places)",
+      "gold_answer": "64.65, rounding errors are allowed.",
+      "extracted_answer": 65.95,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3463.1
+    },
+    {
+      "idx": 95,
+      "question": "Taking 2020 as the reference year, what was the NNI of the United States in 2006? (2020 = 100, answer rounded to two decimal places)",
+      "gold_answer": "82.76, rounding errors are allowed.",
+      "extracted_answer": 81.82,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3463.8
+    },
+    {
+      "idx": 96,
+      "question": "In 2019, what was the ratio of net lending or net borrowing by the general government to GDP in Sweden? (answer in percentage, rounded to two decimal places)",
+      "gold_answer": "0.44%, rounding errors are allowed.",
+      "extracted_answer": 0.43,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3465.0
+    },
+    {
+      "idx": 97,
+      "question": "In 2008, what was the ratio of net lending to net borrowing of enterprises as a percentage of GDP in Japan? (answer in percentage, rounded to two decimal places)",
+      "gold_answer": "4.17%, rounding errors are allowed.",
+      "extracted_answer": 2.5,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3466.0
+    },
+    {
+      "idx": 98,
+      "question": "What was the proportion of tax on corporate income to GDP in the UK in 2015? (answer in percentage, rounded to two decimal places)",
+      "gold_answer": "2.29%, rounding errors are allowed.",
+      "extracted_answer": null,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3467.7
+    },
+    {
+      "idx": 99,
+      "question": "In the whole year of 2021, what was the proportion of the Tax on corporate income to GDP in Poland? (answer in percentage, rounded to two decimal places)",
+      "gold_answer": "2.61%, rounding errors are allowed.",
+      "extracted_answer": 2.62,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3469.0
+    },
+    {
+      "idx": 100,
+      "question": "What was the value of G20 exports of services in Q4 2023? (data from 23 August 2024,answer in billion dollars, rounded to two decimal places)",
+      "gold_answer": "$1560.62 billion, rounding errors are allowed.",
+      "extracted_answer": 1560.6,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 148.5
+    },
+    {
+      "idx": 101,
+      "question": "What was the value of G20 merchandise imports in Q2 2021? (answer in billion dollars, rounded to two decimal places)",
+      "gold_answer": "The result between $4232 to $4233 billion are considered correct.",
+      "extracted_answer": 4235.5,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3473.8
+    },
+    {
+      "idx": 102,
+      "question": "In 2019, what was Indonesia's Claims on central government (annual growth as % of broad money)? (answer in percentage, rounded to one decimal place)",
+      "gold_answer": "1.6%, rounding errors are allowed.",
+      "extracted_answer": 1.6,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 150.1
+    },
+    {
+      "idx": 103,
+      "question": "In 2022, what was the proportion of insurance and financial services in Iceland's service exports? (answer in percentage, rounded to the nearest integer)",
+      "gold_answer": "3%, rounding errors are allowed.",
+      "extracted_answer": 3.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3474.8
+    },
+    {
+      "idx": 104,
+      "question": "In 2019, what was the percentage of foreign direct investment, net inflows in Mexico's GDP? (answer in percentage, rounded to one decimal place).\nTo calculate the percentage of foreign direct investment, the formula is: $\\frac{Foreign Direct Investment Net Inflows}{Nominal GDP}\\times100\\%$.",
+      "gold_answer": "2.3%, rounding errors are allowed.",
+      "extracted_answer": 2.3,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3475.7
+    },
+    {
+      "idx": 105,
+      "question": "In 2020, what was the GDP per capita of Israel? (answer in dollars, rounded to one decimal place)",
+      "gold_answer": "$44575.6, rounding errors are allowed.",
+      "extracted_answer": 44590.8,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3476.5
+    },
+    {
+      "idx": 106,
+      "question": "What was the annual inflation rate in Australia in 2022? (answer in percentage, rounded to one decimal place)",
+      "gold_answer": "6.6%, rounding errors are allowed.",
+      "extracted_answer": 7.8,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3477.3
+    },
+    {
+      "idx": 107,
+      "question": "In 2016, what was the unemployment as a percentage of the total labor force in South Korea? (answer in percentage, rounded to one decimal place)",
+      "gold_answer": "The results within the range of 3.5% to 3.7% are considered correct.",
+      "extracted_answer": 3.7,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 154.8
+    },
+    {
+      "idx": 108,
+      "question": "What was Zimbabwe's real GDP growth rate (annual percentage change) in 2021? (answer in percentage, rounded to one decimal place)",
+      "gold_answer": "8.5%, rounding errors are allowed.",
+      "extracted_answer": 8.5,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 155.6
+    },
+    {
+      "idx": 109,
+      "question": "In 2011, what was the real GDP growth rate (annual percentage change) for Tunisia? (answer in percentage, rounded to the nearest integer)",
+      "gold_answer": "-2%, rounding errors are allowed.",
+      "extracted_answer": -2.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 156.8
+    },
+    {
+      "idx": 110,
+      "question": "In 2020, what was the real GDP growth rate (annual percentage change) of Japan?(answer in percentage, rounded to one decimal place)",
+      "gold_answer": "-4.2%, rounding errors are allowed.",
+      "extracted_answer": -4.2,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3482.7
+    },
+    {
+      "idx": 111,
+      "question": "What was the real GDP growth rate (annual percentage change) for New Zealand in 2005? (answer in percentage, rounded to one decimal place)",
+      "gold_answer": "3.2%, rounding errors are allowed.",
+      "extracted_answer": 3.4,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3483.5
+    },
+    {
+      "idx": 112,
+      "question": "In 2015, what was the real GDP growth rate (annual percentage change) for the United States? (answer in percentage, rounded to one decimal place)",
+      "gold_answer": "2.9%, rounding errors are allowed.",
+      "extracted_answer": 2.9,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 3484.8
+    },
+    {
+      "idx": 113,
+      "question": "What was the IMF's Net Total Administrative Budget for the 2022 fiscal year? (answer in millions of dollars, rounded to the nearest integer)",
+      "gold_answer": "$1214 million, rounding errors are allowed.",
+      "extracted_answer": 1214.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 160.2
+    },
+    {
+      "idx": 114,
+      "question": "In 2023, what was the total amount of aid funds approved by the IMF in the Asia-Pacific region? (answer in Million SDR, rounded to one decimal place)",
+      "gold_answer": "The results between 6400 million SDR to 6500 million SDR are considered correct.",
+      "extracted_answer": 6445.6,
+      "score": 0,
+      "status": "completed",
+      "latency_s": 3486.1
+    },
+    {
+      "idx": 115,
+      "question": "In September 2022, what was the federal funds rate? (answer in percentage)",
+      "gold_answer": "3% to 3.25%",
+      "extracted_answer": 3.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 224.1
+    },
+    {
+      "idx": 116,
+      "question": "In March 2023, what was the interest rate paid on reserve balances raised to by the Federal Reserve?(answer in percentage, rounded to one decimal place)",
+      "gold_answer": "4.9%, rounding errors are allowed.",
+      "extracted_answer": 4.9,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 162.8
+    },
+    {
+      "idx": 117,
+      "question": "As of the end of May 2024, what were the total liabilities of commercial banks in the United States (data from December 27, 2024, Not seasonally adjusted, answer in billions of dollars, rounded to one decimal place)?",
+      "gold_answer": "$21150.5 billion, rounding errors are allowed.",
+      "extracted_answer": 21049.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 225.2
+    },
+    {
+      "idx": 118,
+      "question": "As of the end of December 2024, what was the bank credit of commercial banks in the United States (data from July 18,2025 , seasonally adjusted, answer in billions of dollars, rounded to the nearest integer)?",
+      "gold_answer": "$17956 billion, rounding errors are allowed.",
+      "extracted_answer": 17956.0,
+      "score": 1,
+      "status": "completed",
+      "latency_s": 278.4
+    }
+  ]
+}

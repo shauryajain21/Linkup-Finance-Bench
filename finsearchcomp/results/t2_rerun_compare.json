@@ -1,0 +1,261 @@
+{
+  "reran": 23,
+  "newly_correct_on_rerun": 2,
+  "original_score": "96/119 = 80.7%",
+  "best_of_both_score": "98/119 = 82.4%",
+  "rows": [
+    {
+      "idx": 20,
+      "question_no": 21,
+      "gold": "188864.0 TJ, rounding errors are allowed.",
+      "run1_pred": 185701.3,
+      "run1_correct": false,
+      "run2_pred": 185701.3,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 21,
+      "question_no": 22,
+      "gold": "31889337 TJ, rounding errors are allowed.",
+      "run1_pred": 37342647.0,
+      "run1_correct": false,
+      "run2_pred": 38404038.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 24,
+      "question_no": 25,
+      "gold": "317.4 Gwh, rounding errors are allowed.",
+      "run1_pred": 315.0,
+      "run1_correct": false,
+      "run2_pred": 315.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 30,
+      "question_no": 31,
+      "gold": "955.74 USD/oz, rounding errors are allowed.",
+      "run1_pred": 926.0,
+      "run1_correct": false,
+      "run2_pred": 921.62,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 31,
+      "question_no": 32,
+      "gold": "9610.25 USD/MT, rounding errors are allowed.",
+      "run1_pred": 2025.0,
+      "run1_correct": false,
+      "run2_pred": 9610.0,
+      "run2_correct": true,
+      "newly_correct": true,
+      "regressed": false
+    },
+    {
+      "idx": 37,
+      "question_no": 38,
+      "gold": "72.65 USD/Barrel, rounding errors are allowed.",
+      "run1_pred": 78.68,
+      "run1_correct": false,
+      "run2_pred": 78.68,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 38,
+      "question_no": 39,
+      "gold": "499.9320 IDR, rounding errors are allowed.",
+      "run1_pred": 490.95,
+      "run1_correct": false,
+      "run2_pred": 490.95,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 45,
+      "question_no": 46,
+      "gold": "$22579.6 billions, rounding errors are allowed.",
+      "run1_pred": 22873.1,
+      "run1_correct": false,
+      "run2_pred": 22918.1,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 47,
+      "question_no": 48,
+      "gold": "2139.1 (in billion of dollars), rounding errors are allowed.",
+      "run1_pred": 2101.8,
+      "run1_correct": false,
+      "run2_pred": 2101.8,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 55,
+      "question_no": 56,
+      "gold": "4970000, rounding errors are allowed.",
+      "run1_pred": 180000.0,
+      "run1_correct": false,
+      "run2_pred": 180000.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 61,
+      "question_no": 62,
+      "gold": "$798 thousand, rounding errors are allowed.",
+      "run1_pred": 3700.0,
+      "run1_correct": false,
+      "run2_pred": 3000.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 74,
+      "question_no": 75,
+      "gold": "$20829 thousand, rounding errors are allowed.",
+      "run1_pred": 22000.0,
+      "run1_correct": false,
+      "run2_pred": 0.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 77,
+      "question_no": 78,
+      "gold": "$259,714, rounding errors are allowed.",
+      "run1_pred": 1323428000.0,
+      "run1_correct": false,
+      "run2_pred": 1323428000.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 85,
+      "question_no": 86,
+      "gold": "$1408 million, rounding errors are allowed.",
+      "run1_pred": 1222.0,
+      "run1_correct": false,
+      "run2_pred": 1222.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 87,
+      "question_no": 88,
+      "gold": "87.01 dollar/hour, rounding errors are allowed.",
+      "run1_pred": 85.0,
+      "run1_correct": false,
+      "run2_pred": 85.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 88,
+      "question_no": 89,
+      "gold": "$92270 million, rounding errors are allowed.",
+      "run1_pred": 71539.0,
+      "run1_correct": false,
+      "run2_pred": 30440.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 92,
+      "question_no": 93,
+      "gold": "28348330, rounding errors are allowed.",
+      "run1_pred": 105135300.0,
+      "run1_correct": false,
+      "run2_pred": 105135300.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 93,
+      "question_no": 94,
+      "gold": "4986617, rounding errors are allowed.",
+      "run1_pred": 598454.0,
+      "run1_correct": false,
+      "run2_pred": 598454.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 94,
+      "question_no": 95,
+      "gold": "64.65, rounding errors are allowed.",
+      "run1_pred": 65.95,
+      "run1_correct": false,
+      "run2_pred": 62.47,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 97,
+      "question_no": 98,
+      "gold": "4.17%, rounding errors are allowed.",
+      "run1_pred": 2.5,
+      "run1_correct": false,
+      "run2_pred": 6.0,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 98,
+      "question_no": 99,
+      "gold": "2.29%, rounding errors are allowed.",
+      "run1_pred": null,
+      "run1_correct": false,
+      "run2_pred": 2.3,
+      "run2_correct": true,
+      "newly_correct": true,
+      "regressed": false
+    },
+    {
+      "idx": 106,
+      "question_no": 107,
+      "gold": "6.6%, rounding errors are allowed.",
+      "run1_pred": 7.8,
+      "run1_correct": false,
+      "run2_pred": 7.8,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    },
+    {
+      "idx": 114,
+      "question_no": 115,
+      "gold": "The results between 6400 million SDR to 6500 million SDR are considered correct.",
+      "run1_pred": 6445.6,
+      "run1_correct": false,
+      "run2_pred": 6445.6,
+      "run2_correct": false,
+      "newly_correct": false,
+      "regressed": false
+    }
+  ]
+}

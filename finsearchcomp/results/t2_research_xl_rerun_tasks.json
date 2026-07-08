@@ -1,0 +1,554 @@
+[
+  {
+    "idx": 20,
+    "id": "3df57d79-efdb-47d5-b0c4-6fbf60b3f92c",
+    "question": "In 2020, what was the total coal supply in Israel? (answer in terajoules, rounded to one decimal place)",
+    "gold_answer": "188864.0 TJ, rounding errors are allowed.",
+    "dataset_id": "15920709-9594-4bb0-8e70-d503841368d6",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:33.795Z",
+      "error": null,
+      "id": "3df57d79-efdb-47d5-b0c4-6fbf60b3f92c",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:33.795Z",
+      "input": {
+        "q": "In 2020, what was the total coal supply in Israel? (answer in terajoules, rounded to one decimal place)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:33"
+  },
+  {
+    "idx": 21,
+    "id": "a1ce9178-ce7d-47c8-a284-b6a76562d195",
+    "question": "In 2023, what was the total petroleum supply in the United States (answer in trillion joules, rounded to the nearest integer)?",
+    "gold_answer": "31889337 TJ, rounding errors are allowed.",
+    "dataset_id": "1012c974-2908-449f-a772-65390f9bc4a1",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:34.537Z",
+      "error": null,
+      "id": "a1ce9178-ce7d-47c8-a284-b6a76562d195",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:34.537Z",
+      "input": {
+        "q": "In 2023, what was the total petroleum supply in the United States (answer in trillion joules, rounded to the nearest integer)?",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:34"
+  },
+  {
+    "idx": 24,
+    "id": "ae8aa023-8444-4541-8b21-f9ff2864e4b4",
+    "question": "In 2015, what was the nuclear power capacity in developed economies in the Announced Pledges Scenario (answer in gigawatts, rounded to one decimal place)?",
+    "gold_answer": "317.4 Gwh, rounding errors are allowed.",
+    "dataset_id": "0ef84721-dd4f-45d5-aa6f-949b85369e00",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:35.271Z",
+      "error": null,
+      "id": "ae8aa023-8444-4541-8b21-f9ff2864e4b4",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:35.271Z",
+      "input": {
+        "q": "In 2015, what was the nuclear power capacity in developed economies in the Announced Pledges Scenario (answer in gigawatts, rounded to one decimal place)?",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:35"
+  },
+  {
+    "idx": 30,
+    "id": "f326e5b2-9f0c-4bfe-9aa3-b416f4118ef5",
+    "question": "What was the average LBMA Platinum AM annual price in January 2024? (answer in USD/oz, rounded to two decimal places)",
+    "gold_answer": "955.74 USD/oz, rounding errors are allowed.",
+    "dataset_id": "f6222d78-43c0-4231-a038-8efe9179c278",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:36.034Z",
+      "error": null,
+      "id": "f326e5b2-9f0c-4bfe-9aa3-b416f4118ef5",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:36.034Z",
+      "input": {
+        "q": "What was the average LBMA Platinum AM annual price in January 2024? (answer in USD/oz, rounded to two decimal places)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:36"
+  },
+  {
+    "idx": 31,
+    "id": "da21c63b-51bf-4dff-a2fb-44bde318c711",
+    "question": "What was the closing price of LME Copper - 2025 AUG on May 27, 2025? (answer in USD/MT, rounded to 2 decimal places)",
+    "gold_answer": "9610.25 USD/MT, rounding errors are allowed.",
+    "dataset_id": "df89ba03-b10f-4357-bc52-cc81c3d94912",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:36.760Z",
+      "error": null,
+      "id": "da21c63b-51bf-4dff-a2fb-44bde318c711",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:36.760Z",
+      "input": {
+        "q": "What was the closing price of LME Copper - 2025 AUG on May 27, 2025? (answer in USD/MT, rounded to 2 decimal places)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:36"
+  },
+  {
+    "idx": 37,
+    "id": "47e88001-f976-40cf-bfb4-a0e08efca6ef",
+    "question": "What was the closing price of the WTI crude oil August contract on January 16, 2025? (answer in USD/Barrel, rounded to two decimal places)",
+    "gold_answer": "72.65 USD/Barrel, rounding errors are allowed.",
+    "dataset_id": "9f971713-3ce6-4750-b8fa-26184c57b0df",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:37.539Z",
+      "error": null,
+      "id": "47e88001-f976-40cf-bfb4-a0e08efca6ef",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:37.539Z",
+      "input": {
+        "q": "What was the closing price of the WTI crude oil August contract on January 16, 2025? (answer in USD/Barrel, rounded to two decimal places)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:37"
+  },
+  {
+    "idx": 38,
+    "id": "f0e4d417-75d6-4019-9273-8923186cfc49",
+    "question": "On November 23, 2020, what was the closing price of Indonesia's IDX30 index? (answer in IDR, rounded to four decimal places)",
+    "gold_answer": "499.9320 IDR, rounding errors are allowed.",
+    "dataset_id": "028652b4-8a3e-4b1e-a897-611a5e95a515",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:38.230Z",
+      "error": null,
+      "id": "f0e4d417-75d6-4019-9273-8923186cfc49",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:38.230Z",
+      "input": {
+        "q": "On November 23, 2020, what was the closing price of Indonesia's IDX30 index? (answer in IDR, rounded to four decimal places)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:38"
+  },
+  {
+    "idx": 45,
+    "id": "7510d657-e2b2-46ca-9ef1-de34e5efe75e",
+    "question": "In April 2025, what was the Disposable personal income in the United States? (answer in billions of dollars, rounded to one decimal place)",
+    "gold_answer": "$22579.6 billions, rounding errors are allowed.",
+    "dataset_id": "8fa4de26-c5a7-4e16-a940-3e2cd0832aa5",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:38.925Z",
+      "error": null,
+      "id": "7510d657-e2b2-46ca-9ef1-de34e5efe75e",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:38.925Z",
+      "input": {
+        "q": "In April 2025, what was the Disposable personal income in the United States? (answer in billions of dollars, rounded to one decimal place)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:39"
+  },
+  {
+    "idx": 47,
+    "id": "8260f40a-c7b0-47a5-9428-25a8e18e2542",
+    "question": "In September 2021, what was the Business Inventory in the United States?(answer in billions of dollars, rounded to one decimal place)",
+    "gold_answer": "2139.1 (in billion of dollars), rounding errors are allowed.",
+    "dataset_id": "7195ea5e-f6da-4a98-b4a3-6876e2e449fd",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:39.690Z",
+      "error": null,
+      "id": "8260f40a-c7b0-47a5-9428-25a8e18e2542",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:39.690Z",
+      "input": {
+        "q": "In September 2021, what was the Business Inventory in the United States?(answer in billions of dollars, rounded to one decimal place)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:39"
+  },
+  {
+    "idx": 55,
+    "id": "e142afc2-cf8d-4e6a-9ff2-bd80ac0b64d0",
+    "question": "In February 2015, what was the annual sales volume of finished houses in the United States (data from July 24,2025, Seasonally adjusted, rounded to the nearest integer)?",
+    "gold_answer": "4970000, rounding errors are allowed.",
+    "dataset_id": "53557374-2b99-4cd6-8bd3-df2712603160",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:40.417Z",
+      "error": null,
+      "id": "e142afc2-cf8d-4e6a-9ff2-bd80ac0b64d0",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:40.417Z",
+      "input": {
+        "q": "In February 2015, what was the annual sales volume of finished houses in the United States (data from July 24,2025, Seasonally adjusted, rounded to the nearest integer)?",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:40"
+  },
+  {
+    "idx": 61,
+    "id": "39e805ef-3206-4c6e-8982-18e80329e713",
+    "question": "What was the deferred rent of Planet Labs for the fiscal year 2022? (answer in thousands of dollars, rounded to the nearest integer)",
+    "gold_answer": "$798 thousand, rounding errors are allowed.",
+    "dataset_id": "e385ac2e-e4f7-4bbc-a610-d9348ea84b1a",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:41.208Z",
+      "error": null,
+      "id": "39e805ef-3206-4c6e-8982-18e80329e713",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:41.208Z",
+      "input": {
+        "q": "What was the deferred rent of Planet Labs for the fiscal year 2022? (answer in thousands of dollars, rounded to the nearest integer)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:41"
+  },
+  {
+    "idx": 74,
+    "id": "da1fb9ab-3cd6-4263-95cc-7a51bd3df6e3",
+    "question": "As of the end of December 2016, what was the long-term debt (1-3 Years) of Plug Power (answer in thousands of dollars, rounded to the nearest integer)?",
+    "gold_answer": "$20829 thousand, rounding errors are allowed.",
+    "dataset_id": "d753baff-3b05-4bdb-a653-023091e13c07",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:41.926Z",
+      "error": null,
+      "id": "da1fb9ab-3cd6-4263-95cc-7a51bd3df6e3",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:41.926Z",
+      "input": {
+        "q": "As of the end of December 2016, what was the long-term debt (1-3 Years) of Plug Power (answer in thousands of dollars, rounded to the nearest integer)?",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:41"
+  },
+  {
+    "idx": 77,
+    "id": "656cc19a-af3c-4eee-9a82-6bcdad6194e0",
+    "question": "As of December 31, 2020, what was the ending cash of SoFi Technologies? (answer in dollars, rounded to the nearest integer)",
+    "gold_answer": "$259,714, rounding errors are allowed.",
+    "dataset_id": "9bfacf0b-b23a-4884-b715-e761cdebad45",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:42.669Z",
+      "error": null,
+      "id": "656cc19a-af3c-4eee-9a82-6bcdad6194e0",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:42.669Z",
+      "input": {
+        "q": "As of December 31, 2020, what was the ending cash of SoFi Technologies? (answer in dollars, rounded to the nearest integer)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:42"
+  },
+  {
+    "idx": 85,
+    "id": "e6616b93-d4cb-4439-bfb5-3022795a5b54",
+    "question": "In the fiscal year 2022, what was NVIDIA's total deferred tax assets? (answer in million dollars, rounded to the nearest integer)",
+    "gold_answer": "$1408 million, rounding errors are allowed.",
+    "dataset_id": "af5a0d9e-503e-4dd6-b480-f83a919948bd",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:43.388Z",
+      "error": null,
+      "id": "e6616b93-d4cb-4439-bfb5-3022795a5b54",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:43.388Z",
+      "input": {
+        "q": "In the fiscal year 2022, what was NVIDIA's total deferred tax assets? (answer in million dollars, rounded to the nearest integer)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:43"
+  },
+  {
+    "idx": 87,
+    "id": "a6dd3ccb-4f67-4e2d-bc6d-7ec106bae0b4",
+    "question": "Based on current prices, In 2021, what was the GDP per hour worked in the United States (in purchasing - power - parity terms)? (answer in dollars per hour, rounded to two decimal places)",
+    "gold_answer": "87.01 dollar/hour, rounding errors are allowed.",
+    "dataset_id": "7704f311-c0bf-4d02-b57d-88634a37e05b",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:44.094Z",
+      "error": null,
+      "id": "a6dd3ccb-4f67-4e2d-bc6d-7ec106bae0b4",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:44.094Z",
+      "input": {
+        "q": "Based on current prices, In 2021, what was the GDP per hour worked in the United States (in purchasing - power - parity terms)? (answer in dollars per hour, rounded to two decimal places)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:44"
+  },
+  {
+    "idx": 88,
+    "id": "3caa2430-e8e8-4ec4-b901-fbe825658e16",
+    "question": "In 2006, what was the amount of private flows in the United States in million dollars (rounded to the nearest integer)?",
+    "gold_answer": "$92270 million, rounding errors are allowed.",
+    "dataset_id": "b88f96f2-8052-4afa-976c-360d2ab6358f",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:44.882Z",
+      "error": null,
+      "id": "3caa2430-e8e8-4ec4-b901-fbe825658e16",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:44.882Z",
+      "input": {
+        "q": "In 2006, what was the amount of private flows in the United States in million dollars (rounded to the nearest integer)?",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:44"
+  },
+  {
+    "idx": 92,
+    "id": "06080bad-8739-4958-a08a-992c6f4f0f65",
+    "question": "In 2020, what was the number of passenger car registrations in the United States? (answer in units, rounded to the nearest integer)",
+    "gold_answer": "28348330, rounding errors are allowed.",
+    "dataset_id": "0e8103dc-0848-44f4-8356-872c49a4225e",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:45.582Z",
+      "error": null,
+      "id": "06080bad-8739-4958-a08a-992c6f4f0f65",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:45.582Z",
+      "input": {
+        "q": "In 2020, what was the number of passenger car registrations in the United States? (answer in units, rounded to the nearest integer)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:45"
+  },
+  {
+    "idx": 93,
+    "id": "22e5ca49-2613-4feb-b21e-ee16f24c8a66",
+    "question": "What was the number of passenger car registrations in Australia in 2006? (answer in units, rounded to the nearest integer)",
+    "gold_answer": "4986617, rounding errors are allowed.",
+    "dataset_id": "41f258ee-5f62-44e1-ba2f-5cdf3f5d7eab",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:46.299Z",
+      "error": null,
+      "id": "22e5ca49-2613-4feb-b21e-ee16f24c8a66",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:46.299Z",
+      "input": {
+        "q": "What was the number of passenger car registrations in Australia in 2006? (answer in units, rounded to the nearest integer)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:46"
+  },
+  {
+    "idx": 94,
+    "id": "2c7017ab-b593-4295-aa7c-78649d37f995",
+    "question": "Taking 2020 as the reference year, what was the nni of South Africa in 2002? (2020 = 100, rounded to two decimal places)",
+    "gold_answer": "64.65, rounding errors are allowed.",
+    "dataset_id": "4a0134ff-e71c-42db-abac-8dfda9dd885e",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:47.054Z",
+      "error": null,
+      "id": "2c7017ab-b593-4295-aa7c-78649d37f995",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:47.054Z",
+      "input": {
+        "q": "Taking 2020 as the reference year, what was the nni of South Africa in 2002? (2020 = 100, rounded to two decimal places)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:47"
+  },
+  {
+    "idx": 97,
+    "id": "76aae9f5-dbaa-4982-8a8f-abb2cb15a67f",
+    "question": "In 2008, what was the ratio of net lending to net borrowing of enterprises as a percentage of GDP in Japan? (answer in percentage, rounded to two decimal places)",
+    "gold_answer": "4.17%, rounding errors are allowed.",
+    "dataset_id": "f6ffd5a4-9fb2-4776-a399-4deb1aefd842",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:47.770Z",
+      "error": null,
+      "id": "76aae9f5-dbaa-4982-8a8f-abb2cb15a67f",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:47.770Z",
+      "input": {
+        "q": "In 2008, what was the ratio of net lending to net borrowing of enterprises as a percentage of GDP in Japan? (answer in percentage, rounded to two decimal places)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:47"
+  },
+  {
+    "idx": 98,
+    "id": "37625887-b0f5-4124-a46b-b653ae8a288c",
+    "question": "What was the proportion of tax on corporate income to GDP in the UK in 2015? (answer in percentage, rounded to two decimal places)",
+    "gold_answer": "2.29%, rounding errors are allowed.",
+    "dataset_id": "2ea6e137-58bb-4d1f-a247-cb2a54be995f",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:48.557Z",
+      "error": null,
+      "id": "37625887-b0f5-4124-a46b-b653ae8a288c",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:48.557Z",
+      "input": {
+        "q": "What was the proportion of tax on corporate income to GDP in the UK in 2015? (answer in percentage, rounded to two decimal places)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:48"
+  },
+  {
+    "idx": 106,
+    "id": "1d9625e9-214f-4c4d-9b98-77cf72e90441",
+    "question": "What was the annual inflation rate in Australia in 2022? (answer in percentage, rounded to one decimal place)",
+    "gold_answer": "6.6%, rounding errors are allowed.",
+    "dataset_id": "3a9c19c8-5734-4cde-ad5b-e618e7f18938",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:49.271Z",
+      "error": null,
+      "id": "1d9625e9-214f-4c4d-9b98-77cf72e90441",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:49.271Z",
+      "input": {
+        "q": "What was the annual inflation rate in Australia in 2022? (answer in percentage, rounded to one decimal place)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:49"
+  },
+  {
+    "idx": 114,
+    "id": "be1b73b2-6a00-434d-88e0-fcb157ff673b",
+    "question": "In 2023, what was the total amount of aid funds approved by the IMF in the Asia-Pacific region? (answer in Million SDR, rounded to one decimal place)",
+    "gold_answer": "The results between 6400 million SDR to 6500 million SDR are considered correct.",
+    "dataset_id": "2944953c-c4b9-4145-a854-dd85c9ce0144",
+    "submit_response": {
+      "createdAt": "2026-07-08T22:33:50.126Z",
+      "error": null,
+      "id": "be1b73b2-6a00-434d-88e0-fcb157ff673b",
+      "status": "pending",
+      "updatedAt": "2026-07-08T22:33:50.126Z",
+      "input": {
+        "q": "In 2023, what was the total amount of aid funds approved by the IMF in the Asia-Pacific region? (answer in Million SDR, rounded to one decimal place)",
+        "toDate": "2026-07-08",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-08T18:33:50"
+  }
+]

@@ -1,0 +1,53 @@
+Running T2 idx [20,119) = 23 questions | Linkup research XL | submit+poll throttled to 10.0 QPS
+
+  submitted idx=020 id=3df57d79-efdb-47d5-b0c4-6fbf60b3f92c
+  submitted idx=021 id=a1ce9178-ce7d-47c8-a284-b6a76562d195
+  submitted idx=024 id=ae8aa023-8444-4541-8b21-f9ff2864e4b4
+  submitted idx=030 id=f326e5b2-9f0c-4bfe-9aa3-b416f4118ef5
+  submitted idx=031 id=da21c63b-51bf-4dff-a2fb-44bde318c711
+  submitted idx=037 id=47e88001-f976-40cf-bfb4-a0e08efca6ef
+  submitted idx=038 id=f0e4d417-75d6-4019-9273-8923186cfc49
+  submitted idx=045 id=7510d657-e2b2-46ca-9ef1-de34e5efe75e
+  submitted idx=047 id=8260f40a-c7b0-47a5-9428-25a8e18e2542
+  submitted idx=055 id=e142afc2-cf8d-4e6a-9ff2-bd80ac0b64d0
+  submitted idx=061 id=39e805ef-3206-4c6e-8982-18e80329e713
+  submitted idx=074 id=da1fb9ab-3cd6-4263-95cc-7a51bd3df6e3
+  submitted idx=077 id=656cc19a-af3c-4eee-9a82-6bcdad6194e0
+  submitted idx=085 id=e6616b93-d4cb-4439-bfb5-3022795a5b54
+  submitted idx=087 id=a6dd3ccb-4f67-4e2d-bc6d-7ec106bae0b4
+  submitted idx=088 id=3caa2430-e8e8-4ec4-b901-fbe825658e16
+  submitted idx=092 id=06080bad-8739-4958-a08a-992c6f4f0f65
+  submitted idx=093 id=22e5ca49-2613-4feb-b21e-ee16f24c8a66
+  submitted idx=094 id=2c7017ab-b593-4295-aa7c-78649d37f995
+  submitted idx=097 id=76aae9f5-dbaa-4982-8a8f-abb2cb15a67f
+  submitted idx=098 id=37625887-b0f5-4124-a46b-b653ae8a288c
+  submitted idx=106 id=1d9625e9-214f-4c4d-9b98-77cf72e90441
+  submitted idx=114 id=be1b73b2-6a00-434d-88e0-fcb157ff673b
+
+All submitted. Polling (<= 10.0 QPS) until each completes...
+
+  [completed] idx=085 (228.1s) done=1/23  **Answer:** 1222  **Interpretation:**  The question asks for NVIDIA's deferred tax assets 
+  [completed] idx=024 (238.7s) done=2/23  **Answer:** 315.0  **Interpretation:** The question asks for the historical baseline (2015
+  [completed] idx=038 (259.9s) done=3/23  **Answer:** 490.9500  **Interpretation:** The question asks for the closing price of Indon
+  [completed] idx=077 (333.4s) done=4/23  **Answer:** 1323428000  **Interpretation:** "Ending cash" is interpreted as the total cash
+  [completed] idx=106 (453.5s) done=5/23  **Answer:** 7.8%  **Interpretation:** The annual inflation rate is interpreted as the offi
+  [completed] idx=021 (471.5s) done=6/23  **Answer:** 38,404,038  **Interpretation:**  This question is sourced from a specific data
+  [completed] idx=047 (505.4s) done=7/23  **Answer:** 2101.8  **Interpretation:** The question asks for the Business Inventory in th
+  [completed] idx=088 (609.4s) done=8/23  **Answer:** 30,440  **Interpretation:**  The term "private flows" is a specific classifica
+  [completed] idx=031 (819.1s) done=9/23  **Answer:** 9610.00  **Interpretation:** The "LME Copper - 2025 AUG" contract price on May
+  [completed] idx=092 (837.5s) done=10/23  **Answer:** 105,135,300  **Interpretation:** In the United States, "registrations" typical
+  [completed] idx=055 (857.3s) done=11/23  **Answer:** 180,000  **Interpretation:**  - "Finished houses" corresponds to the U.S. Cens
+  [completed] idx=045 (980.8s) done=12/23  **Answer:** 22,918.1  **Interpretation:**  The question asks for the U.S. Disposable Perso
+  [completed] idx=061 (1151.8s) done=13/23  **Answer:** 3000  **Interpretation:** The fiscal year 2022 for Planet Labs ended on Januar
+  [completed] idx=114 (1354.0s) done=14/23  **Answer:** 6445.6  **Interpretation:** The question asks for the total amount of aid fund
+  [completed] idx=020 (1587.0s) done=15/23  **Answer:** 185,701.3  **Interpretation:**  The question asks for the total coal supply in
+  [completed] idx=094 (1675.0s) done=16/23  **Answer:** 62.47  **Interpretation:**  The question asks for the Net National Income (NNI
+  [completed] idx=037 (1679.4s) done=17/23  **Answer:** 78.68  **Interpretation:** I interpreted the request as seeking the closing pr
+  [completed] idx=087 (1682.3s) done=18/23  **Answer:** 85.00  **Interpretation:**  The question asks for the labor productivity of th
+  [completed] idx=074 (1695.0s) done=19/23  **Answer:** 0  **Interpretation:**  I interpreted the question as asking for the specific 
+  [completed] idx=097 (1697.4s) done=20/23  **Answer:** 6.00  **Interpretation:**  I interpreted "ratio of net lending to net borrowin
+  [completed] idx=098 (1699.0s) done=21/23  **Answer:** 2.30%  **Interpretation:**  Due to the time limit restricting further direct s
+  [completed] idx=030 (1717.9s) done=22/23  **Answer:** 921.62  **Interpretation:**  The phrase "average LBMA Platinum AM annual price
+  [completed] idx=093 (1750.0s) done=23/23  **Answer:** 598,454  **Interpretation:**  The phrase "passenger car registrations" typical
+
+DONE. 23 tasks stored -> results/t2_research_xl_rerun.jsonl
