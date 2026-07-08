@@ -13,5 +13,9 @@ contestant, and see where it lands.
   - **Context** — what it actually is and how it works
   - **Cost** — roughly what it costs to run
   - **Reproducibility** — can we actually download and re-run it, or is it just a blog?
+- **[`analysis/`](analysis/)** — deeper looks at specific harnesses:
+  - [`you-com-harness-audit.md`](analysis/you-com-harness-audit.md) — fairness audit of You.com's `web-search-api-evals` + full comparator config matrix
+  - [`comparator-matrix.html`](analysis/comparator-matrix.html) — the same config matrix as a visual reference
+- **[`finsearchcomp/`](finsearchcomp/)** — run plan for the FinSearchComp benchmark with Linkup (dataset sizes, call counts, steps)
 
 More folders (runners, results) will be added as we start running them.

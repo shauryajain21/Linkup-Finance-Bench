@@ -1,0 +1,249 @@
+<title>Comparator Matrix — You.com web-search-api-evals</title>
+<style>
+  :root {
+    --paper: #f6f7f9;
+    --surface: #ffffff;
+    --surface-2: #f0f2f6;
+    --ink: #12161d;
+    --muted: #59616f;
+    --faint: #8a93a2;
+    --line: #e3e7ee;
+    --accent: #3a55d9;
+    --accent-soft: #eaeeff;
+    --direct: #12795a;
+    --direct-bg: #e2f4ec;
+    --synth: #a96608;
+    --synth-bg: #faefdc;
+    --mono: ui-monospace, "SF Mono", "SFMono-Regular", "JetBrains Mono", Menlo, Consolas, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #0c0f15;
+      --surface: #141922;
+      --surface-2: #1b212c;
+      --ink: #e7ebf2;
+      --muted: #949db0;
+      --faint: #6b7688;
+      --line: #262d3a;
+      --accent: #8098ff;
+      --accent-soft: #1a2136;
+      --direct: #47d6a0;
+      --direct-bg: #10281f;
+      --synth: #e6ac4b;
+      --synth-bg: #2a2110;
+    }
+  }
+  :root[data-theme="light"] {
+    --paper: #f6f7f9; --surface: #ffffff; --surface-2: #f0f2f6; --ink: #12161d;
+    --muted: #59616f; --faint: #8a93a2; --line: #e3e7ee; --accent: #3a55d9;
+    --accent-soft: #eaeeff; --direct: #12795a; --direct-bg: #e2f4ec; --synth: #a96608; --synth-bg: #faefdc;
+  }
+  :root[data-theme="dark"] {
+    --paper: #0c0f15; --surface: #141922; --surface-2: #1b212c; --ink: #e7ebf2;
+    --muted: #949db0; --faint: #6b7688; --line: #262d3a; --accent: #8098ff;
+    --accent-soft: #1a2136; --direct: #47d6a0; --direct-bg: #10281f; --synth: #e6ac4b; --synth-bg: #2a2110;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: var(--sans);
+    -webkit-font-smoothing: antialiased; line-height: 1.5;
+  }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 56px 24px 96px; }
+
+  header.masthead { border-bottom: 2px solid var(--ink); padding-bottom: 22px; margin-bottom: 34px; }
+  .kicker {
+    font-family: var(--mono); font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--accent); margin: 0 0 12px;
+  }
+  h1 { font-size: clamp(28px, 4vw, 40px); line-height: 1.08; letter-spacing: -0.02em; margin: 0 0 12px; text-wrap: balance; font-weight: 680; }
+  .sub { color: var(--muted); font-size: 16px; max-width: 68ch; margin: 0; }
+  .sub code { font-family: var(--mono); font-size: .88em; background: var(--surface-2); padding: 1px 6px; border-radius: 5px; }
+
+  /* harness strip */
+  .harness {
+    margin: 30px 0 12px; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+  }
+  .harness .cell { background: var(--surface); padding: 14px 16px; }
+  .harness .lbl { font-family: var(--mono); font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--faint); margin: 0 0 5px; }
+  .harness .val { font-family: var(--mono); font-size: 14px; color: var(--ink); font-weight: 600; word-break: break-word; }
+  .harness .val small { display:block; font-weight: 400; color: var(--muted); font-size: 11.5px; margin-top: 3px; letter-spacing: 0; }
+
+  /* legend */
+  .legend { display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; margin: 20px 0 40px; font-size: 13.5px; color: var(--muted); }
+  .chip {
+    display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: 11px;
+    font-weight: 600; letter-spacing: .03em; padding: 3px 9px; border-radius: 20px; white-space: nowrap;
+  }
+  .chip.direct { color: var(--direct); background: var(--direct-bg); }
+  .chip.synth { color: var(--synth); background: var(--synth-bg); }
+  .chip .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+
+  section.provider { margin-bottom: 46px; }
+  .prov-head { display: flex; align-items: baseline; gap: 14px; margin-bottom: 4px; flex-wrap: wrap; }
+  .prov-head h2 { font-size: 22px; letter-spacing: -0.01em; margin: 0; font-weight: 660; }
+  .prov-head .env { font-family: var(--mono); font-size: 12px; color: var(--accent); background: var(--accent-soft); padding: 2px 9px; border-radius: 6px; }
+  .prov-head .count { font-family: var(--mono); font-size: 12px; color: var(--faint); margin-left: auto; }
+  .prov-note { color: var(--muted); font-size: 13.5px; margin: 6px 0 16px; max-width: 74ch; }
+
+  .table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 860px; font-size: 13px; }
+  thead th {
+    text-align: left; font-family: var(--mono); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase;
+    color: var(--faint); font-weight: 600; padding: 12px 14px; border-bottom: 1px solid var(--line);
+    background: var(--surface-2); position: sticky; top: 0; white-space: nowrap;
+  }
+  tbody td { padding: 13px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  tbody tr:last-child td { border-bottom: none; }
+  .name { font-family: var(--mono); font-weight: 600; color: var(--ink); white-space: nowrap; }
+  .ep { font-family: var(--mono); font-size: 11.5px; color: var(--muted); white-space: nowrap; }
+  .model { font-family: var(--mono); font-size: 11.5px; color: var(--ink); }
+  .model .none { color: var(--faint); }
+  .cfg { font-family: var(--mono); font-size: 11px; color: var(--muted); line-height: 1.7; }
+  .cfg b { color: var(--ink); font-weight: 600; }
+  .to { font-family: var(--mono); font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+  td .chip { font-size: 10px; padding: 2px 8px; }
+
+  .notes { border-top: 2px solid var(--ink); padding-top: 26px; margin-top: 10px; }
+  .notes h2 { font-size: 20px; margin: 0 0 18px; letter-spacing: -0.01em; }
+  .notes ol { margin: 0; padding-left: 0; list-style: none; counter-reset: n; display: grid; gap: 16px; }
+  .notes li { counter-increment: n; position: relative; padding-left: 44px; font-size: 14px; color: var(--ink); max-width: 84ch; }
+  .notes li::before {
+    content: counter(n); position: absolute; left: 0; top: -1px; width: 28px; height: 28px;
+    display: grid; place-items: center; border-radius: 7px; background: var(--accent-soft); color: var(--accent);
+    font-family: var(--mono); font-size: 13px; font-weight: 700;
+  }
+  .notes li b { font-weight: 660; }
+  .notes li .tag { font-family: var(--mono); font-size: 10.5px; letter-spacing: .04em; text-transform: uppercase; color: var(--synth); margin-left: 6px; }
+  .notes code, .prov-note code, .notes li code { font-family: var(--mono); font-size: .86em; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
+
+  footer { margin-top: 44px; color: var(--faint); font-size: 12px; font-family: var(--mono); border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="kicker">Competitor Sampler Matrix</p>
+    <h1>Every comparator, model &amp; config in the You.com search-eval harness</h1>
+    <p class="sub">Extracted verbatim from <code>youdotcom-oss/web-search-api-evals</code> (<code>configs/samplers.py</code> + each provider sampler). <strong>20 sampler configs across 6 providers.</strong> Each is one contestant on the scoreboard; per question it makes one call, its answer reaches the grader either <em>directly</em> or after being rewritten by a weak shared synthesizer.</p>
+  </header>
+
+  <div class="harness">
+    <div class="cell"><p class="lbl">Synthesizer (weak)</p><p class="val">gpt-5.4-nano<small>writes the answer for “via synthesizer” rows only</small></p></div>
+    <div class="cell"><p class="lbl">Grader — general</p><p class="val">gpt-5.4-mini<small>SimpleQA / FRAMES / etc.</small></p></div>
+    <div class="cell"><p class="lbl">Grader — finance</p><p class="val">gpt-5-mini<small>FinSearchComp T2 / T3</small></p></div>
+    <div class="cell"><p class="lbl">Search-result cap</p><p class="val">265,000 tok<small>trim budget before synthesis</small></p></div>
+    <div class="cell"><p class="lbl">Excluded by default</p><p class="val">*research*, parallel_pro/ultra, pplx_historical<small>cost / latency</small></p></div>
+  </div>
+
+  <div class="legend">
+    <span>Answer path:</span>
+    <span class="chip direct"><span class="dot"></span>DIRECT</span>
+    <span>provider's own answer → grader (skips synthesizer)</span>
+    <span class="chip synth"><span class="dot"></span>VIA SYNTHESIZER</span>
+    <span>raw results → <code style="font-size:11px">gpt-5.4-nano</code> → grader</span>
+  </div>
+
+  <!-- YOU.COM -->
+  <section class="provider">
+    <div class="prov-head"><h2>You.com</h2><span class="env">YOU_API_KEY</span><span class="count">8 configs · the home team</span></div>
+    <p class="prov-note">The most configs of any provider. Six of eight are research/agentic and land <span class="chip direct"><span class="dot"></span>DIRECT</span>, so You.com's polished answers reach the grader untouched.</p>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Sampler</th><th>Endpoint / call</th><th>Reasoning model</th><th>Key config</th><th>Answer path</th><th>Timeout</th></tr></thead>
+      <tbody>
+        <tr><td class="name">you_search_with_livecrawl</td><td class="ep">SDK search.unified</td><td class="model"><span class="none">— snippets</span></td><td class="cfg"><b>count</b> 10 · <b>livecrawl</b> WEB · <b>fmt</b> markdown · news off</td><td><span class="chip synth"><span class="dot"></span>SYNTH</span></td><td class="to">60s</td></tr>
+        <tr><td class="name">you_search</td><td class="ep">SDK search.unified</td><td class="model"><span class="none">— snippets</span></td><td class="cfg"><b>count</b> 10 · news off</td><td><span class="chip synth"><span class="dot"></span>SYNTH</span></td><td class="to">60s</td></tr>
+        <tr><td class="name">you_research_lite</td><td class="ep">SDK research()</td><td class="model">You research</td><td class="cfg"><b>effort</b> LITE · concurrency 5</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">60s</td></tr>
+        <tr><td class="name">you_research_standard</td><td class="ep">SDK research()</td><td class="model">You research</td><td class="cfg"><b>effort</b> STANDARD</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">120s</td></tr>
+        <tr><td class="name">you_research_deep</td><td class="ep">SDK research()</td><td class="model">You research</td><td class="cfg"><b>effort</b> DEEP</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">200s</td></tr>
+        <tr><td class="name">you_research_exhaustive</td><td class="ep">SDK research()</td><td class="model">You research</td><td class="cfg"><b>effort</b> EXHAUSTIVE</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">400s</td></tr>
+        <tr><td class="name">you_finance_research_deep</td><td class="ep">POST /v1/finance_research</td><td class="model">You finance</td><td class="cfg"><b>effort</b> "deep" · concurrency 5</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">300s</td></tr>
+        <tr><td class="name">you_finance_research_exhaustive</td><td class="ep">POST /v1/finance_research</td><td class="model">You finance</td><td class="cfg"><b>effort</b> "exhaustive"</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">600s</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- PERPLEXITY -->
+  <section class="provider">
+    <div class="prov-head"><h2>Perplexity</h2><span class="env">PERPLEXITY_API_KEY</span><span class="count">3 configs</span></div>
+    <p class="prov-note">The finance samplers run on <em>non-Perplexity</em> reasoning models chosen by You.com. Note the flagship <code>sonar-deep-research</code> is left on <span class="chip synth"><span class="dot"></span>SYNTH</span> — its finished report gets re-written by <code>gpt-5.4-nano</code>, unlike You.com research.</p>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Sampler</th><th>Endpoint / call</th><th>Reasoning model</th><th>Key config</th><th>Answer path</th><th>Timeout</th></tr></thead>
+      <tbody>
+        <tr><td class="name">perplexity_finance_historical_lookup</td><td class="ep">POST /v1/agent</td><td class="model">openai/gpt-5.5</td><td class="cfg">tools: <b>finance_search + web_search + fetch_url</b> · max_steps 5 · max_tokens 2048 · <b>reasoning_effort low</b></td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">120s</td></tr>
+        <tr><td class="name">perplexity_finance_multi_step_research</td><td class="ep">POST /v1/agent</td><td class="model">anthropic/claude-opus-4-7</td><td class="cfg">tools: <b>finance_search + web_search + fetch_url</b> · max_steps 10 · max_tokens 4096</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">180s</td></tr>
+        <tr><td class="name">perplexity_sonar_deep_research_high</td><td class="ep">POST /chat/completions</td><td class="model">sonar-deep-research</td><td class="cfg"><b>reasoning_effort high</b></td><td><span class="chip synth"><span class="dot"></span>SYNTH</span></td><td class="to">3000s</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- EXA -->
+  <section class="provider">
+    <div class="prov-head"><h2>Exa</h2><span class="env">EXA_API_KEY</span><span class="count">2 configs</span></div>
+    <p class="prov-note">Plain search returns text excerpts (synthesized); Research Pro polls a task to completion and returns a finished answer.</p>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Sampler</th><th>Endpoint / call</th><th>Reasoning model</th><th>Key config</th><th>Answer path</th><th>Timeout</th></tr></thead>
+      <tbody>
+        <tr><td class="name">exa_search_with_text</td><td class="ep">SDK search()</td><td class="model"><span class="none">— excerpts</span></td><td class="cfg"><b>num_results</b> 10 · text max_chars 20,000</td><td><span class="chip synth"><span class="dot"></span>SYNTH</span></td><td class="to">60s</td></tr>
+        <tr><td class="name">exa_research_pro</td><td class="ep">SDK research.create()</td><td class="model">exa-research-pro</td><td class="cfg">poll every 10s until done</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">3000s</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- PARALLEL -->
+  <section class="provider">
+    <div class="prov-head"><h2>Parallel</h2><span class="env">PARALLEL_API_KEY</span><span class="count">3 configs</span></div>
+    <p class="prov-note">Search API returns excerpts; the Task API (<code>pro</code>/<code>ultra</code>) omits the output schema so the run returns a plain-text answer used directly.</p>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Sampler</th><th>Endpoint / call</th><th>Reasoning model</th><th>Key config</th><th>Answer path</th><th>Timeout</th></tr></thead>
+      <tbody>
+        <tr><td class="name">parallel_search_basic</td><td class="ep">Search API search()</td><td class="model"><span class="none">— excerpts</span></td><td class="cfg"><b>mode</b> basic · max_results 10</td><td><span class="chip synth"><span class="dot"></span>SYNTH</span></td><td class="to">60s</td></tr>
+        <tr><td class="name">parallel_pro</td><td class="ep">Task API task_run</td><td class="model">processor: pro</td><td class="cfg">task_spec omitted → plain text</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">3000s</td></tr>
+        <tr><td class="name">parallel_ultra</td><td class="ep">Task API task_run</td><td class="model">processor: ultra</td><td class="cfg">task_spec omitted → plain text</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">3000s</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- TAVILY -->
+  <section class="provider">
+    <div class="prov-head"><h2>Tavily</h2><span class="env">TAVILY_API_KEY</span><span class="count">3 configs</span></div>
+    <p class="prov-note">Two search depths (both synthesized) plus a research model that polls to completion.</p>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Sampler</th><th>Endpoint / call</th><th>Reasoning model</th><th>Key config</th><th>Answer path</th><th>Timeout</th></tr></thead>
+      <tbody>
+        <tr><td class="name">tavily_basic</td><td class="ep">SDK search()</td><td class="model"><span class="none">— results</span></td><td class="cfg"><b>search_depth</b> basic · max_results 10</td><td><span class="chip synth"><span class="dot"></span>SYNTH</span></td><td class="to">60s</td></tr>
+        <tr><td class="name">tavily_advanced</td><td class="ep">SDK search()</td><td class="model"><span class="none">— results</span></td><td class="cfg"><b>search_depth</b> advanced · max_results 10</td><td><span class="chip synth"><span class="dot"></span>SYNTH</span></td><td class="to">60s</td></tr>
+        <tr><td class="name">tavily_research_pro</td><td class="ep">SDK research()</td><td class="model">Tavily "pro"</td><td class="cfg">poll every 10s until done</td><td><span class="chip direct"><span class="dot"></span>DIRECT</span></td><td class="to">3000s</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- GOOGLE -->
+  <section class="provider">
+    <div class="prov-head"><h2>Google (SerpAPI)</h2><span class="env">SERP_API_KEY</span><span class="count">1 config</span></div>
+    <p class="prov-note">A raw SERP baseline via SerpAPI — organic snippets only, always synthesized. The floor of the field.</p>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Sampler</th><th>Endpoint / call</th><th>Reasoning model</th><th>Key config</th><th>Answer path</th><th>Timeout</th></tr></thead>
+      <tbody>
+        <tr><td class="name">google_search</td><td class="ep">GET serpapi.com/search</td><td class="model"><span class="none">— snippets</span></td><td class="cfg"><b>engine</b> google · num 10</td><td><span class="chip synth"><span class="dot"></span>SYNTH</span></td><td class="to">60s</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <!-- NOTES -->
+  <div class="notes">
+    <h2>What to watch before trusting the scoreboard</h2>
+    <ol>
+      <li><b>“Apples to apples” is only half true.</b> The repo claims a shared model + prompt makes it fair, but that shared synthesizer only touches the <span class="chip synth"><span class="dot"></span>SYNTH</span> rows. Every <span class="chip direct"><span class="dot"></span>DIRECT</span> row is judged on the provider's own answer — a fundamentally different generation path.</li>
+      <li><b>Perplexity's flagship is handicapped.</b> <span class="tag">asymmetry</span> <code>sonar-deep-research</code> is left on the synthesis path (<code>needs_synthesis</code> defaults to <code>True</code>), so its finished deep-research report gets re-compressed by <code>gpt-5.4-nano</code> — while You.com's research answers bypass that step entirely.</li>
+      <li><b>You.com sets its rivals' knobs.</b> <span class="tag">asymmetry</span> Perplexity's finance agent runs on <code>gpt-5.5</code> at <code>reasoning_effort=low</code>, 5 steps — choices made by You.com, not Perplexity. Under-tuning a competitor here is invisible in the final score.</li>
+      <li><b>Most shots on goal.</b> You.com fields 8 configs vs 1–3 for everyone else. Any “best config per provider” ranking rewards having more attempts.</li>
+      <li><b>Latency isn't measured the same way.</b> <span class="tag">asymmetry</span> You.com and Tavily report their own <em>internal</em> latency; everyone else is timed wall-clock (incl. network + queue). Speed claims flatter the two exceptions.</li>
+      <li><b>Fair parts, for the record.</b> The grader is an OpenAI model (no self-judging), the FinSearchComp grader prompt is the paper's original, and a weak synthesizer + stronger grader is a sound design.</li>
+    </ol>
+  </div>
+
+  <footer>Source: github.com/youdotcom-oss/web-search-api-evals · samplers.py, constants.py, applied_samplers/*.py · Linkup is not yet a sampler.</footer>
+</div>
