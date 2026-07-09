@@ -56,6 +56,7 @@ def main():
     ap.add_argument("--end", type=int, default=120)
     ap.add_argument("--indices", default=None, help="comma-separated 0-based indices; overrides start/end")
     ap.add_argument("--csv", default=T2_CSV, help="dataset CSV path (default T2 Global)")
+    ap.add_argument("--wave", type=int, default=0, help="process in waves of N (0 = all at once). Use ~16 to keep latency clean")
     ap.add_argument("--qps", type=float, default=10.0)
     ap.add_argument("--out", default=os.path.join(RESULTS, "t2_research_xl_remaining.jsonl"))
     ap.add_argument("--tasks", default=os.path.join(RESULTS, "t2_research_xl_remaining_tasks.json"))
@@ -73,68 +74,81 @@ def main():
         rows = [(i, all_rows[i]) for i in idxs]
     else:
         rows = [(i, all_rows[i]) for i in range(args.start, min(args.end, len(all_rows)))]
-    print(f"Running T2 idx [{args.start},{min(args.end,len(all_rows))}) = {len(rows)} questions "
-          f"| Linkup research XL | submit+poll throttled to {args.qps} QPS\n", flush=True)
+    wave_size = args.wave if args.wave and args.wave > 0 else len(rows)
+    waves = [rows[i:i + wave_size] for i in range(0, len(rows), wave_size)]
+    print(f"Running {len(rows)} questions | Linkup research XL | {len(waves)} wave(s) of <= {wave_size} "
+          f"| {args.qps} QPS\n(waves keep concurrency under the cap so latency stays clean)\n", flush=True)
 
-    # ---- submit, throttled to QPS ----
-    tasks = []
-    for i, row in rows:
-        q, gold = row["problem"], row["answer"]
-        t0 = time.time()
-        try:
-            resp = submit(q, key); tid = resp.get("id")
-            print(f"  submitted idx={i:03d} id={tid}", flush=True)
-        except Exception as e:
-            tid, resp = None, {"error": f"{type(e).__name__}: {e}"}
-            print(f"  SUBMIT FAILED idx={i:03d}: {e}", flush=True)
-        tasks.append({"idx": i, "id": tid, "question": q, "gold_answer": gold,
-                      "dataset_id": row.get("id"), "submit_response": resp,
-                      "submitted_ts": time.strftime("%Y-%m-%dT%H:%M:%S")})
-        dt = time.time() - t0
-        if dt < gap:
-            time.sleep(gap - dt)
-    json.dump(tasks, open(args.tasks, "w"), indent=2)
-    print(f"\nAll submitted. Polling (<= {args.qps} QPS) until each completes...\n", flush=True)
-
-    # ---- poll to completion, storing each result (append) ----
     jsonl = open(args.out, "a")
-    for t in tasks:
-        if not t["id"]:
-            jsonl.write(json.dumps({**t, "status": "submit_failed", "linkup_answer": "",
-                                    "linkup_sources": [], "final_response": t["submit_response"]},
-                                   ensure_ascii=False) + "\n"); jsonl.flush()
-    pending = {t["idx"]: t for t in tasks if t["id"]}
-    start = {idx: time.time() for idx in pending}
-    done = 0
-    while pending:
-        sweep0 = time.time()
-        for idx in list(pending):
-            t = pending[idx]
+    all_tasks, done = [], 0
+    for w, wave in enumerate(waves, 1):
+        print(f"--- wave {w}/{len(waves)} ({len(wave)} questions) ---", flush=True)
+        # submit this wave, throttled
+        tasks = []
+        for i, row in wave:
+            t0 = time.time()
             try:
-                state = poll(t["id"], key)
+                resp = submit(row["problem"], key); tid = resp.get("id")
+                print(f"  submitted idx={i:03d} id={tid}", flush=True)
             except Exception as e:
-                print(f"  poll error idx={idx}: {e}", flush=True); time.sleep(gap); continue
-            status = state.get("status")
-            if status in ("completed", "failed") or (time.time() - start[idx]) > MAX_WAIT_S:
-                out = state.get("output") or {}
-                rec = {
-                    "idx": t["idx"], "dataset_id": t["dataset_id"], "question": t["question"],
-                    "gold_answer": t["gold_answer"], "task_id": t["id"], "status": status,
-                    "linkup_answer": out.get("answer", "") if isinstance(out, dict) else "",
-                    "linkup_sources": out.get("sources", []) if isinstance(out, dict) else [],
-                    "linkup_error": state.get("error"), "final_response": state,
-                    "completed_ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
-                    "elapsed_s": round(time.time() - start[idx], 1),
-                }
-                jsonl.write(json.dumps(rec, ensure_ascii=False) + "\n"); jsonl.flush()
-                done += 1
-                ans = (rec["linkup_answer"] or rec["linkup_error"] or "")[:90].replace("\n", " ")
-                print(f"  [{status}] idx={idx:03d} ({rec['elapsed_s']}s) done={done}/{len(tasks)}  {ans}", flush=True)
-                del pending[idx]
-            time.sleep(gap)  # hold QPS across poll GETs
-        rem = POLL_EVERY_S - (time.time() - sweep0)
-        if rem > 0 and pending:
-            time.sleep(rem)
+                tid, resp = None, {"error": f"{type(e).__name__}: {e}"}
+                print(f"  SUBMIT FAILED idx={i:03d}: {e}", flush=True)
+            tasks.append({"idx": i, "id": tid, "question": row["problem"], "gold_answer": row["answer"],
+                          "dataset_id": row.get("id"), "submit_response": resp,
+                          "submitted_ts": time.strftime("%Y-%m-%dT%H:%M:%S")})
+            dt = time.time() - t0
+            if dt < gap:
+                time.sleep(gap - dt)
+        all_tasks += tasks
+        json.dump(all_tasks, open(args.tasks, "w"), indent=2)
+
+        for t in tasks:
+            if not t["id"]:
+                jsonl.write(json.dumps({**t, "status": "submit_failed", "linkup_answer": "",
+                                        "linkup_sources": [], "final_response": t["submit_response"]},
+                                       ensure_ascii=False) + "\n"); jsonl.flush()
+        pending = {t["idx"]: t for t in tasks if t["id"]}
+        start = {idx: time.time() for idx in pending}
+        while pending:  # drain this wave before starting the next -> no queue pile-up
+            sweep0 = time.time()
+            for idx in list(pending):
+                t = pending[idx]
+                try:
+                    state = poll(t["id"], key)
+                except Exception as e:
+                    print(f"  poll error idx={idx}: {e}", flush=True); time.sleep(gap); continue
+                status = state.get("status")
+                if status in ("completed", "failed") or (time.time() - start[idx]) > MAX_WAIT_S:
+                    out = state.get("output") or {}
+                    fr = state
+                    # server-side latency from Linkup's own timestamps (accurate, poll-lag-free)
+                    srv = None
+                    try:
+                        from datetime import datetime
+                        c, u = fr.get("createdAt"), fr.get("updatedAt")
+                        if c and u:
+                            srv = round((datetime.fromisoformat(u.replace("Z", "+00:00"))
+                                         - datetime.fromisoformat(c.replace("Z", "+00:00"))).total_seconds(), 1)
+                    except Exception:
+                        pass
+                    rec = {
+                        "idx": t["idx"], "dataset_id": t["dataset_id"], "question": t["question"],
+                        "gold_answer": t["gold_answer"], "task_id": t["id"], "status": status,
+                        "linkup_answer": out.get("answer", "") if isinstance(out, dict) else "",
+                        "linkup_sources": out.get("sources", []) if isinstance(out, dict) else [],
+                        "linkup_error": state.get("error"), "final_response": state,
+                        "completed_ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
+                        "elapsed_s": round(time.time() - start[idx], 1),  # client wall-clock
+                        "server_latency_s": srv,                          # Linkup-reported (accurate)
+                    }
+                    jsonl.write(json.dumps(rec, ensure_ascii=False) + "\n"); jsonl.flush()
+                    done += 1
+                    print(f"  [{status}] idx={idx:03d} server={srv}s client={rec['elapsed_s']}s done={done}/{len(rows)}", flush=True)
+                    del pending[idx]
+                time.sleep(gap)
+            rem = POLL_EVERY_S - (time.time() - sweep0)
+            if rem > 0 and pending:
+                time.sleep(rem)
     jsonl.close()
     print(f"\nDONE. {done} tasks stored -> {args.out}", flush=True)
 

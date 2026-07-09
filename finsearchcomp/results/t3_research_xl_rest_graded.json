@@ -1,0 +1,213 @@
+{
+  "dataset": "fin_search_comp_t3_global",
+  "judge": "manual (Claude) vs FinSearchComp rubric",
+  "rest": {
+    "n": 33,
+    "score": 18
+  },
+  "combined_with_smoke": {
+    "n": 53,
+    "score": 31,
+    "accuracy": 0.5849056603773585
+  },
+  "graded": [
+    {
+      "idx": 20,
+      "question_no": 21,
+      "score": 1,
+      "note": "Tesla D&A/net income lowest 2022 29.84% \u2014 exact"
+    },
+    {
+      "idx": 21,
+      "question_no": 22,
+      "score": 1,
+      "note": "Apple/Tesla inv turnover ratio 4 yrs \u2014 all exact"
+    },
+    {
+      "idx": 22,
+      "question_no": 23,
+      "score": 1,
+      "note": "WF/Nvidia net income multiple 4 yrs \u2014 all exact"
+    },
+    {
+      "idx": 23,
+      "question_no": 24,
+      "score": 0,
+      "note": "debt/asset ranking wrong (Apple 29.22 vs gold WF 90.62/Apple 84.40/Tesla 39.64)"
+    },
+    {
+      "idx": 24,
+      "question_no": 25,
+      "score": 1,
+      "note": "Apple vs Nvidia gross margin gap 4 yrs \u2014 all exact"
+    },
+    {
+      "idx": 25,
+      "question_no": 26,
+      "score": 1,
+      "note": "highest Facebook 33.38 / lowest Tesla 10.25 \u2014 exact"
+    },
+    {
+      "idx": 26,
+      "question_no": 27,
+      "score": 1,
+      "note": "KOSPI peak 2021 3316.08 \u2014 exact"
+    },
+    {
+      "idx": 27,
+      "question_no": 28,
+      "score": 1,
+      "note": "Nikkei positive months \u2014 all 5 exact"
+    },
+    {
+      "idx": 28,
+      "question_no": 29,
+      "score": 0,
+      "note": "FTSE add/delete incomplete (only CCEP/BLND; missing HL.L, BAB.L)"
+    },
+    {
+      "idx": 29,
+      "question_no": 30,
+      "score": 0,
+      "note": "S&P100B+ company count 115 vs gold 97 (share-diff 75.03 ok)"
+    },
+    {
+      "idx": 30,
+      "question_no": 31,
+      "score": 0,
+      "note": "top-3 ROE wrong (Colgate 531 vs gold Home Depot 1450.48)"
+    },
+    {
+      "idx": 31,
+      "question_no": 32,
+      "score": 0,
+      "note": "wrong constituents (Newmont vs GOOG/AMZN/FTNT/DXCM/TSLA)"
+    },
+    {
+      "idx": 32,
+      "question_no": 33,
+      "score": 0,
+      "note": "wrong ETFs (UVIX/UVXY vs Direxion China set)"
+    },
+    {
+      "idx": 33,
+      "question_no": 34,
+      "score": 1,
+      "note": "Tesla share-accumulation puzzle 70,000 \u2014 exact"
+    },
+    {
+      "idx": 34,
+      "question_no": 35,
+      "score": 1,
+      "note": "Nvidia highest-volume day change -16.97% \u2014 exact"
+    },
+    {
+      "idx": 35,
+      "question_no": 36,
+      "score": 0,
+      "note": "wrong stock (Comcast vs PDD 1183.87B)"
+    },
+    {
+      "idx": 36,
+      "question_no": 37,
+      "score": 1,
+      "note": "Tesla post-election high $358.64 \u2014 exact"
+    },
+    {
+      "idx": 37,
+      "question_no": 38,
+      "score": 1,
+      "note": "Magnificent-7 excess return 190.69% \u2014 exact"
+    },
+    {
+      "idx": 38,
+      "question_no": 39,
+      "score": 1,
+      "note": "S&P max drawdown 20.83% + peak/trough dates \u2014 exact"
+    },
+    {
+      "idx": 39,
+      "question_no": 40,
+      "score": 0,
+      "note": "IPO top-3: Arm ok but Mobileye/Lineage wrong (vs WBD/Ferrovial)"
+    },
+    {
+      "idx": 40,
+      "question_no": 41,
+      "score": 0,
+      "note": "BTC 5-day streak count 0 vs gold 2 periods"
+    },
+    {
+      "idx": 41,
+      "question_no": 42,
+      "score": 0,
+      "note": "Lilly/Google liab-asset gap 0.52 vs gold 48-54%/yr"
+    },
+    {
+      "idx": 42,
+      "question_no": 43,
+      "score": 0,
+      "note": "UnitedHealth ROIC 27.77 vs 22.19 (definition mismatch)"
+    },
+    {
+      "idx": 43,
+      "question_no": 44,
+      "score": 0,
+      "note": "J&J intl revenue change: 2023 -2.06 vs gold -3.37"
+    },
+    {
+      "idx": 44,
+      "question_no": 45,
+      "score": 1,
+      "note": "Oracle total-asset growth 4 yrs \u2014 all exact"
+    },
+    {
+      "idx": 45,
+      "question_no": 46,
+      "score": 1,
+      "note": "Pfizer turnover on settlement day 0.55% \u2014 exact"
+    },
+    {
+      "idx": 46,
+      "question_no": 47,
+      "score": 0,
+      "note": "highest-return-by-year: only 2024 AppLovin right (vs Vaxcyte/Affirm)"
+    },
+    {
+      "idx": 47,
+      "question_no": 48,
+      "score": 0,
+      "note": "DJIA PE-TTM 36.86 vs 36.37 (outside 0.1 margin)"
+    },
+    {
+      "idx": 48,
+      "question_no": 49,
+      "score": 1,
+      "note": "Nasdaq100 avg daily volume Tesla 17474.14 ~ 17477.42 (rounding)"
+    },
+    {
+      "idx": 49,
+      "question_no": 50,
+      "score": 1,
+      "note": "index spread Dec 31 2024 0.80% \u2014 exact"
+    },
+    {
+      "idx": 50,
+      "question_no": 51,
+      "score": 0,
+      "note": "Exxon chem growth: 2021/2022 wrong (23.9/-3.5 vs 59.62/-25.07)"
+    },
+    {
+      "idx": 51,
+      "question_no": 52,
+      "score": 1,
+      "note": "Amazon financing cash flow decrease 10,708 \u2014 exact"
+    },
+    {
+      "idx": 53,
+      "question_no": 54,
+      "score": 1,
+      "note": "Powell-speech-day Nasdaq range 475 \u2014 exact"
+    }
+  ]
+}

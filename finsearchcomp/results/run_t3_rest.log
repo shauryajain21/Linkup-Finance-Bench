@@ -1,0 +1,87 @@
+Running 64 questions | Linkup research XL | 4 wave(s) of <= 16 | 10.0 QPS
+(waves keep concurrency under the cap so latency stays clean)
+
+--- wave 1/4 (16 questions) ---
+  submitted idx=020 id=fc94a611-b57d-409a-84be-5798433bcd1f
+  submitted idx=021 id=54c7d716-a354-4dcb-8243-6ba15fa74e5f
+  submitted idx=022 id=ad25a6cf-8ab7-444d-bee3-44ac52b3671e
+  submitted idx=023 id=1dd1af96-362e-40bf-b127-473c99fbc84f
+  submitted idx=024 id=36070376-c118-4ac2-afa3-110e994f61b4
+  submitted idx=025 id=7fc8c491-0e8c-465e-8d34-a3e91356aea6
+  submitted idx=026 id=3325f5ed-a96a-4594-b2db-fdae53ba0e43
+  submitted idx=027 id=e25fb786-4d34-4b31-ab9f-73250bb09e0a
+  submitted idx=028 id=8695137f-ea65-49f0-84a3-f3efc7aec8c7
+  submitted idx=029 id=28b2b906-fe29-4008-9843-96b52333fac6
+  submitted idx=030 id=6961d1ec-9290-450d-b609-b7eea373eee9
+  submitted idx=031 id=40753625-89c2-4f7f-b367-893445706f47
+  submitted idx=032 id=5b5af9ca-5629-4dbc-aa7e-6e0eb397d393
+  submitted idx=033 id=6728e141-e170-48d0-b55c-b19bcabd55e0
+  submitted idx=034 id=58e0df53-5a84-4991-a1c5-099ef60b52c3
+  submitted idx=035 id=1632e281-ae34-446b-bbce-36f0e78a8a0c
+  [completed] idx=028 server=59.1s client=62.0s done=1/64
+  [completed] idx=033 server=109.7s client=118.0s done=2/64
+  [completed] idx=034 server=107.3s client=118.9s done=3/64
+  [completed] idx=020 server=152.9s client=142.6s done=4/64
+  [completed] idx=024 server=163.3s client=156.8s done=5/64
+  [completed] idx=027 server=177.4s client=179.2s done=6/64
+  [completed] idx=026 server=269.4s client=266.5s done=7/64
+  [completed] idx=021 server=327.8s client=320.3s done=8/64
+  [completed] idx=022 server=525.4s client=520.8s done=9/64
+  [completed] idx=023 server=609.8s client=621.4s done=10/64
+  [completed] idx=025 server=617.9s client=623.7s done=11/64
+  [completed] idx=032 server=717.2s client=720.2s done=12/64
+  [completed] idx=035 server=789.8s client=792.9s done=13/64
+  [completed] idx=029 server=1692.7s client=1694.5s done=14/64
+  [completed] idx=031 server=1691.9s client=1696.2s done=15/64
+  [completed] idx=030 server=1703.3s client=1702.4s done=16/64
+--- wave 2/4 (16 questions) ---
+  submitted idx=036 id=42a335c8-97ad-4081-ab9c-a704783371cc
+  submitted idx=037 id=695cd522-cefa-4de2-9156-d39d8d843ee9
+  submitted idx=038 id=679a53b5-771c-4ce6-873b-3e9460b06835
+  submitted idx=039 id=763fa99b-804f-4bce-a32d-ba934ca68df4
+  submitted idx=040 id=29c58532-8c71-47cc-bf60-9725c086b634
+  submitted idx=041 id=fdc1eaff-894e-4397-815e-872c6875675b
+  submitted idx=042 id=89201f00-b9f8-4459-b1a6-e9c9fb0fdf05
+  submitted idx=043 id=2cc000da-f185-4aa7-acc5-56906d8f582e
+  submitted idx=044 id=0c9829a0-69f1-4dae-a87a-23596cfe7ea8
+  submitted idx=045 id=8188f2cb-e37e-413d-bd42-3877ef6731cd
+  submitted idx=046 id=ca183382-8785-4163-8c36-95a89a06de06
+  submitted idx=047 id=099117a4-49b0-4051-acb9-072f8eb58dc3
+  submitted idx=048 id=c188e052-4c6d-421f-aab2-6bfedae2f408
+  submitted idx=049 id=b4fa4cbb-989b-4168-a87c-15f75c1a48d6
+  submitted idx=050 id=8d06eea2-d659-4a86-8a34-d665c86b824f
+  submitted idx=051 id=9d307676-848b-4ce0-bb21-969d2371edf9
+  [completed] idx=038 server=77.5s client=74.7s done=17/64
+  [completed] idx=036 server=129.9s client=124.1s done=18/64
+  [completed] idx=051 server=150.7s client=159.5s done=19/64
+  [completed] idx=049 server=167.4s client=170.1s done=20/64
+  [completed] idx=037 server=225.8s client=227.2s done=21/64
+  [completed] idx=039 server=227.6s client=228.5s done=22/64
+  [completed] idx=041 server=217.6s client=230.2s done=23/64
+  [completed] idx=044 server=223.1s client=232.6s done=24/64
+  [completed] idx=045 server=226.8s client=233.4s done=25/64
+  [completed] idx=048 server=356.5s client=361.9s done=26/64
+  [completed] idx=047 server=839.7s client=841.4s done=27/64
+  [completed] idx=043 server=869.1s client=863.9s done=28/64
+  [completed] idx=042 server=1123.6s client=1121.9s done=29/64
+  [completed] idx=040 server=1687.8s client=1679.3s done=30/64
+  [completed] idx=050 server=1706.8s client=1711.9s done=31/64
+  [completed] idx=046 server=1726.6s client=1727.6s done=32/64
+--- wave 3/4 (16 questions) ---
+  submitted idx=052 id=5ebf4c08-b9dd-4093-8fd3-f97e782bc234
+  submitted idx=053 id=869836b8-66b3-4ca1-94bb-c4a214136e95
+  submitted idx=054 id=911a3e7c-c11b-4049-80c7-6d7c8435a3a0
+  submitted idx=055 id=b4196563-ae14-4e34-90b1-0d55694a2504
+  submitted idx=056 id=bd22eacb-ae2a-4390-be01-3cbac2a08103
+  submitted idx=057 id=3c7c5723-761e-4d27-9a6e-e4407664675d
+  submitted idx=058 id=200e2616-dbc5-4a6e-be08-819e9d18c476
+  submitted idx=059 id=37904e8d-6743-48a7-bd7a-169e4b546d34
+  submitted idx=060 id=561740dc-9bc1-475c-9313-4506c0106310
+  submitted idx=061 id=1ccc2fe2-4839-4201-a085-0838a117f5af
+  submitted idx=062 id=47b83d93-7545-49a3-9343-92cc48053a12
+  submitted idx=063 id=4c505784-820c-404a-b7fe-f9a93524b8af
+  submitted idx=064 id=6ad1091e-8d70-4511-97e9-b9ebe2e34915
+  submitted idx=065 id=edf94728-ac53-40d7-b60d-30504c87e1b9
+  submitted idx=066 id=75be9cea-6848-4c12-bbf5-c999abe0c210
+  submitted idx=067 id=3a9171c6-cd24-4a26-ab31-5c41208d24fe
+  [completed] idx=053 server=47.2s client=41.9s done=33/64

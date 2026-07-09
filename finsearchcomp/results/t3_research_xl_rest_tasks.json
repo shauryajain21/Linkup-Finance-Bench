@@ -1,0 +1,1154 @@
+[
+  {
+    "idx": 20,
+    "id": "fc94a611-b57d-409a-84be-5798433bcd1f",
+    "question": "For the fiscal years 2021 to 2024, in which year was Tesla's depreciation and amortization as a percentage of its net income the lowest, and what was this percentage (rounded to two decimal places)?",
+    "gold_answer": "Lowest in 2022: 29.84%\nRounding errors are allowed.",
+    "dataset_id": "e67b7b37-f353-4ac0-aabf-71b227575990",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:31.461Z",
+      "error": null,
+      "id": "fc94a611-b57d-409a-84be-5798433bcd1f",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:31.461Z",
+      "input": {
+        "q": "For the fiscal years 2021 to 2024, in which year was Tesla's depreciation and amortization as a percentage of its net income the lowest, and what was this percentage (rounded to two decimal places)?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:31"
+  },
+  {
+    "idx": 21,
+    "id": "54c7d716-a354-4dcb-8243-6ba15fa74e5f",
+    "question": "For each fiscal year from 2021 to 2024, what is Apple's inventory turnover rate as a multiple of Tesla's inventory turnover rate? (Round to two decimal places.)",
+    "gold_answer": "2021: 4.91\n2022: 5.95 \n2023: 6.35 \n2024: 4.94 \nA margin error of 0.01 is allowed .",
+    "dataset_id": "d19399e0-fae1-450b-bfec-c022eb9fb16a",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:32.212Z",
+      "error": null,
+      "id": "54c7d716-a354-4dcb-8243-6ba15fa74e5f",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:32.212Z",
+      "input": {
+        "q": "For each fiscal year from 2021 to 2024, what is Apple's inventory turnover rate as a multiple of Tesla's inventory turnover rate? (Round to two decimal places.)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:32"
+  },
+  {
+    "idx": 22,
+    "id": "ad25a6cf-8ab7-444d-bee3-44ac52b3671e",
+    "question": "For fiscal years 2021-2024, what multiple was Wells Fargo's net income of Nvidia's net income, respectively? (Round to two decimal places.)",
+    "gold_answer": "2021: 4.97\n2022: 1.35\n2023: 4.38\n2024: 0.66\nScoring criteria: A marginal error of 0.01 is allowed.",
+    "dataset_id": "6c6a9bc5-f582-4343-91bb-ec1b681e13b3",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:33.040Z",
+      "error": null,
+      "id": "ad25a6cf-8ab7-444d-bee3-44ac52b3671e",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:33.040Z",
+      "input": {
+        "q": "For fiscal years 2021-2024, what multiple was Wells Fargo's net income of Nvidia's net income, respectively? (Round to two decimal places.)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:33"
+  },
+  {
+    "idx": 23,
+    "id": "1dd1af96-362e-40bf-b127-473c99fbc84f",
+    "question": "Based on the fiscal year 2024 annual report data, rank Tesla, Nvidia, Wells Fargo, Facebook, and Apple by debt-to-asset ratio from highest to lowest, listing the top three companies and their respective values (to two decimal places).",
+    "gold_answer": "Wells Fargo: 90.62%\nApple: 84.40%\nTesla: 39.64%\nRounding errors are allowed.",
+    "dataset_id": "c339ac83-7378-4d63-b33a-eeeb09d894d0",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:33.814Z",
+      "error": null,
+      "id": "1dd1af96-362e-40bf-b127-473c99fbc84f",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:33.814Z",
+      "input": {
+        "q": "Based on the fiscal year 2024 annual report data, rank Tesla, Nvidia, Wells Fargo, Facebook, and Apple by debt-to-asset ratio from highest to lowest, listing the top three companies and their respective values (to two decimal places).",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:33"
+  },
+  {
+    "idx": 24,
+    "id": "36070376-c118-4ac2-afa3-110e994f61b4",
+    "question": "How many percentage points lower was Apple's gross profit margin than Nvidia's each fiscal year from 2021 to 2024? (answer in percentage, rounded to two decimal places.)",
+    "gold_answer": "2021: 20.57%\n2022: 21.62%\n2023: 12.80% \n2024: 26.51% \nRounding errors are allowed.",
+    "dataset_id": "8fb5c1d9-a88e-4092-ba23-d2d01b803c9f",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:34.605Z",
+      "error": null,
+      "id": "36070376-c118-4ac2-afa3-110e994f61b4",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:34.605Z",
+      "input": {
+        "q": "How many percentage points lower was Apple's gross profit margin than Nvidia's each fiscal year from 2021 to 2024? (answer in percentage, rounded to two decimal places.)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:34"
+  },
+  {
+    "idx": 25,
+    "id": "7fc8c491-0e8c-465e-8d34-a3e91356aea6",
+    "question": "Among Tesla, Nvidia, Wells Fargo, Facebook, and Apple, which company had the highest and lowest net profit margin in fy 2021? What were the corresponding values? (Unit: %, rounded to two decimal places)",
+    "gold_answer": "Highest: Facebook (META PLATFORMS): 33.38%\nLowest: Tesla (TESLA): 10.25%\nScoring criteria: Rounding errors are allowed.",
+    "dataset_id": "e642bbc2-d46f-4e65-b68f-eee632980227",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:35.322Z",
+      "error": null,
+      "id": "7fc8c491-0e8c-465e-8d34-a3e91356aea6",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:35.322Z",
+      "input": {
+        "q": "Among Tesla, Nvidia, Wells Fargo, Facebook, and Apple, which company had the highest and lowest net profit margin in fy 2021? What were the corresponding values? (Unit: %, rounded to two decimal places)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:35"
+  },
+  {
+    "idx": 26,
+    "id": "3325f5ed-a96a-4594-b2db-fdae53ba0e43",
+    "question": "For the Korea Composite Stock Price Index (KOSPI) from 2020 to 2024, in which year was the annual high the greatest, and what was that highest value in points?",
+    "gold_answer": "2021: 3316.08 points.",
+    "dataset_id": "93f1cc0a-f6fd-4002-ac96-c313b138fb13",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:36.116Z",
+      "error": null,
+      "id": "3325f5ed-a96a-4594-b2db-fdae53ba0e43",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:36.116Z",
+      "input": {
+        "q": "For the Korea Composite Stock Price Index (KOSPI) from 2020 to 2024, in which year was the annual high the greatest, and what was that highest value in points?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:36"
+  },
+  {
+    "idx": 27,
+    "id": "e25fb786-4d34-4b31-ab9f-73250bb09e0a",
+    "question": "For the Nikkei 225 (N225.GI), which months from May 1, 2024, to April 30, 2025, inclusive, had positive monthly returns? (List year and month).",
+    "gold_answer": "May 2024, June 2024, October 2024, December 2024, April 2025.",
+    "dataset_id": "4ad8bc9e-43a9-4fe2-89d5-6ad1f44e15e9",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:36.823Z",
+      "error": null,
+      "id": "e25fb786-4d34-4b31-ab9f-73250bb09e0a",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:36.823Z",
+      "input": {
+        "q": "For the Nikkei 225 (N225.GI), which months from May 1, 2024, to April 30, 2025, inclusive, had positive monthly returns? (List year and month).",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:36"
+  },
+  {
+    "idx": 28,
+    "id": "8695137f-ea65-49f0-84a3-f3efc7aec8c7",
+    "question": "In March 2025, which constituent stocks were deleted from the UK FTSE 100 index, and which were added? (List by ticker symbol).",
+    "gold_answer": "Deleted: \nHL.L\uff08Hargreaves Lansdown\uff09\nBLND.L\uff08British Land Company)\n\nAdded:\nCCEP.L(Coca-Cola Europacific Partners)\nBAB.L(Babcock International Group)",
+    "dataset_id": "8efddacb-b2b4-43b3-a200-807be1d3f632",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:37.512Z",
+      "error": null,
+      "id": "8695137f-ea65-49f0-84a3-f3efc7aec8c7",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:37.512Z",
+      "input": {
+        "q": "In March 2025, which constituent stocks were deleted from the UK FTSE 100 index, and which were added? (List by ticker symbol).",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:37"
+  },
+  {
+    "idx": 29,
+    "id": "28b2b906-fe29-4008-9843-96b52333fac6",
+    "question": "As of April 30, 2025, among the S&P 500 constituents, how many companies have a market capitalization of USD 100 billion or greater, and by how many hundred million shares do the total outstanding shares of the company with the largest market capitalization exceed those of the company with the second-largest market capitalization (rounded to two decimal places)?",
+    "gold_answer": "There are 97 companies. \nThe first place has 75.03 hundred million more shares than the second place. (Rounding errors are allowed)",
+    "dataset_id": "7fb4abb5-3f5a-4a10-85bb-aebb269daadb",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:38.268Z",
+      "error": null,
+      "id": "28b2b906-fe29-4008-9843-96b52333fac6",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:38.268Z",
+      "input": {
+        "q": "As of April 30, 2025, among the S&P 500 constituents, how many companies have a market capitalization of USD 100 billion or greater, and by how many hundred million shares do the total outstanding shares of the company with the largest market capitalization exceed those of the company with the second-largest market capitalization (rounded to two decimal places)?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:38"
+  },
+  {
+    "idx": 30,
+    "id": "6961d1ec-9290-450d-b609-b7eea373eee9",
+    "question": "Based on their 2024 annual reports, what are the top three S&P 500 (SPX.GI) constituent companies by diluted Return on Equity (ROE)? Please list them in descending order, with ROE values rounded to two decimal places.",
+    "gold_answer": "The Home Depot (1450.48%)\nColgate-Palmolive (1362.74%)\nVerisk Analytics (957.24%) \n(A margin of error of 1% is allowed.)",
+    "dataset_id": "ff057107-c121-4d3c-afba-f00be5966949",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:39.010Z",
+      "error": null,
+      "id": "6961d1ec-9290-450d-b609-b7eea373eee9",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:39.010Z",
+      "input": {
+        "q": "Based on their 2024 annual reports, what are the top three S&P 500 (SPX.GI) constituent companies by diluted Return on Equity (ROE)? Please list them in descending order, with ROE values rounded to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:39"
+  },
+  {
+    "idx": 31,
+    "id": "40753625-89c2-4f7f-b367-893445706f47",
+    "question": "Knowing that the Federal Reserve begins tapering on June 1, 2022, what are the S&P 500 (SPX.GI) constituents that have a total market capitalization (calculated by adding up the market capitalizations of the different types of shares on the basis of the market capitalization as of 2022.8.31) greater than the median and are among the top five decliners (without reweighting) during the period from June 1, 2022, to August 31, 2022? If there are two types of shares of the same company, the one with the higher market capitalization is used for calculation.",
+    "gold_answer": "GOOG Alphabet Inc. (Class C)\nAMZN Amazon.com, Inc.\nFTNT Fortinet, Inc.\nDXCM DexCom, Inc.\nTSLA Tesla, Inc.",
+    "dataset_id": "b4c3042b-4543-4831-81e8-9022aff36b15",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:39.856Z",
+      "error": null,
+      "id": "40753625-89c2-4f7f-b367-893445706f47",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:39.856Z",
+      "input": {
+        "q": "Knowing that the Federal Reserve begins tapering on June 1, 2022, what are the S&P 500 (SPX.GI) constituents that have a total market capitalization (calculated by adding up the market capitalizations of the different types of shares on the basis of the market capitalization as of 2022.8.31) greater than the median and are among the top five decliners (without reweighting) during the period from June 1, 2022, to August 31, 2022? If there are two types of shares of the same company, the one with the higher market capitalization is used for calculation.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:39"
+  },
+  {
+    "idx": 32,
+    "id": "5b5af9ca-5629-4dbc-aa7e-6e0eb397d393",
+    "question": "Among U.S. ETFs that rose more than 10% on October 1, 2024, select the top three with the highest unadjusted closing prices. List the names of these three ETFs and their respective percentage gains on that day.",
+    "gold_answer": "1. Direxion Daily CSI 300 China Internet Index Bull 2X Shares: 12.10%\n2. Direxion FTSE China Bull 3X ETF: 12.24%\n3. GraniteShares Alibaba 2X Long ETF: 12.53%",
+    "dataset_id": "d45417db-ddc0-47af-9c1c-ca4bdd31e909",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:40.557Z",
+      "error": null,
+      "id": "5b5af9ca-5629-4dbc-aa7e-6e0eb397d393",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:40.557Z",
+      "input": {
+        "q": "Among U.S. ETFs that rose more than 10% on October 1, 2024, select the top three with the highest unadjusted closing prices. List the names of these three ETFs and their respective percentage gains on that day.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:40"
+  },
+  {
+    "idx": 33,
+    "id": "6728e141-e170-48d0-b55c-b19bcabd55e0",
+    "question": "Suppose Xiaoming initially has 200,000 shares of Tesla. From April 1st to April 30th, 2025, if the daily trading volume of Tesla is less than 80 million shares, he buys 10,000 shares; if the daily trading volume is more than 120 million shares, he sells 10,000 shares. How many shares of Tesla does Xiaoming have after April 30th?",
+    "gold_answer": "70,000 shares",
+    "dataset_id": "f642bdbb-017e-4fc3-907b-09cacc4d72cb",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:41.368Z",
+      "error": null,
+      "id": "6728e141-e170-48d0-b55c-b19bcabd55e0",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:41.368Z",
+      "input": {
+        "q": "Suppose Xiaoming initially has 200,000 shares of Tesla. From April 1st to April 30th, 2025, if the daily trading volume of Tesla is less than 80 million shares, he buys 10,000 shares; if the daily trading volume is more than 120 million shares, he sells 10,000 shares. How many shares of Tesla does Xiaoming have after April 30th?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:41"
+  },
+  {
+    "idx": 34,
+    "id": "58e0df53-5a84-4991-a1c5-099ef60b52c3",
+    "question": "What is the percentage change (unweighted) on the day with the highest single-day trading volume for NVIDIA (NVDA) between January 1, 2025, and March 31, 2025? Please provide the result rounded to two decimal places.",
+    "gold_answer": "-16.97%\nRounding errors are allowed.",
+    "dataset_id": "5bfb66b6-7b42-405b-bee3-b26cba958034",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:42.103Z",
+      "error": null,
+      "id": "58e0df53-5a84-4991-a1c5-099ef60b52c3",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:42.103Z",
+      "input": {
+        "q": "What is the percentage change (unweighted) on the day with the highest single-day trading volume for NVIDIA (NVDA) between January 1, 2025, and March 31, 2025? Please provide the result rounded to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:42"
+  },
+  {
+    "idx": 35,
+    "id": "1632e281-ae34-446b-bbce-36f0e78a8a0c",
+    "question": "Which constituent stock of the Nasdaq 100 Index (NDX.GI), with a Price-to-Earnings Trailing Twelve Months (PE-TTM) greater than 0 and less than 20 as of the market close on September 30, 2024, reported the largest operating revenue (consolidated financial statements, in billions of USD) in its 2024 interim report? Please provide the stock name and its operating revenue\u3002Unit: billion USD, rounded to two decimal places\u3002",
+    "gold_answer": "PDD, 1183.87 billion USD.\nRounding errors are allowed.",
+    "dataset_id": "84355b47-4e60-4126-8cc0-e76ebd0f9c6d",
+    "submit_response": {
+      "createdAt": "2026-07-09T18:49:42.934Z",
+      "error": null,
+      "id": "1632e281-ae34-446b-bbce-36f0e78a8a0c",
+      "status": "pending",
+      "updatedAt": "2026-07-09T18:49:42.934Z",
+      "input": {
+        "q": "Which constituent stock of the Nasdaq 100 Index (NDX.GI), with a Price-to-Earnings Trailing Twelve Months (PE-TTM) greater than 0 and less than 20 as of the market close on September 30, 2024, reported the largest operating revenue (consolidated financial statements, in billions of USD) in its 2024 interim report? Please provide the stock name and its operating revenue\u3002Unit: billion USD, rounded to two decimal places\u3002",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T14:49:42"
+  },
+  {
+    "idx": 36,
+    "id": "42a335c8-97ad-4081-ab9c-a704783371cc",
+    "question": "What is the highest stock price of Tesla (including intraday price, using unadjusted prices) within the 10 trading days following Trump's victory in the 2024 election (excluding the election day itself)? Please provide the result rounded to two decimal places.",
+    "gold_answer": "$358.64. Rounding errors are allowed.",
+    "dataset_id": "7f2734c6-ba6b-4c6a-b7a2-feafb5de9f30",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:06.182Z",
+      "error": null,
+      "id": "42a335c8-97ad-4081-ab9c-a704783371cc",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:06.182Z",
+      "input": {
+        "q": "What is the highest stock price of Tesla (including intraday price, using unadjusted prices) within the 10 trading days following Trump's victory in the 2024 election (excluding the election day itself)? Please provide the result rounded to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:06"
+  },
+  {
+    "idx": 37,
+    "id": "695cd522-cefa-4de2-9156-d39d8d843ee9",
+    "question": "Excuse me, what is the excess return (without reinstatement) of the stock with the highest increase over the stock with the lowest increase among the \"Magnificent 7\" in the United States throughout 2023? Keep the result to two decimal places.",
+    "gold_answer": "190.69%.\nRounding errors are allowed.",
+    "dataset_id": "5757bae6-8654-4211-beeb-659e34b3fc61",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:06.979Z",
+      "error": null,
+      "id": "695cd522-cefa-4de2-9156-d39d8d843ee9",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:06.979Z",
+      "input": {
+        "q": "Excuse me, what is the excess return (without reinstatement) of the stock with the highest increase over the stock with the lowest increase among the \"Magnificent 7\" in the United States throughout 2023? Keep the result to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:07"
+  },
+  {
+    "idx": 38,
+    "id": "679a53b5-771c-4ce6-873b-3e9460b06835",
+    "question": "After the Federal Reserve's first rate hike on March 16, 2022, what was the maximum drawdown of the S&P 500 Index over the following three months (i.e., from March 16 to June 16, 2022)? Please provide the date range during which this maximum drawdown occurred, as well as the drawdown percentage (rounded to two decimal places).",
+    "gold_answer": "The peak date was March 29, 2022, and the trough date was June 16, 2022.\nThe maximum drawdown was 20.83%.\nRounding errors are allowed.",
+    "dataset_id": "63579379-e956-4628-8384-6fb3749a2217",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:07.693Z",
+      "error": null,
+      "id": "679a53b5-771c-4ce6-873b-3e9460b06835",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:07.693Z",
+      "input": {
+        "q": "After the Federal Reserve's first rate hike on March 16, 2022, what was the maximum drawdown of the S&P 500 Index over the following three months (i.e., from March 16 to June 16, 2022)? Please provide the date range during which this maximum drawdown occurred, as well as the drawdown percentage (rounded to two decimal places).",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:07"
+  },
+  {
+    "idx": 39,
+    "id": "763fa99b-804f-4bce-a32d-ba934ca68df4",
+    "question": "Among all NASDAQ stocks, which three companies had the highest market capitalization on their initial public offering (IPO) day among new listings from 2022 to 2024 (based on daily closing prices)?",
+    "gold_answer": "Arm Holdings plc ADR (ARM),\nWarner Bros. Discovery(WBD),\nFerrovial SE. (FER)",
+    "dataset_id": "38ec312c-c70f-434e-8b17-96324ec6a8d7",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:08.537Z",
+      "error": null,
+      "id": "763fa99b-804f-4bce-a32d-ba934ca68df4",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:08.537Z",
+      "input": {
+        "q": "Among all NASDAQ stocks, which three companies had the highest market capitalization on their initial public offering (IPO) day among new listings from 2022 to 2024 (based on daily closing prices)?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:08"
+  },
+  {
+    "idx": 40,
+    "id": "29c58532-8c71-47cc-bf60-9725c086b634",
+    "question": "Analyze the daily closing prices of BTC/USD from for the period from January 1, 2023, to May 20, 2025.\nIdentify and count the instances where the price met both of the following conditions:\n1. A consecutive increase for 5 days (i.e., each day's closing price was higher than the previous day's).\n2. The total percentage increase over this 5-day period was greater than 20%.\nFor each identified instance, please provide the dates of the 5 consecutive days.",
+    "gold_answer": "1. 2023/1/10-2023/1/14\n2. 2024/2/24-2024/2/28",
+    "dataset_id": "794f9364-831e-47d5-b014-f9915a95329e",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:09.241Z",
+      "error": null,
+      "id": "29c58532-8c71-47cc-bf60-9725c086b634",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:09.241Z",
+      "input": {
+        "q": "Analyze the daily closing prices of BTC/USD from for the period from January 1, 2023, to May 20, 2025.\nIdentify and count the instances where the price met both of the following conditions:\n1. A consecutive increase for 5 days (i.e., each day's closing price was higher than the previous day's).\n2. The total percentage increase over this 5-day period was greater than 20%.\nFor each identified instance, please provide the dates of the 5 consecutive days.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:09"
+  },
+  {
+    "idx": 41,
+    "id": "fdc1eaff-894e-4397-815e-872c6875675b",
+    "question": "By how much is Eli Lilly's liability-to-asset ratio higher or lower than Google's liability-to-asset ratio for the 2022-24 fiscal year? (Using US GAAP, retain two decimal places in the calculation)",
+    "gold_answer": "2022: 48.35% higher;\n2023: 53.45% higher;\n2024: 54.07%higher\nRounding errors are allowed.",
+    "dataset_id": "0adfd8c3-7d02-49ec-8512-0a07b809f1bd",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:10.130Z",
+      "error": null,
+      "id": "fdc1eaff-894e-4397-815e-872c6875675b",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:10.130Z",
+      "input": {
+        "q": "By how much is Eli Lilly's liability-to-asset ratio higher or lower than Google's liability-to-asset ratio for the 2022-24 fiscal year? (Using US GAAP, retain two decimal places in the calculation)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:10"
+  },
+  {
+    "idx": 42,
+    "id": "89201f00-b9f8-4459-b1a6-e9c9fb0fdf05",
+    "question": "What is the highest return on invested capital (TTM) of UnitedHealth in the past five years (from 2020 to 2024)? (Calculated based on quarterly reports\n, rounded to two decimal places)",
+    "gold_answer": "22.19% \nRounding errors are allowed.",
+    "dataset_id": "4c9520ad-83ce-4eb5-a365-1c9b68a2a6c4",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:10.844Z",
+      "error": null,
+      "id": "89201f00-b9f8-4459-b1a6-e9c9fb0fdf05",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:10.844Z",
+      "input": {
+        "q": "What is the highest return on invested capital (TTM) of UnitedHealth in the past five years (from 2020 to 2024)? (Calculated based on quarterly reports\n, rounded to two decimal places)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:10"
+  },
+  {
+    "idx": 43,
+    "id": "2cc000da-f185-4aa7-acc5-56906d8f582e",
+    "question": "What is the year-over-year change in the proportion of Johnson & Johnson's revenue from international markets (excluding the United States) for each of the past three years (2022\u20132024)?\n Please provide the change in percentage points, rounded to two decimal places.",
+    "gold_answer": "Annual change in percentage of revenue for 2022-2024:\n2022: -0.88%\n2023: -3.37%\n2024: -2.09%\nRounding errors are allowed.",
+    "dataset_id": "7f4703ca-aa24-4e2d-9fb2-30a5498f0814",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:11.691Z",
+      "error": null,
+      "id": "2cc000da-f185-4aa7-acc5-56906d8f582e",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:11.691Z",
+      "input": {
+        "q": "What is the year-over-year change in the proportion of Johnson & Johnson's revenue from international markets (excluding the United States) for each of the past three years (2022\u20132024)?\n Please provide the change in percentage points, rounded to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:11"
+  },
+  {
+    "idx": 44,
+    "id": "0c9829a0-69f1-4dae-a87a-23596cfe7ea8",
+    "question": "What is the year-over-year growth rate (%) of Oracle's total assets for each fiscal year from 2020 to 2023 (using U.S. GAAP, rounded to two decimal places)?",
+    "gold_answer": "2023: 22.95%\n2022: -16.64%\n2021: 13.57%\n2020: 6.19%\nRounding errors are allowed.",
+    "dataset_id": "920bdf1e-213d-4171-80b2-8882754151bc",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:12.392Z",
+      "error": null,
+      "id": "0c9829a0-69f1-4dae-a87a-23596cfe7ea8",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:12.392Z",
+      "input": {
+        "q": "What is the year-over-year growth rate (%) of Oracle's total assets for each fiscal year from 2020 to 2023 (using U.S. GAAP, rounded to two decimal places)?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:12"
+  },
+  {
+    "idx": 45,
+    "id": "8188f2cb-e37e-413d-bd42-3877ef6731cd",
+    "question": "What was Pfizer's turnover rate on the day it agreed to pay approximately $60 million to settle false claims allegations?Answer in percentage\uff0crounded to two decimal places.",
+    "gold_answer": "The turnover rate was 0.55%.\nRounding errors are allowed.",
+    "dataset_id": "6b979671-875c-4eff-bb16-21e5a3f1214b",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:13.121Z",
+      "error": null,
+      "id": "8188f2cb-e37e-413d-bd42-3877ef6731cd",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:13.121Z",
+      "input": {
+        "q": "What was Pfizer's turnover rate on the day it agreed to pay approximately $60 million to settle false claims allegations?Answer in percentage\uff0crounded to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:13"
+  },
+  {
+    "idx": 46,
+    "id": "ca183382-8785-4163-8c36-95a89a06de06",
+    "question": "Among companies with a total market capitalization exceeding USD 10 billion on January 6, 2025 (calculated by summing the market capitalizations of different share classes, i.e., the product of the price and number of shares for each class), identify the stocks with the highest annual return relative to the Nasdaq Composite Index for each of the years 2022, 2023, and 2024.",
+    "gold_answer": "22\uff1aVaxcyte\n23\uff1aAffirm Holdings\n24\uff1aApplovin",
+    "dataset_id": "36487df4-34cd-47f7-952a-d1fb2032cd7b",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:14.350Z",
+      "error": null,
+      "id": "ca183382-8785-4163-8c36-95a89a06de06",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:14.350Z",
+      "input": {
+        "q": "Among companies with a total market capitalization exceeding USD 10 billion on January 6, 2025 (calculated by summing the market capitalizations of different share classes, i.e., the product of the price and number of shares for each class), identify the stocks with the highest annual return relative to the Nasdaq Composite Index for each of the years 2022, 2023, and 2024.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:14"
+  },
+  {
+    "idx": 47,
+    "id": "099117a4-49b0-4051-acb9-072f8eb58dc3",
+    "question": "Please find the component stock of the Dow Jones Industrial Average with a market capitalization (calculated as the sum of share prices in each market multiplied by the corresponding number of shares in that market) exceeding $1,000 billion as of the close on March 31, 2025, and having the highest PE-TTM (with the benchmark date being the report closing date). Please output the stock name and PE-TTM, rounded to two decimal places.",
+    "gold_answer": "Nvidia, PE-TTM of 36.37 (A marginal of error of 0.1 is allowed.)",
+    "dataset_id": "1f3de4d4-3465-4491-9c8c-f842f8e02a06",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:15.113Z",
+      "error": null,
+      "id": "099117a4-49b0-4051-acb9-072f8eb58dc3",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:15.113Z",
+      "input": {
+        "q": "Please find the component stock of the Dow Jones Industrial Average with a market capitalization (calculated as the sum of share prices in each market multiplied by the corresponding number of shares in that market) exceeding $1,000 billion as of the close on March 31, 2025, and having the highest PE-TTM (with the benchmark date being the report closing date). Please output the stock name and PE-TTM, rounded to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:15"
+  },
+  {
+    "idx": 48,
+    "id": "c188e052-4c6d-421f-aab2-6bfedae2f408",
+    "question": "During the period from January 1, 2023, to March 31, 2023, which constituent stock of the Nasdaq 100 (NDX.GI) had the highest average daily trading volume (in tens of thousands of shares, rounded to two decimal places)?",
+    "gold_answer": "TSLA Tesla 17,477.42 ten thousand of shares.\nRounding errors are allowed.",
+    "dataset_id": "2c68a639-a07c-4da2-a849-541af2bdfcee",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:15.998Z",
+      "error": null,
+      "id": "c188e052-4c6d-421f-aab2-6bfedae2f408",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:15.998Z",
+      "input": {
+        "q": "During the period from January 1, 2023, to March 31, 2023, which constituent stock of the Nasdaq 100 (NDX.GI) had the highest average daily trading volume (in tens of thousands of shares, rounded to two decimal places)?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:16"
+  },
+  {
+    "idx": 49,
+    "id": "b4fa4cbb-989b-4168-a87c-15f75c1a48d6",
+    "question": "Excuse me, on December 31, 2024, among the three indices, the Nasdaq 100 (NDX.GI), the S&P 500 (SPX.GI), and the Dow Jones Industrial Average (DJI.GI), how much higher is the increase (or lower is the decrease) of the index with the highest increase (or the lowest decrease) than that of the index with the lowest increase (or the highest decrease)? Round the result to two decimal places.",
+    "gold_answer": "0.80%. Rounding errors are allowed",
+    "dataset_id": "431193cd-993f-42b4-9f3d-7cae85f30046",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:16.832Z",
+      "error": null,
+      "id": "b4fa4cbb-989b-4168-a87c-15f75c1a48d6",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:16.832Z",
+      "input": {
+        "q": "Excuse me, on December 31, 2024, among the three indices, the Nasdaq 100 (NDX.GI), the S&P 500 (SPX.GI), and the Dow Jones Industrial Average (DJI.GI), how much higher is the increase (or lower is the decrease) of the index with the highest increase (or the lowest decrease) than that of the index with the lowest increase (or the highest decrease)? Round the result to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:16"
+  },
+  {
+    "idx": 50,
+    "id": "8d06eea2-d659-4a86-8a34-d665c86b824f",
+    "question": "What is the annual growth rate of ExxonMobil's chemicals sales and other operating revenue for each year from 2020 to 2023?",
+    "gold_answer": "2023: -19.39%\n2022: -25.07%\n2021: 59.62%\n2020: -15.78%",
+    "dataset_id": "c1f2a44c-815a-4417-8ba6-b58bf1b41f98",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:17.596Z",
+      "error": null,
+      "id": "8d06eea2-d659-4a86-8a34-d665c86b824f",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:17.596Z",
+      "input": {
+        "q": "What is the annual growth rate of ExxonMobil's chemicals sales and other operating revenue for each year from 2020 to 2023?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:17"
+  },
+  {
+    "idx": 51,
+    "id": "9d307676-848b-4ce0-bb21-969d2371edf9",
+    "question": "By how much did the Amazon's net cash flow from financing activities increase/decrease in 2024 compared to 2020? (Use US GAAP, in million of USD, and round to the nearest integer.)",
+    "gold_answer": "Decreased by 10,708 million dollars.\nRounding errors are allowed.",
+    "dataset_id": "ace654c1-9f98-482a-ac61-685e0c9f8f44",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:18:18.302Z",
+      "error": null,
+      "id": "9d307676-848b-4ce0-bb21-969d2371edf9",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:18:18.302Z",
+      "input": {
+        "q": "By how much did the Amazon's net cash flow from financing activities increase/decrease in 2024 compared to 2020? (Use US GAAP, in million of USD, and round to the nearest integer.)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:18:18"
+  },
+  {
+    "idx": 52,
+    "id": "5ebf4c08-b9dd-4093-8fd3-f97e782bc234",
+    "question": "By how much did Walmart's goodwill increase from the end of fiscal year 2022 to the end of fiscal year 2024 (under US GAAP, in million USD, rounded to the nearest integer)?",
+    "gold_answer": "increase -901 million usd\nRounding errors are allowed.",
+    "dataset_id": "bee2b1fe-95da-4ddb-93ca-15254288db45",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:06.864Z",
+      "error": null,
+      "id": "5ebf4c08-b9dd-4093-8fd3-f97e782bc234",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:06.864Z",
+      "input": {
+        "q": "By how much did Walmart's goodwill increase from the end of fiscal year 2022 to the end of fiscal year 2024 (under US GAAP, in million USD, rounded to the nearest integer)?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:06"
+  },
+  {
+    "idx": 53,
+    "id": "869836b8-66b3-4ca1-94bb-c4a214136e95",
+    "question": "In March 2025, Jerome Powell delivered a speech at the University of Chicago Booth School of Business. On that day, what was the difference between the highest and lowest points of the Nasdaq Index? (Round to the nearest whole number)",
+    "gold_answer": "475\nRounding errors are allowed.",
+    "dataset_id": "4e4ed803-48a0-487d-a1e4-19f191caec81",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:07.613Z",
+      "error": null,
+      "id": "869836b8-66b3-4ca1-94bb-c4a214136e95",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:07.613Z",
+      "input": {
+        "q": "In March 2025, Jerome Powell delivered a speech at the University of Chicago Booth School of Business. On that day, what was the difference between the highest and lowest points of the Nasdaq Index? (Round to the nearest whole number)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:07"
+  },
+  {
+    "idx": 54,
+    "id": "911a3e7c-c11b-4049-80c7-6d7c8435a3a0",
+    "question": "What is the percentage change (not adjusted for splits or dividends, rounded to two decimal places) of AMD over the ten trading days following the annoucement of NVIDIA's H200 chip (excluding the annoucement day)?",
+    "gold_answer": "4.47%\nRounding errors are allowed.",
+    "dataset_id": "71c7e6de-a47e-42d8-8f57-3c715aae76b5",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:08.322Z",
+      "error": null,
+      "id": "911a3e7c-c11b-4049-80c7-6d7c8435a3a0",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:08.322Z",
+      "input": {
+        "q": "What is the percentage change (not adjusted for splits or dividends, rounded to two decimal places) of AMD over the ten trading days following the annoucement of NVIDIA's H200 chip (excluding the annoucement day)?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:08"
+  },
+  {
+    "idx": 55,
+    "id": "b4196563-ae14-4e34-90b1-0d55694a2504",
+    "question": "Help me search for the top three stocks in the S&P 500 index with the highest annual growth (unadjusted for splits or dividends) for the entire year of 2024 (from January 1 to December 31). Please rank them in descending order of growth and retain two decimal places for the growth percentages.",
+    "gold_answer": "VST 257.92%\nUAL 135.34%\nGEV 134.95%\n(Rounding errors are allowed.)",
+    "dataset_id": "9013820e-e977-46c6-94e6-27351eb0ff57",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:09.039Z",
+      "error": null,
+      "id": "b4196563-ae14-4e34-90b1-0d55694a2504",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:09.039Z",
+      "input": {
+        "q": "Help me search for the top three stocks in the S&P 500 index with the highest annual growth (unadjusted for splits or dividends) for the entire year of 2024 (from January 1 to December 31). Please rank them in descending order of growth and retain two decimal places for the growth percentages.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:09"
+  },
+  {
+    "idx": 56,
+    "id": "bd22eacb-ae2a-4390-be01-3cbac2a08103",
+    "question": "On April 24, 2025 (US time), Google released its first-quarter earnings. On that day, what were the trading volume (in units of 10,000 shares) and the trading value (in US dollars) for Google Class A (GOOGL) stock? Please provide both figures as integers.",
+    "gold_answer": "Trading volume: 4589 (in units of 10,000 shares) \nTrading value: $7,341,090,562",
+    "dataset_id": "3dc4de2e-f5e3-4085-9593-af56c9134bb6",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:09.810Z",
+      "error": null,
+      "id": "bd22eacb-ae2a-4390-be01-3cbac2a08103",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:09.810Z",
+      "input": {
+        "q": "On April 24, 2025 (US time), Google released its first-quarter earnings. On that day, what were the trading volume (in units of 10,000 shares) and the trading value (in US dollars) for Google Class A (GOOGL) stock? Please provide both figures as integers.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:09"
+  },
+  {
+    "idx": 57,
+    "id": "3c7c5723-761e-4d27-9a6e-e4407664675d",
+    "question": "Among all NASDAQ-listed stocks where the net income attributable to parent company shareholders for the full year 2024 is greater than 50 billion USD, please identify the stock names and ticker symbols of those ranking first and fifth in terms of total revenue (in USD) for 2024.",
+    "gold_answer": "Ranked first is Amazon, ticker symbol AMZN\nRanked fifth is Microsoft, ticker symbol MSFT",
+    "dataset_id": "a8e86674-76ff-4d99-9a6c-2ad43b10fb8d",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:10.525Z",
+      "error": null,
+      "id": "3c7c5723-761e-4d27-9a6e-e4407664675d",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:10.525Z",
+      "input": {
+        "q": "Among all NASDAQ-listed stocks where the net income attributable to parent company shareholders for the full year 2024 is greater than 50 billion USD, please identify the stock names and ticker symbols of those ranking first and fifth in terms of total revenue (in USD) for 2024.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:10"
+  },
+  {
+    "idx": 58,
+    "id": "200e2616-dbc5-4a6e-be08-819e9d18c476",
+    "question": "What were the opening and closing prices of the S&P/ASX 200 Index (AS51) in Australia on December 18, 2024? What was the percentage change? Please round the answers to two decimal places.",
+    "gold_answer": "Opening price: 8314.00 AUD\nClosing price: 8309.40 AUD\nPercentage change: -0.06%\nRounding errors are allowed.",
+    "dataset_id": "edb44a85-53c1-4b89-9a8e-031df0da4c26",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:11.240Z",
+      "error": null,
+      "id": "200e2616-dbc5-4a6e-be08-819e9d18c476",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:11.240Z",
+      "input": {
+        "q": "What were the opening and closing prices of the S&P/ASX 200 Index (AS51) in Australia on December 18, 2024? What was the percentage change? Please round the answers to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:11"
+  },
+  {
+    "idx": 59,
+    "id": "37904e8d-6743-48a7-bd7a-169e4b546d34",
+    "question": "Within the 2022-2024 fiscal years, which quarter of AMD had the lowest GAAP gross margin? What was it? At the same time, what was Intel's GAAP gross margin for that quarter? Was it the lowest quarterly GAAP gross margin in its 2022-2024 fiscal years?",
+    "gold_answer": "During fiscal 2022-2024, AMD's lowest GAAP gross margin for a single quarter occurred in 2022Q3 at 42.30%. \nIn the same quarter,Intel's GAAP gross margin was 42.61%, which is not its lowest quarterly gross margin during this period.\nRounding errors are allowed.",
+    "dataset_id": "2e16bb81-1ac6-44c1-b850-5e2dd5786c8d",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:11.966Z",
+      "error": null,
+      "id": "37904e8d-6743-48a7-bd7a-169e4b546d34",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:11.966Z",
+      "input": {
+        "q": "Within the 2022-2024 fiscal years, which quarter of AMD had the lowest GAAP gross margin? What was it? At the same time, what was Intel's GAAP gross margin for that quarter? Was it the lowest quarterly GAAP gross margin in its 2022-2024 fiscal years?",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:12"
+  },
+  {
+    "idx": 60,
+    "id": "561740dc-9bc1-475c-9313-4506c0106310",
+    "question": "Among all Nasdaq-listed stocks, please help me filter companies with strong historical performance based on the following criteria:\n1. Both year-over-year (YoY) revenue growth and YoY net income attributable to shareholders growth are greater than 0% but less than 10% for both 2023 and 2024;\n2. As of January 1, 2025, the company\u2019s total market capitalization exceeds USD 1 billion, calculated by summing the market capitalizations of different share classes (i.e., the product of the price and number of shares for each class);\n3. From January 1, 2025, to April 30, 2025, the stock outperformed the Nasdaq Index by more than 20%.\n\nIf any companies meet all of the above criteria, please provide their names and ticker symbols.",
+    "gold_answer": "1.Check Point Software Technologies Ltd\uff08CHKP\uff09\n2.O'Reilly Automotive Inc.(ORLY)",
+    "dataset_id": "866ebb7c-95e8-4f0d-92f9-5330ade22eae",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:12.683Z",
+      "error": null,
+      "id": "561740dc-9bc1-475c-9313-4506c0106310",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:12.683Z",
+      "input": {
+        "q": "Among all Nasdaq-listed stocks, please help me filter companies with strong historical performance based on the following criteria:\n1. Both year-over-year (YoY) revenue growth and YoY net income attributable to shareholders growth are greater than 0% but less than 10% for both 2023 and 2024;\n2. As of January 1, 2025, the company\u2019s total market capitalization exceeds USD 1 billion, calculated by summing the market capitalizations of different share classes (i.e., the product of the price and number of shares for each class);\n3. From January 1, 2025, to April 30, 2025, the stock outperformed the Nasdaq Index by more than 20%.\n\nIf any companies meet all of the above criteria, please provide their names and ticker symbols.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:12"
+  },
+  {
+    "idx": 61,
+    "id": "1ccc2fe2-4839-4201-a085-0838a117f5af",
+    "question": "Please sort the average yield to maturity of Japanese one-year treasury bond in each quarter of 2024. (The quarters with higher average returns are in the top)",
+    "gold_answer": "Fourth quarter>Third quarter>Second quarter>First quarter",
+    "dataset_id": "a1b55452-1be2-4098-b84c-0de46c116b0c",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:13.397Z",
+      "error": null,
+      "id": "1ccc2fe2-4839-4201-a085-0838a117f5af",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:13.397Z",
+      "input": {
+        "q": "Please sort the average yield to maturity of Japanese one-year treasury bond in each quarter of 2024. (The quarters with higher average returns are in the top)",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:13"
+  },
+  {
+    "idx": 62,
+    "id": "47b83d93-7545-49a3-9343-92cc48053a12",
+    "question": "What was the year-over-year (YoY) percentage growth in U.S. fixed asset investment in 2023 compared to 2022? (Fixed asset investment refers to expenditure on the purchase or construction of long-term tangible assets, such as buildings, machinery, and equipment, used in the production of goods and provision of services.) The percentage growth should be accurate to two decimal places, and any monetary values should be expressed in billions of U.S. dollars.",
+    "gold_answer": "6.51%\nRounding errors are allowed.",
+    "dataset_id": "a5fdbf37-269d-4757-aff0-df1b434b1315",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:14.108Z",
+      "error": null,
+      "id": "47b83d93-7545-49a3-9343-92cc48053a12",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:14.108Z",
+      "input": {
+        "q": "What was the year-over-year (YoY) percentage growth in U.S. fixed asset investment in 2023 compared to 2022? (Fixed asset investment refers to expenditure on the purchase or construction of long-term tangible assets, such as buildings, machinery, and equipment, used in the production of goods and provision of services.) The percentage growth should be accurate to two decimal places, and any monetary values should be expressed in billions of U.S. dollars.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:14"
+  },
+  {
+    "idx": 63,
+    "id": "4c505784-820c-404a-b7fe-f9a93524b8af",
+    "question": "According to EIA statistics, what are the highest and lowest carbon dioxide emissions from energy consumption in the UK since 2015? What years do they correspond to? What is the difference between the two? The unit needs to be converted to millions of tons, and the result should be rounded to two decimal places.",
+    "gold_answer": "Highest point: 450.50 million of tons in 2015; Lowest point: 334.93 million of tons in 2020; Difference: 115.57 million of tons.\nScoring criteria: A marginal error of 1% is allowed, but the corresponding years for the highest and lowest points must be correct.",
+    "dataset_id": "16a702e7-89d5-4a17-bbad-0c3bdd073774",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:14.828Z",
+      "error": null,
+      "id": "4c505784-820c-404a-b7fe-f9a93524b8af",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:14.828Z",
+      "input": {
+        "q": "According to EIA statistics, what are the highest and lowest carbon dioxide emissions from energy consumption in the UK since 2015? What years do they correspond to? What is the difference between the two? The unit needs to be converted to millions of tons, and the result should be rounded to two decimal places.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:14"
+  },
+  {
+    "idx": 64,
+    "id": "6ad1091e-8d70-4511-97e9-b9ebe2e34915",
+    "question": "Since 2020, the number of COVID - 19 deaths in the United States has risen sharply. What is the year - on - year percentage increase in the total market value of Pfizer Inc. (PFE) on the last trading day of 2021 compared with that on the last trading day of 2020? The result should be rounded to two decimal places, and the unit of the total market value should be in \"hundred million US dollars\" during the calculation process.",
+    "gold_answer": "The year-on-year increase is 61.95%.\nScoring points: The values of the total market capitalization on the last trading days of the two years should be consistent. \nRounding errors are allowed.",
+    "dataset_id": "2521cd69-b702-4544-bdcb-152822325b6b",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:15.544Z",
+      "error": null,
+      "id": "6ad1091e-8d70-4511-97e9-b9ebe2e34915",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:15.544Z",
+      "input": {
+        "q": "Since 2020, the number of COVID - 19 deaths in the United States has risen sharply. What is the year - on - year percentage increase in the total market value of Pfizer Inc. (PFE) on the last trading day of 2021 compared with that on the last trading day of 2020? The result should be rounded to two decimal places, and the unit of the total market value should be in \"hundred million US dollars\" during the calculation process.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:15"
+  },
+  {
+    "idx": 65,
+    "id": "edf94728-ac53-40d7-b60d-30504c87e1b9",
+    "question": "Following Tesla's announcement on January 8, 2021, that it had successfully achieved a major breakthrough in autonomous driving technology, what were the respective changes in US dollars (increase or decrease) to the closing stock prices of Tesla, Apple, and Nvidia in the US stock market on the next trading day (January 11, 2021), compared to their closing prices on January 8, 2021\uff08based on un\nadjusted prices\uff09? Please sort these companies by their percentage stock price change in descending order.",
+    "gold_answer": "Nvidia increased by 13.79 US dollars.\nApple decreased by -3.07 US dollars.\nTesla decreased by -68.83 US dollars.\nRounding errors are allowed.",
+    "dataset_id": "34ba09b5-01f6-44d4-a5a6-95019e521799",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:16.259Z",
+      "error": null,
+      "id": "edf94728-ac53-40d7-b60d-30504c87e1b9",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:16.259Z",
+      "input": {
+        "q": "Following Tesla's announcement on January 8, 2021, that it had successfully achieved a major breakthrough in autonomous driving technology, what were the respective changes in US dollars (increase or decrease) to the closing stock prices of Tesla, Apple, and Nvidia in the US stock market on the next trading day (January 11, 2021), compared to their closing prices on January 8, 2021\uff08based on un\nadjusted prices\uff09? Please sort these companies by their percentage stock price change in descending order.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:16"
+  },
+  {
+    "idx": 66,
+    "id": "75be9cea-6848-4c12-bbf5-c999abe0c210",
+    "question": "Please summarize the dates between January 1, 2025, and April 30, 2025, when the daily price fluctuation (comparison of opening and closing prices, either increase or decrease) of Ethereum (ETH)in USD exceeded 10% on the Binance trading platform, and present the data in a table sorted by the magnitude of the price fluctuation in ascending order.",
+    "gold_answer": "2025.03.03 -14.66%\n2025.04.06 -12.47%\n2025.02.24 -10.96%\n2025.03.02 +13.56%\n2025.04.09 +13.30%\n2025.04.22 +11.18%\nRounding errors are allowed.",
+    "dataset_id": "2ee0de2c-81f0-4fe3-8e7d-a9e4f0d45fc0",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:16.963Z",
+      "error": null,
+      "id": "75be9cea-6848-4c12-bbf5-c999abe0c210",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:16.963Z",
+      "input": {
+        "q": "Please summarize the dates between January 1, 2025, and April 30, 2025, when the daily price fluctuation (comparison of opening and closing prices, either increase or decrease) of Ethereum (ETH)in USD exceeded 10% on the Binance trading platform, and present the data in a table sorted by the magnitude of the price fluctuation in ascending order.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:17"
+  },
+  {
+    "idx": 67,
+    "id": "3a9171c6-cd24-4a26-ab31-5c41208d24fe",
+    "question": "Please help me find the closing prices and percentage changes (based on closing prices) for the S&P Bitcoin Index (SPBTC) on May 30, 2024, and May 31, 2024.",
+    "gold_answer": "May 31, 2024: $9010.30 (a decrease of 1.61%)\nMay 30, 2024: $9157.32 (an increase of 2.21%)\nRounding errors are allowed.",
+    "dataset_id": "8ff8871f-d1fd-4898-b883-2767dcdb719e",
+    "submit_response": {
+      "createdAt": "2026-07-09T19:47:17.675Z",
+      "error": null,
+      "id": "3a9171c6-cd24-4a26-ab31-5c41208d24fe",
+      "status": "pending",
+      "updatedAt": "2026-07-09T19:47:17.675Z",
+      "input": {
+        "q": "Please help me find the closing prices and percentage changes (based on closing prices) for the S&P Bitcoin Index (SPBTC) on May 30, 2024, and May 31, 2024.",
+        "toDate": "2026-07-09",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T15:47:17"
+  }
+]

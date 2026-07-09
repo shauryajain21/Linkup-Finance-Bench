@@ -18,6 +18,6 @@ contestant, and see where it lands.
   - [`comparator-matrix.html`](analysis/comparator-matrix.html) — the same config matrix as a visual reference
 - **[`finsearchcomp/`](finsearchcomp/)** — run plan + runners for FinSearchComp with Linkup, and results:
   - [`RESULTS_T2.md`](finsearchcomp/RESULTS_T2.md) — full T2 Global: **96/119 = 80.7%** (→ 82.4% after [`RERUN.md`](finsearchcomp/RERUN.md))
-  - [`T3_SMOKE.md`](finsearchcomp/T3_SMOKE.md) — T3 (hard tier) smoke: **13/20 = 65%**
+  - [`RESULTS_T3.md`](finsearchcomp/RESULTS_T3.md) — T3 (hard tier): **31/53 = 58.5%** graded (53 of 84 done)
 
 More folders (runners, results) will be added as we start running them.

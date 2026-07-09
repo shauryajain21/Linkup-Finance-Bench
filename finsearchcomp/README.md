@@ -5,7 +5,7 @@ benchmark with Linkup as a contestant.
 
 > ✅ **T2 (full 119):** Linkup research (XL) scored **96/119 = 80.7%** ([`RESULTS_T2.md`](RESULTS_T2.md));
 > re-run of the 23 misses lifts it to **82.4%** ([`RERUN.md`](RERUN.md)). Pilot was 20/20 ([`SMOKE_TEST.md`](SMOKE_TEST.md)).
-> ✅ **T3 (hard tier) smoke:** **13/20 = 65%** ([`T3_SMOKE.md`](T3_SMOKE.md)).
+> ✅ **T3 (hard tier):** **31/53 = 58.5%** graded so far ([`RESULTS_T3.md`](RESULTS_T3.md); smoke detail in [`T3_SMOKE.md`](T3_SMOKE.md)). 31 of 84 still to run.
 > Runners: `run_t2_research_xl.py`, `run_t2_research_xl_batch.py` (`--csv`/`--indices`), `grade_stored.py`.
 
 ## The benchmark
