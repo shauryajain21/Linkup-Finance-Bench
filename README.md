@@ -17,7 +17,7 @@ contestant, and see where it lands.
   - [`you-com-harness-audit.md`](analysis/you-com-harness-audit.md) — fairness audit of You.com's `web-search-api-evals` + full comparator config matrix
   - [`comparator-matrix.html`](analysis/comparator-matrix.html) — the same config matrix as a visual reference
 - **[`finsearchcomp/`](finsearchcomp/)** — run plan + runners for FinSearchComp with Linkup, and results:
-  [`RESULTS_T2.md`](finsearchcomp/RESULTS_T2.md) — Linkup research (XL) scored **96/119 = 80.7%** on full T2 Global
-  (pilot [`SMOKE_TEST.md`](finsearchcomp/SMOKE_TEST.md) was 20/20)
+  - [`RESULTS_T2.md`](finsearchcomp/RESULTS_T2.md) — full T2 Global: **96/119 = 80.7%** (→ 82.4% after [`RERUN.md`](finsearchcomp/RERUN.md))
+  - [`T3_SMOKE.md`](finsearchcomp/T3_SMOKE.md) — T3 (hard tier) smoke: **13/20 = 65%**
 
 More folders (runners, results) will be added as we start running them.

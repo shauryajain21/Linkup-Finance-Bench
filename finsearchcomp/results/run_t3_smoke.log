@@ -1,0 +1,47 @@
+Running T2 idx [20,84) = 20 questions | Linkup research XL | submit+poll throttled to 10.0 QPS
+
+  submitted idx=000 id=b59944ad-1655-4689-9c4a-b2a3e06f062d
+  submitted idx=001 id=ff5349f3-6845-411c-8d5d-a3a57237fd8b
+  submitted idx=002 id=37685992-b904-413d-ba23-72d3b142b98c
+  submitted idx=003 id=f1a5257e-f2bf-40b5-99d8-aac1c5766718
+  submitted idx=004 id=c2736dc1-76e3-4502-a78d-2471481bfb7f
+  submitted idx=005 id=98f3577c-5440-4d50-8a67-ebc2ef72586c
+  submitted idx=006 id=2a409d30-4e34-45e4-b63b-a4e8f8766388
+  submitted idx=007 id=db8122b4-02db-412e-a194-5e849f88b00e
+  submitted idx=008 id=7b56ca3f-17c6-4292-886d-00af18fd94c3
+  submitted idx=009 id=be51f76f-e6e6-40b5-99f9-7db265765d80
+  submitted idx=010 id=58c815a8-68f7-4dad-aea8-33f8a0805133
+  submitted idx=011 id=daf50ab5-6fd7-4351-be87-2fe32ff0ba3b
+  submitted idx=012 id=7c0130b0-f064-4f3e-916d-d6718313383e
+  submitted idx=013 id=8bcb1a78-b7ec-48f3-9b74-792c64d8a941
+  submitted idx=014 id=8145fe0d-8cd4-4c97-a843-54c51922a381
+  submitted idx=015 id=781acd0a-f2e7-447e-9018-995b91c6b7e3
+  submitted idx=016 id=f32f1e1b-0b32-4451-b9f2-649105a5a302
+  submitted idx=017 id=04ae3390-b21a-4f29-94b4-e34eedd691d7
+  submitted idx=018 id=b4b5ca08-4949-4d52-85de-8bad7da6f3eb
+  submitted idx=019 id=03a7cb44-6f8a-4d51-8bba-1ae6f944abf2
+
+All submitted. Polling (<= 10.0 QPS) until each completes...
+
+  [completed] idx=009 (43.0s) done=1/20  **Answer:** 0.67  **Interpretation:** The weekly closing price is determined by the unadju
+  [completed] idx=000 (68.5s) done=2/20  **Answer:**  **Values:** *   [Spot exchange rate: US dollar against offshore RMB (USDCNH)]
+  [completed] idx=012 (77.9s) done=3/20  **Answer:** Tesla's closing price for that week was $339.34, which was $138.35 higher than
+  [completed] idx=001 (84.8s) done=4/20  **Answer:** Spot exchange rate of US dollars against offshore RMB (USDCNH); 7.43  **Interp
+  [completed] idx=015 (94.9s) done=5/20  **Answer:** $184.53; 43.18%  **Interpretation:** The highest monthly stock price refers to
+  [completed] idx=018 (111.2s) done=6/20  **Answer:** Boeing; -9.91  **Interpretation:** April 27, 2025 was a Sunday, so the P/E rat
+  [completed] idx=017 (123.0s) done=7/20  **Answer:** TSMC (US-listed), Boeing, and Goldman Sachs had a positive monthly percentage 
+  [completed] idx=011 (154.5s) done=8/20  **Answer:** 2.56 percentage points lower  **Interpretation:**  The weekly turnover rate is
+  [completed] idx=013 (298.9s) done=9/20  **Answer:** TSLA (Tesla, Inc.), $171.78 billion, 15.69%  **Interpretation:**  The stock wi
+  [completed] idx=004 (341.4s) done=10/20  **Answer:** No. April 8, 2025 (EUR/RMB: 7.9155, HKD/RMB: 0.9270, USD/RMB: 7.2038)  **Inter
+  [completed] idx=019 (391.6s) done=11/20  **Answer:** TSMC (US-listed); 856.29  **Interpretation:**  The phrase "calculated in the r
+  [completed] idx=005 (475.8s) done=12/20  **Answer:** The Nasdaq Index; 5.33%  **Interpretation:** "Nasdaq Index" is interpreted as 
+  [completed] idx=016 (736.3s) done=13/20  **Answer:** 2020: 6.19%, 2021: 13.57%, 2022: -16.64%, 2023: 22.95%  **Interpretation:** Or
+  [completed] idx=002 (794.4s) done=14/20  **Answer:** 8.12  **Interpretation:**  To find the euro to Hong Kong dollar (EUR/HKD) exch
+  [completed] idx=003 (834.5s) done=15/20  **Answer:** 0.02%  **Interpretation:**  - The specified period is from January 1, 2025, to
+  [completed] idx=014 (846.1s) done=16/20  **Answer:** 24.62%   **Interpretation:**  Return on Invested Capital (ROIC) calculations c
+  [completed] idx=010 (1421.4s) done=17/20  **Answer:** Sunrun (RUN) had the largest weekly decline, with an exact percentage change o
+  [completed] idx=006 (1554.9s) done=18/20  **Answer:** No, the index with the largest trading volume is not the same as the one with 
+  [completed] idx=007 (1703.8s) done=19/20  **Answer:** S&P 500; 50.40  **Interpretation:**  To rank the indices, their total 2024 tra
+  [completed] idx=008 (1704.7s) done=20/20  **Answer:** 110.50 higher  **Interpretation:**  Exact monetary turnover (trading value) fo
+
+DONE. 20 tasks stored -> results/t3_research_xl_smoke.jsonl

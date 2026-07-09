@@ -55,6 +55,7 @@ def main():
     ap.add_argument("--start", type=int, default=20)
     ap.add_argument("--end", type=int, default=120)
     ap.add_argument("--indices", default=None, help="comma-separated 0-based indices; overrides start/end")
+    ap.add_argument("--csv", default=T2_CSV, help="dataset CSV path (default T2 Global)")
     ap.add_argument("--qps", type=float, default=10.0)
     ap.add_argument("--out", default=os.path.join(RESULTS, "t2_research_xl_remaining.jsonl"))
     ap.add_argument("--tasks", default=os.path.join(RESULTS, "t2_research_xl_remaining_tasks.json"))
@@ -66,7 +67,7 @@ def main():
     assert key, "missing LINKUP_API_KEY"
     os.makedirs(RESULTS, exist_ok=True)
 
-    all_rows = list(csv.DictReader(open(T2_CSV)))
+    all_rows = list(csv.DictReader(open(args.csv)))
     if args.indices:
         idxs = [int(x) for x in args.indices.split(",") if x.strip() != ""]
         rows = [(i, all_rows[i]) for i in idxs]

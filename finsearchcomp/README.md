@@ -3,10 +3,10 @@
 How we'd run the [FinSearchComp](https://arxiv.org/abs/2509.13160) financial-search
 benchmark with Linkup as a contestant.
 
-> ✅ **Full T2 done:** Linkup research (XL) scored **96/119 = 80.7%** on all of T2 Global
-> — see [`RESULTS_T2.md`](RESULTS_T2.md). Pilot (first 20) was 20/20 — see
-> [`SMOKE_TEST.md`](SMOKE_TEST.md). Runners: `run_t2_research_xl.py`,
-> `run_t2_research_xl_batch.py`, `grade_stored.py`.
+> ✅ **T2 (full 119):** Linkup research (XL) scored **96/119 = 80.7%** ([`RESULTS_T2.md`](RESULTS_T2.md));
+> re-run of the 23 misses lifts it to **82.4%** ([`RERUN.md`](RERUN.md)). Pilot was 20/20 ([`SMOKE_TEST.md`](SMOKE_TEST.md)).
+> ✅ **T3 (hard tier) smoke:** **13/20 = 65%** ([`T3_SMOKE.md`](T3_SMOKE.md)).
+> Runners: `run_t2_research_xl.py`, `run_t2_research_xl_batch.py` (`--csv`/`--indices`), `grade_stored.py`.
 
 ## The benchmark
 

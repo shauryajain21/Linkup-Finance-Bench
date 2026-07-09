@@ -1,0 +1,170 @@
+{
+  "dataset": "fin_search_comp_t3_global (first 20)",
+  "sampler": "linkup_research (mode=answer, reasoningDepth=XL)",
+  "judge": "manual (Claude) vs FinSearchComp rubric \u2014 multi-part answers",
+  "n": 20,
+  "score": 13,
+  "accuracy": 0.65,
+  "graded": [
+    {
+      "idx": 0,
+      "question_no": 1,
+      "question": "On January 2nd, 2025, what is the size relationship among the three exchange rates of [Spot exchange rate: US dollar against offshore RMB (USDCNH)], [CFETS: Spot exchange rate: US dollar against RMB], and [Central parity rate: US dollar against RMB]? Provide the values and the ranking respectively. Keep 2 decimal places.",
+      "gold_answer": "Offshore (7.34) > Onshore (7.30) > Central parity rate (7.19).\nA marginal error of 0.01 is allowed.",
+      "score": 1,
+      "note": "3 rates + ordering exact (7.34>7.30>7.19)"
+    },
+    {
+      "idx": 1,
+      "question_no": 2,
+      "question": "In April 2025, among the three exchange rates, namely the spot exchange rate of US dollars against offshore RMB (USDCNH), the CFETS spot exchange rate of US dollars against RMB, and the central parity rate of US dollars against RMB, which one has the highest maximum value? What is the specific value, rounded to two decimal places?",
+      "gold_answer": "USDCNH is the highest.\nThe value is 7.43.\nA marginal error of 0.01 is allowed.",
+      "score": 1,
+      "note": "USDCNH highest, 7.43"
+    },
+    {
+      "idx": 2,
+      "question_no": 3,
+      "question": "From January 1, 2025, to May 3, 2025, on the day when the Hong Kong dollar to Chinese yuan central parity rate is at its lowest, calculate the euro to Hong Kong dollar exchange rate on that day based on the euro to Chinese yuan central parity rate (rounded to two decimal places).",
+      "gold_answer": "8.12\nA marginal error of 0.01 is allowed.",
+      "score": 1,
+      "note": "8.12"
+    },
+    {
+      "idx": 3,
+      "question_no": 4,
+      "question": "From January 1, 2025, to May 3, 2025, on the day when the EUR/CNY central parity rate was highest, what was the day-on-day percentage change of the HKD/CNY central parity rate (rounded to two decimal places)?",
+      "gold_answer": "0.02%\nRounding errors are allowed.",
+      "score": 1,
+      "note": "0.02%"
+    },
+    {
+      "idx": 4,
+      "question_no": 5,
+      "question": "During April 2025, did the daily changes (compared to the previous day) in the central parity rates of EUR/RMB, HKD/RMB, and USD/RMB always occur in the same direction (i.e., all rates increasing together or all rates decreasing together)?\nAmong the days when these rates did not move in unison, find the date when the USD/RMB central parity rate experienced its greatest increase. List the three central parity rates (EUR/RMB, HKD/RMB, USD/RMB) for that specific day, rounded to four decimal places.",
+      "gold_answer": "No, the daily changes did not always occur in the same direction. \nThe USD/RMB central parity rate experienced its greatest increase on April 8th. \nOn that day, the EUR/RMB, HKD/RMB, and USD/RMB central parity rates were 7.9155, 0.9270, and 7.2038, respectively.\nA marginal error of 0.01 is allowed.",
+      "score": 1,
+      "note": "No + April 8 + all 3 values exact (7.9155/0.9270/7.2038)"
+    },
+    {
+      "idx": 5,
+      "question_no": 6,
+      "question": "Which is greater, the full - year increase of the Nasdaq Index in 2024 or the full - year increase of the S&P 500 in 2024? What is the difference, answer in percentage, rounded to two decimal places?",
+      "gold_answer": "Nasdaq Index\nDifference: 5.33%\nRounding errors are allowed",
+      "score": 1,
+      "note": "Nasdaq, 5.33%"
+    },
+    {
+      "idx": 6,
+      "question_no": 7,
+      "question": "Among the S&P 500, CSI 300, Hang Seng Tech Index, STAR 50, Nasdaq Index, SSE 50, CSI 1000, and CSI 500, in 2024, is the index with the largest trading volume the same as the one with the highest annual turnover rate? Please identify the respective indices that meet the criteria and provide the corresponding data, rounded to two decimal places.",
+      "gold_answer": "The index with the largest trading volume is the same as the one with the highest annual turnover rate. \nThe index: CSI 1000\nTrading volume: 4.72 trillion shares\nTurnover rate: 492.91%\nRounding errors are allowed.",
+      "score": 0,
+      "note": "said NOT same (Nasdaq vs CSI1000); gold: SAME, CSI 1000"
+    },
+    {
+      "idx": 7,
+      "question_no": 8,
+      "question": "Among the S&P 500, CSI 300, Hang Seng TECH Index, STAR 50, Nasdaq Index, SSE 50, CSI 1000, and CSI 500, which one will have the second highest total trading volume in 2024? What will that volume be (calculated using the exchange rates as of May 16, 2025: USD mid-rate: 719.38 CNY/100 USD; HKD mid-rate: 92.146 CNY/100 HKD)? The unit should be in the local currency of the index, expressed in trillions, rounded to two decimal places.",
+      "gold_answer": "Nasdaq: 60.77 trillion USD\nScoring criteria: A marginal error of 0.05 is allowed.",
+      "score": 0,
+      "note": "S&P500 50.40; gold: Nasdaq 60.77T"
+    },
+    {
+      "idx": 8,
+      "question_no": 9,
+      "question": "How much higher or lower in billions of yuan is the combined volume of the Nasdaq Composite and S&P 500 compared to the combined volume of the CSI 300 and CSI 500? (Based on the USD midpoint exchange rate of 719.38 yuan per 100 USD as of May 16, 2025, with the final result rounded to two decimal places.)",
+      "gold_answer": "Higher by 8,847,105.72 billion yuan\nRounding errors are allowed.",
+      "score": 0,
+      "note": "110.50 higher; gold: 8,847,105.72 billion yuan (couldn't source data)"
+    },
+    {
+      "idx": 9,
+      "question_no": 10,
+      "question": "What is the difference in weekly closing prices (in dollars, unadjusted) for American Airlines (AAL) stock on the weeks of May 12-16, 2025, and May 19-23, 2025? Please round to two decimal places.",
+      "gold_answer": "$0.67\nScoring criteria: Rounding errors are allowed.",
+      "score": 1,
+      "note": "0.67"
+    },
+    {
+      "idx": 10,
+      "question_no": 11,
+      "question": "Which Nasdaq stock had the largest weekly decline from May 19 to May 23, 2025? What was the exact percentage change? Please retain two decimal places.",
+      "gold_answer": "NTCL, -68.80%\nScoring criteria: Rounding errors are allowed.",
+      "score": 0,
+      "note": "Sunrun -43.84%; gold: NTCL -68.80%"
+    },
+    {
+      "idx": 11,
+      "question_no": 12,
+      "question": "By how many percentage points was the weekly turnover rate of Taiwan Semiconductor Manufacturing Company (TSM) higher or lower than that of Goldman Sachs Group (GS) for the week of May 19 to May 23, 2025? Please round the result to two decimal places.",
+      "gold_answer": "Lower by 2.56%\nRounding errors are allowed.",
+      "score": 1,
+      "note": "2.56 pp lower"
+    },
+    {
+      "idx": 12,
+      "question_no": 13,
+      "question": "From May 19th to May 23rd, 2025, what was the closing price (unadjusted) of Tesla in the U.S. stock market that week? How much higher/lower was it than that of Amazon? Keep 2 decimal places.",
+      "gold_answer": "$339.34, which is $138.35 higher than that of Amazon.\nRounding errors are allowed.",
+      "score": 1,
+      "note": "339.34, +138.35 vs Amazon"
+    },
+    {
+      "idx": 13,
+      "question_no": 14,
+      "question": "What was the Nasdaq stock with the highest trading value for the week of May 19-23, 2025, and what were its weekly trading value (in billions of USD, to 2 decimal places) and weekly turnover rate (to 2 decimal places)?",
+      "gold_answer": "Tesla\nWeekly trading value: 172.67 billion USD\nWeekly turnover rate: 15.67%\nRounding errors are allowed.",
+      "score": 0,
+      "note": "Tesla + turnover 15.69~15.67 ok, but trading value 171.78 vs 172.67 off beyond rounding"
+    },
+    {
+      "idx": 14,
+      "question_no": 15,
+      "question": "What is the highest return on invested capital (TTM) of UnitedHealth in the past five years (from 2020 to 2024)? (Calculated based on quarterly reports\n, rounded to two decimal places)",
+      "gold_answer": "22.19%\nRounding errors are allowed.",
+      "score": 0,
+      "note": "ROIC 24.62%; gold 22.19% (definition mismatch)"
+    },
+    {
+      "idx": 15,
+      "question_no": 16,
+      "question": "In April 2025, what was the highest monthly stock price for Boeing (BA)? Compared to its lowest monthly stock price, what was the percentage increase? (Round the percentage to 2 decimal places; use non-adjusted stock prices.)",
+      "gold_answer": "$184.53, increased by 43.18% \nRounding errors are allowed.",
+      "score": 1,
+      "note": "184.53, 43.18%"
+    },
+    {
+      "idx": 16,
+      "question_no": 17,
+      "question": "What is the year-over-year growth rate (%) of Oracle's total assets\n for each fiscal year from 2020 to 2023 (using U.S. GAAP, rounded to two decimal places)?",
+      "gold_answer": "2020:6.19%\n2021:13.57%\n2022:-16.64%\n2023:22.95%\nRounding errors are allowed.",
+      "score": 1,
+      "note": "4-year Oracle growth table exact"
+    },
+    {
+      "idx": 17,
+      "question_no": 18,
+      "question": "Which stocks among Merck, TSMC (US-listed), Boeing, IBM, and Goldman Sachs had a positive monthly percentage change in April 2025? What are their security names and respective percentage changes (rounded to two decimal places)?",
+      "gold_answer": "TSMC: 0.42%\nBoeing: 7.44%\nGoldman Sachs: 0.23%\n(Rounding errors are allowed.)",
+      "score": 1,
+      "note": "TSMC 0.42 / Boeing 7.44 / Goldman 0.23 all exact"
+    },
+    {
+      "idx": 18,
+      "question_no": 19,
+      "question": "On April 27, 2025, among Merck, TSMC (US stock), Boeing, IBM, and Goldman Sachs Group, which stock had a negative Price-to-Earnings ratio (TTM)? What was its P/E ratio ( rounded to two decimal places)?",
+      "gold_answer": "Boeing: -11.51 (A margin error of 0.01 is allowed.)",
+      "score": 0,
+      "note": "Boeing -9.91; gold -11.51 (beyond 0.01 margin)"
+    },
+    {
+      "idx": 19,
+      "question_no": 20,
+      "question": "On April 27, 2025, among Merck, TSMC (US-listed), Boeing, IBM, and Goldman Sachs, which company's stock has the largest total market capitalization (calculated in the respective local currency and summed up)? What is the value? (Unit: billion USD, rounded to two decimal places)",
+      "gold_answer": "TSMC: 856.30 billion USD\nRounding errors are allowed.",
+      "score": 1,
+      "note": "TSMC 856.29 ~ 856.30"
+    }
+  ]
+}
