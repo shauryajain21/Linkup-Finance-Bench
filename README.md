@@ -16,8 +16,10 @@ contestant, and see where it lands.
 - **[`analysis/`](analysis/)** — deeper looks at specific harnesses:
   - [`you-com-harness-audit.md`](analysis/you-com-harness-audit.md) — fairness audit of You.com's `web-search-api-evals` + full comparator config matrix
   - [`comparator-matrix.html`](analysis/comparator-matrix.html) — the same config matrix as a visual reference
-- **[`finsearchcomp/`](finsearchcomp/)** — run plan + runners for FinSearchComp with Linkup, and results:
-  - [`RESULTS_T2.md`](finsearchcomp/RESULTS_T2.md) — full T2 Global: **96/119 = 80.7%** (→ 82.4% after [`RERUN.md`](finsearchcomp/RERUN.md))
-  - [`RESULTS_T3.md`](finsearchcomp/RESULTS_T3.md) — T3 (hard tier): **31/53 = 58.5%** graded (53 of 84 done)
+- **[`finsearchcomp/`](finsearchcomp/)** — run plan + runners for FinSearchComp with Linkup, and results.
+  **Full Global bench (203) complete with Linkup research (XL):**
+  - [`RESULTS_T2.md`](finsearchcomp/RESULTS_T2.md) — T2 (119): **96/119 = 80.7%** (→ 82.4% after [`RERUN.md`](finsearchcomp/RERUN.md))
+  - [`RESULTS_T3.md`](finsearchcomp/RESULTS_T3.md) — T3 (84): **49/84 = 58.3%**
+  - **Combined: 145/203 = 71.4%** · latency ~1 min (T2) / ~5 min (T3)
 
 More folders (runners, results) will be added as we start running them.

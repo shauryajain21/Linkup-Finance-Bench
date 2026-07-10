@@ -574,5 +574,173 @@
       "type": "research"
     },
     "submitted_ts": "2026-07-09T23:03:47"
+  },
+  {
+    "idx": 77,
+    "id": "9ccbe0f0-80d9-4178-90e0-ac62b688979a",
+    "question": "Please calculate how many US dollars of profit or loss (rounded to one decimal place) would be obtained by following these steps for three consecutive years starting from 2020: based on the BTC/USD quotes provided by the Binance exchange (using Beijing time as the trading time), buy 1 Bitcoin at the opening price on the first trading day of each year and sell it at the highest price on June 30th of the same year.",
+    "gold_answer": "A loss of $16,851.7\nA marginal error of 1% is allowed.",
+    "dataset_id": "b52c566b-d9b2-457e-9fb8-8625be6adb9f",
+    "submit_response": {
+      "createdAt": "2026-07-10T03:31:59.010Z",
+      "error": null,
+      "id": "9ccbe0f0-80d9-4178-90e0-ac62b688979a",
+      "status": "pending",
+      "updatedAt": "2026-07-10T03:31:59.010Z",
+      "input": {
+        "q": "Please calculate how many US dollars of profit or loss (rounded to one decimal place) would be obtained by following these steps for three consecutive years starting from 2020: based on the BTC/USD quotes provided by the Binance exchange (using Beijing time as the trading time), buy 1 Bitcoin at the opening price on the first trading day of each year and sell it at the highest price on June 30th of the same year.",
+        "toDate": "2026-07-10",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T23:31:59"
+  },
+  {
+    "idx": 78,
+    "id": "14d66ba4-103a-4085-902d-0ee57c634c77",
+    "question": "In 2023, among the newborns in the United States, Canada, and China, according to data from the Population Division of United Nations, which country has the lowest proportion of girls? What is the ratio of male to female newborns in that country to 100? (Round to one decimal place, for example, 123.4:100)",
+    "gold_answer": "China has the lowest proportion of girls.\nThe ratio of male to female newborns: 110.8:100\nA marginal error of 0.1:100 is allowed.",
+    "dataset_id": "62cbf27b-a539-46f0-92fd-6359d717610e",
+    "submit_response": {
+      "createdAt": "2026-07-10T03:31:59.720Z",
+      "error": null,
+      "id": "14d66ba4-103a-4085-902d-0ee57c634c77",
+      "status": "pending",
+      "updatedAt": "2026-07-10T03:31:59.720Z",
+      "input": {
+        "q": "In 2023, among the newborns in the United States, Canada, and China, according to data from the Population Division of United Nations, which country has the lowest proportion of girls? What is the ratio of male to female newborns in that country to 100? (Round to one decimal place, for example, 123.4:100)",
+        "toDate": "2026-07-10",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T23:31:59"
+  },
+  {
+    "idx": 79,
+    "id": "9854369f-d119-4cd6-94c9-b8208d60c559",
+    "question": "Today is July 24, 2024, and Tesla's (TSLA) stock price has fallen by 12%.\nDuring the period from January 1, 2024, to July 24, 2024, what was the most recent date (closest to July 24, 2024) when Tesla's stock price experienced a daily drop of more than 10%?\nHow many calander days are there between that date and July 24, 2024?\n(Please base calculations on non-adjusted prices.)",
+    "gold_answer": "Date: January 25, 2024\nDifference: 181 calander days",
+    "dataset_id": "23fbbdca-5fbc-4523-a1cc-5a05f53965ad",
+    "submit_response": {
+      "createdAt": "2026-07-10T03:32:00.486Z",
+      "error": null,
+      "id": "9854369f-d119-4cd6-94c9-b8208d60c559",
+      "status": "pending",
+      "updatedAt": "2026-07-10T03:32:00.486Z",
+      "input": {
+        "q": "Today is July 24, 2024, and Tesla's (TSLA) stock price has fallen by 12%.\nDuring the period from January 1, 2024, to July 24, 2024, what was the most recent date (closest to July 24, 2024) when Tesla's stock price experienced a daily drop of more than 10%?\nHow many calander days are there between that date and July 24, 2024?\n(Please base calculations on non-adjusted prices.)",
+        "toDate": "2026-07-10",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T23:32:00"
+  },
+  {
+    "idx": 80,
+    "id": "aaaf137f-3364-4f64-adfc-fdead27e36ec",
+    "question": "Summarize the top 3 US stocks by market capitalization listed on the NYSE for August 12, 2024 (US time), that had an unadjusted closing percentage gain of no more than 4%, sorted by this gain in ascending order.",
+    "gold_answer": "BRK_A-0.17%,\nBRK_B-0.30%,\nTSM-0.31%",
+    "dataset_id": "ebb07fe8-bc84-477d-b5af-f475bfe35e05",
+    "submit_response": {
+      "createdAt": "2026-07-10T03:32:01.248Z",
+      "error": null,
+      "id": "aaaf137f-3364-4f64-adfc-fdead27e36ec",
+      "status": "pending",
+      "updatedAt": "2026-07-10T03:32:01.248Z",
+      "input": {
+        "q": "Summarize the top 3 US stocks by market capitalization listed on the NYSE for August 12, 2024 (US time), that had an unadjusted closing percentage gain of no more than 4%, sorted by this gain in ascending order.",
+        "toDate": "2026-07-10",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T23:32:01"
+  },
+  {
+    "idx": 81,
+    "id": "b37de0af-5991-4ff3-a0fd-736b8cfacc1c",
+    "question": "Assuming that when Dr. Kaiming He graduated, Microsoft (MSFT) granted him $10M worth of stock at the lowest closing price of that year (non-adjusted for splits), what is the maximum number of Microsoft shares he could have received? Round the answer to the nearest whole number.",
+    "gold_answer": "421,852 shares. \nA marginal error of 10 shares is allowed.",
+    "dataset_id": "593aa3b0-ba83-468e-8bdf-cdb1c7b218f9",
+    "submit_response": {
+      "createdAt": "2026-07-10T03:32:02.056Z",
+      "error": null,
+      "id": "b37de0af-5991-4ff3-a0fd-736b8cfacc1c",
+      "status": "pending",
+      "updatedAt": "2026-07-10T03:32:02.056Z",
+      "input": {
+        "q": "Assuming that when Dr. Kaiming He graduated, Microsoft (MSFT) granted him $10M worth of stock at the lowest closing price of that year (non-adjusted for splits), what is the maximum number of Microsoft shares he could have received? Round the answer to the nearest whole number.",
+        "toDate": "2026-07-10",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T23:32:02"
+  },
+  {
+    "idx": 82,
+    "id": "a6ac3678-a6f5-43f2-9962-4e808db4db61",
+    "question": "Among the East Asian countries except North Korea, from the year when the COVID - 19 virus emerged to the year when the first Olympic Games were held after the emergence of the COVID - 19 virus, what is the sum of the values of the international telephone area codes of the country with the largest increase rate and the country with the smallest increase rate in per capita GDP? (The per capita GDP is based on the current - price US dollar data of the World Bank and is in US dollars; the international telephone area code of China is based on that of the Chinese mainland.)",
+    "gold_answer": "167",
+    "dataset_id": "df6360ae-d5a6-4719-81c9-5da06b46024d",
+    "submit_response": {
+      "createdAt": "2026-07-10T03:32:02.763Z",
+      "error": null,
+      "id": "a6ac3678-a6f5-43f2-9962-4e808db4db61",
+      "status": "pending",
+      "updatedAt": "2026-07-10T03:32:02.763Z",
+      "input": {
+        "q": "Among the East Asian countries except North Korea, from the year when the COVID - 19 virus emerged to the year when the first Olympic Games were held after the emergence of the COVID - 19 virus, what is the sum of the values of the international telephone area codes of the country with the largest increase rate and the country with the smallest increase rate in per capita GDP? (The per capita GDP is based on the current - price US dollar data of the World Bank and is in US dollars; the international telephone area code of China is based on that of the Chinese mainland.)",
+        "toDate": "2026-07-10",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T23:32:02"
+  },
+  {
+    "idx": 83,
+    "id": "9e9b7a42-37d5-4b77-ae7b-fcfab2d124c1",
+    "question": "How many dollars did Apple's (AAPL) stock price (unadjusted) open higher (or lower) the day after Samsung's launch event for its first consumer-available foldable smartphone in San Francisco? (Calculate the difference between the opening price on the next day and the closing price on the day of the event, accurate to two decimal places, using local time for each.)",
+    "gold_answer": "$0.23 lower",
+    "dataset_id": "0d16f328-7945-4364-8cb3-4976c315a816",
+    "submit_response": {
+      "createdAt": "2026-07-10T03:32:03.454Z",
+      "error": null,
+      "id": "9e9b7a42-37d5-4b77-ae7b-fcfab2d124c1",
+      "status": "pending",
+      "updatedAt": "2026-07-10T03:32:03.454Z",
+      "input": {
+        "q": "How many dollars did Apple's (AAPL) stock price (unadjusted) open higher (or lower) the day after Samsung's launch event for its first consumer-available foldable smartphone in San Francisco? (Calculate the difference between the opening price on the next day and the closing price on the day of the event, accurate to two decimal places, using local time for each.)",
+        "toDate": "2026-07-10",
+        "mode": "answer",
+        "outputType": "sourcedAnswer",
+        "reasoningDepth": "XL"
+      },
+      "output": null,
+      "type": "research"
+    },
+    "submitted_ts": "2026-07-09T23:32:03"
   }
 ]

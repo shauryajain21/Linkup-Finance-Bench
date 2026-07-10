@@ -1,0 +1,201 @@
+{
+  "dataset": "fin_search_comp_t3_global",
+  "judge": "manual (Claude) vs FinSearchComp rubric",
+  "final_31": {
+    "n": 31,
+    "score": 18
+  },
+  "complete_t3": {
+    "n": 84,
+    "score": 49,
+    "accuracy": 0.5833333333333334
+  },
+  "graded": [
+    {
+      "idx": 52,
+      "question_no": 53,
+      "score": 1,
+      "note": "Walmart goodwill delta -901 \u2014 exact"
+    },
+    {
+      "idx": 54,
+      "question_no": 55,
+      "score": 1,
+      "note": "AMD post-announcement change 4.47% \u2014 exact"
+    },
+    {
+      "idx": 55,
+      "question_no": 56,
+      "score": 0,
+      "note": "top-3 S&P gainers: added PLTR, missed GEV (vs VST/UAL/GEV)"
+    },
+    {
+      "idx": 56,
+      "question_no": 57,
+      "score": 0,
+      "note": "Google trading value 7.31B vs 7.34B (volume 4589 ok)"
+    },
+    {
+      "idx": 57,
+      "question_no": 58,
+      "score": 0,
+      "note": "5th-by-net-income Meta vs gold MSFT"
+    },
+    {
+      "idx": 58,
+      "question_no": 59,
+      "score": 0,
+      "note": "ASX open/close/change all wrong"
+    },
+    {
+      "idx": 59,
+      "question_no": 60,
+      "score": 1,
+      "note": "AMD 2022Q3 42% + Intel 42.6% \u2014 within rounding"
+    },
+    {
+      "idx": 60,
+      "question_no": 61,
+      "score": 0,
+      "note": "growth filter: only ORLY (missed CHKP)"
+    },
+    {
+      "idx": 61,
+      "question_no": 62,
+      "score": 1,
+      "note": "JGB 1y yield quarter ordering Q4>Q3>Q2>Q1 \u2014 exact"
+    },
+    {
+      "idx": 62,
+      "question_no": 63,
+      "score": 0,
+      "note": "US fixed-asset investment 13.13% vs 6.51%"
+    },
+    {
+      "idx": 63,
+      "question_no": 64,
+      "score": 0,
+      "note": "UK CO2 emissions values off (years right)"
+    },
+    {
+      "idx": 64,
+      "question_no": 65,
+      "score": 1,
+      "note": "COVID market-cap growth 61.92% ~ 61.95%"
+    },
+    {
+      "idx": 65,
+      "question_no": 66,
+      "score": 1,
+      "note": "Tesla-day Nvidia/Apple/Tesla moves \u2014 all exact"
+    },
+    {
+      "idx": 66,
+      "question_no": 67,
+      "score": 0,
+      "note": "price-fluctuation dates/values off"
+    },
+    {
+      "idx": 67,
+      "question_no": 68,
+      "score": 0,
+      "note": "SPBTC prices not provided (paywalled)"
+    },
+    {
+      "idx": 68,
+      "question_no": 69,
+      "score": 0,
+      "note": "VIX peak wrong date (Aug 2024 vs Apr 2025)"
+    },
+    {
+      "idx": 69,
+      "question_no": 70,
+      "score": 1,
+      "note": "20-day volatility spread 253.97 \u2014 exact"
+    },
+    {
+      "idx": 70,
+      "question_no": 71,
+      "score": 1,
+      "note": "Apple split day -$371.65, 4:1 \u2014 exact"
+    },
+    {
+      "idx": 71,
+      "question_no": 72,
+      "score": 1,
+      "note": "BofA 0.58% / WF -0.21% + magnitude \u2014 exact"
+    },
+    {
+      "idx": 72,
+      "question_no": 73,
+      "score": 1,
+      "note": "Boeing -0.62% / Lockheed +0.32% \u2014 exact"
+    },
+    {
+      "idx": 73,
+      "question_no": 74,
+      "score": 1,
+      "note": "London gold >$80 drop: all 5 dates correct"
+    },
+    {
+      "idx": 74,
+      "question_no": 75,
+      "score": 1,
+      "note": "S&P largest month April 2020 12.68% \u2014 exact"
+    },
+    {
+      "idx": 75,
+      "question_no": 76,
+      "score": 0,
+      "note": "NASDAQ market-cap list: several values off + GOOG/GOOGL merged"
+    },
+    {
+      "idx": 76,
+      "question_no": 77,
+      "score": 1,
+      "note": "lowest GDP/capita Europe: Ukraine \u2014 exact"
+    },
+    {
+      "idx": 77,
+      "question_no": 78,
+      "score": 1,
+      "note": "BTC strategy P&L -16,845 ~ -16,851.7 (within 1%)"
+    },
+    {
+      "idx": 78,
+      "question_no": 79,
+      "score": 1,
+      "note": "China sex ratio 110.8:100 \u2014 exact"
+    },
+    {
+      "idx": 79,
+      "question_no": 80,
+      "score": 1,
+      "note": "date Jan 25 2024 + 181 calendar days \u2014 exact"
+    },
+    {
+      "idx": 80,
+      "question_no": 81,
+      "score": 0,
+      "note": "NYSE top-3 gainers LLY/JPM vs gold BRK.A/TSM"
+    },
+    {
+      "idx": 81,
+      "question_no": 82,
+      "score": 0,
+      "note": "MSFT shares 421,763 vs 421,852 (89 off, 10-share margin)"
+    },
+    {
+      "idx": 82,
+      "question_no": 83,
+      "score": 1,
+      "note": "East Asia code sum 167 \u2014 exact"
+    },
+    {
+      "idx": 83,
+      "question_no": 84,
+      "score": 1,
+      "note": "Apple open vs Samsung event -$0.23 \u2014 exact"
+    }
+  ]
+}

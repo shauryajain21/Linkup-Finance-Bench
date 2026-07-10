@@ -3,9 +3,14 @@
 How we'd run the [FinSearchComp](https://arxiv.org/abs/2509.13160) financial-search
 benchmark with Linkup as a contestant.
 
-> ✅ **T2 (full 119):** Linkup research (XL) scored **96/119 = 80.7%** ([`RESULTS_T2.md`](RESULTS_T2.md));
-> re-run of the 23 misses lifts it to **82.4%** ([`RERUN.md`](RERUN.md)). Pilot was 20/20 ([`SMOKE_TEST.md`](SMOKE_TEST.md)).
-> ✅ **T3 (hard tier):** **31/53 = 58.5%** graded so far ([`RESULTS_T3.md`](RESULTS_T3.md); smoke detail in [`T3_SMOKE.md`](T3_SMOKE.md)). 31 of 84 still to run.
+> ## Full-bench results — Linkup research (XL), FinSearchComp Global (203 questions)
+> | Tier | Score | |
+> |---|---|---|
+> | **T2** (simple lookup, 119) | **96/119 = 80.7%** | → 82.4% after re-running misses ([`RERUN.md`](RERUN.md)) · [`RESULTS_T2.md`](RESULTS_T2.md) |
+> | **T3** (complex, 84) | **49/84 = 58.3%** | [`RESULTS_T3.md`](RESULTS_T3.md) |
+> | **Combined (203)** | **145/203 = 71.4%** | (147/203 = 72.4% with T2 best-of-both) |
+>
+> Latency (server-side, accurate): **T2 ~1 min**, **T3 ~5 min** median. Judge is numeric (T2) / manual (T3) — a `gpt-5-mini` re-grade would firm up the exact %.
 > Runners: `run_t2_research_xl.py`, `run_t2_research_xl_batch.py` (`--csv`/`--indices`), `grade_stored.py`.
 
 ## The benchmark
