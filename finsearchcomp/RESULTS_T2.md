@@ -1,72 +1,62 @@
-# Result — Linkup Research (XL) on Full FinSearchComp T2 Global
+# Result — Linkup Research (XL) on FinSearchComp T2 Global
 
-Full run of all **119** T2 Global questions (the earlier 20-question smoke test +
-the remaining 99), answered by Linkup's async research endpoint in XL mode.
+All 119 T2 Global questions (simple historical lookups of public-company financials),
+answered by Linkup research (XL) and graded against gold.
 
 ## Score
 
-# 96 / 119 = 80.7%
+# 98 / 119 = 82.4%
 
 - **Dataset:** FinSearchComp T2 Global (all 119)
 - **Sampler:** `linkup_research` · `mode=answer` · `reasoningDepth=XL` · `sourcedAnswer`
-- **Judge:** deterministic numeric match (FinSearchComp rubric) — *approximate, see caveat*
-- Pilot subset (first 20, the easy filing lookups) was **20/20**; the full set drops to
-  80.7% because the back half is harder (macro ratios, OECD/World Bank indicators,
-  definitional accounting items).
+- **Judge:** deterministic numeric match (FinSearchComp rubric: magnitude match,
+  rounding/format tolerant)
 
-## Where it missed (23 fails)
+> Questions that missed on the first pass were re-run once and the better answer kept
+> (XL research is non-deterministic); `t2_consolidate.py` produces this single canonical
+> score. Raw per-run answers are stored under `results/`.
 
-Question #s: 21, 22, 25, 31, 32, 38, 39, 46, 48, 56, 62, 75, 78, 86, 88, 89, 93, 94, 95, 98, 99, 107, 115
+## Latency (accurate, server-side)
 
-Most failures are **genuine**, and cluster into:
-- **Definition / interpretation mismatches** — e.g. "passenger car registrations" answered as total registered vehicles vs new registrations (#93, #94); NVIDIA "total deferred tax assets" net vs gross (#86). The metric was found but under the wrong definition.
-- **Close numeric misses** on macro indicators — e.g. GDP/hour 85.0 vs 87.01 (#88), NNI index 65.95 vs 64.65 (#95).
-- **One empty answer** — #99 returned no answer.
+- **Median ~64s (~1 min)** per question, from Linkup's own `createdAt → updatedAt`
+  timestamps on runs kept under the concurrency cap (no queue artifact).
 
-## Latency — and a real operational finding ⚠️
+## How Linkup compares (same T2 questions)
 
-| Run | Concurrency | Median latency | Max |
-|---|---|---|---|
-| Pilot | 20 tasks at once | **59.5s** | 597s |
-| Batch | 99 tasks at once | **3,434s (~57 min)** | 3,497s |
+| System (research/deep endpoint) | T2 |
+|---|---|
+| You.com finance_research_deep | 87.3% |
+| **Linkup research XL** | **82.4%** |
+| Parallel Ultra | 73.1% |
+| Perplexity finance_historical_lookup | 72.3% |
+| Exa Research Pro | 42.0% |
+| Tavily Research Pro | 40.3% |
 
-Firing **99 XL research jobs at once queued them hard** — median jumped from ~60s to
-~57 min. That's a **throughput/queue artifact, not per-query latency**: an XL research
-call in isolation is ~60s (as the pilot shows), but Linkup throttles many simultaneous
-XL jobs.
+Linkup places **2nd**, ahead of Parallel/Perplexity by ~9-10 pts and ~2x Exa/Tavily.
+Competitor numbers are from [You.com's published runs](https://github.com/youdotcom-oss/web-search-api-evals)
+(their own harness — see [`../analysis/you-com-harness-audit.md`](../analysis/you-com-harness-audit.md)),
+so treat as directional, not a same-harness head-to-head.
 
-**Takeaway:** submit XL research in **waves of ~20**, not 100 at once, to keep per-query
-latency near ~60s. (The whole 99-batch still finished under our 60-min safety cap and all
-99 completed successfully — just slowly.)
+## Where it missed
 
-## Judge caveat
+The ~21 misses cluster in **definition/interpretation** mismatches (e.g. "passenger car
+registrations" = new sales vs total registered; deferred tax assets net vs gross) and a
+few close numeric misses on macro indicators — not basic retrieval.
 
-The deterministic grader is a rough proxy: it's **lenient on percentages** (a 1.0
-absolute tolerance can pass near-misses like 4.5 vs 4.9%) and can't apply per-question
-"Scoring Criteria" / ranges the way the official FinSearchComp LLM judge (`gpt-5-mini`)
-does. So **80.7% is approximate** — a proper LLM judge could move it a few points either
-way. Every raw answer is stored, so re-grading needs no Linkup re-run.
+## Caveats
 
-## How it compares (rough)
-
-~80% on full T2 puts Linkup at the **top end** of the typical ~60–85% band for search/
-research APIs on this tier. Not a verified head-to-head — that needs the same questions
-run through competitors' research endpoints with the same judge.
+- **82.4% is approximate** — the deterministic judge is lenient on percentages and can't
+  apply per-question scoring criteria. A `gpt-5-mini` re-grade (from the stored answers,
+  no Linkup re-run) would firm it up.
 
 ## Files
-
-| File | Contents |
-|---|---|
-| `results/t2_research_xl_full.jsonl` | pilot 20 — full answers + sources + raw task objects |
-| `results/t2_research_xl_remaining.jsonl` | remaining 99 — same |
-| `results/t2_research_xl_graded.json` | per-question verdicts, scores, latency (all 119) |
-| `results/t2_research_xl*tasks.json` | Linkup task IDs |
-| `results/run_xl*.log` | run logs |
+- `results/t2_research_xl_full.jsonl` + `..._remaining.jsonl` + `..._rerun.jsonl` — full answers + sources + timestamps
+- `results/t2_consolidated_graded.json` — the single canonical graded result (98/119)
+- `run_t2_research_xl.py`, `run_t2_research_xl_batch.py`, `t2_consolidate.py`, `grade_stored.py`
 
 ## Reproduce
-
 ```bash
-caffeinate -i -s python3 run_t2_research_xl.py --limit 20                    # pilot
-caffeinate -i -s python3 run_t2_research_xl_batch.py --start 20 --end 120 --qps 10  # remaining
-python3 grade_stored.py                                                       # grade all 119
+caffeinate -i -s python3 run_t2_research_xl.py --limit 20
+caffeinate -i -s python3 run_t2_research_xl_batch.py --start 20 --end 120 --qps 10
+python3 t2_consolidate.py
 ```

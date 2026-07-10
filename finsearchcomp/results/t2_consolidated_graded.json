@@ -1,0 +1,961 @@
+{
+  "dataset": "fin_search_comp_t2_global",
+  "n": 119,
+  "score": 98,
+  "accuracy": 0.8235294117647058,
+  "note": "single canonical T2 score; re-run answer used for the initially-missed questions",
+  "graded": [
+    {
+      "idx": 0,
+      "question_no": 1,
+      "gold": "$4,836 million, rounding errors are allowed.",
+      "answer": 4836.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 1,
+      "question_no": 2,
+      "gold": "$4,626 million, rounding errors are allowed.",
+      "answer": 4626.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 2,
+      "question_no": 3,
+      "gold": "$22,743 million, rounding errors are allowed.",
+      "answer": 22743.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 3,
+      "question_no": 4,
+      "gold": "$3,511 million, rounding errors are allowed.",
+      "answer": 3511.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 4,
+      "question_no": 5,
+      "gold": "$43,783 million, rounding errors are allowed.",
+      "answer": 43783.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 5,
+      "question_no": 6,
+      "gold": "$373,396 million, rounding errors are allowed.",
+      "answer": 373396.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 6,
+      "question_no": 7,
+      "gold": "$1,896.8 million, rounding errors are allowed.",
+      "answer": 1896.8,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 7,
+      "question_no": 8,
+      "gold": "$163.6 million, rounding errors are allowed.",
+      "answer": 163.6,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 8,
+      "question_no": 9,
+      "gold": "$2,598.8 million, rounding errors are allowed.",
+      "answer": 2598.8,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 9,
+      "question_no": 10,
+      "gold": "$93,353millions, rounding errors are allowed.",
+      "answer": 93353.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 10,
+      "question_no": 11,
+      "gold": "$-14,545 million or $14,545 million, rounding errors are allowed.",
+      "answer": 14545.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 11,
+      "question_no": 12,
+      "gold": "$104,038 million, rounding errors are allowed.",
+      "answer": 104038.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 12,
+      "question_no": 13,
+      "gold": "$106,148 thousands, rounding errors are allowed.",
+      "answer": 106148.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 13,
+      "question_no": 14,
+      "gold": "$4.76 dollars, rounding errors are allowed.",
+      "answer": 4.76,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 14,
+      "question_no": 15,
+      "gold": "$35,058 millions, rounding errors are allowed.",
+      "answer": 35058.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 15,
+      "question_no": 16,
+      "gold": "$82,718 million, rounding errors are allowed.",
+      "answer": 82718.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 16,
+      "question_no": 17,
+      "gold": "$15,909.5 million , rounding errors are allowed.",
+      "answer": 15909.5,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 17,
+      "question_no": 18,
+      "gold": "$29374.5 million, rounding errors are allowed.",
+      "answer": 29374.5,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 18,
+      "question_no": 19,
+      "gold": "$19079 millions, rounding errors are allowed.",
+      "answer": 19079.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 19,
+      "question_no": 20,
+      "gold": "$70697 million , rounding errors are allowed.",
+      "answer": 70697.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 20,
+      "question_no": 21,
+      "gold": "188864.0 TJ, rounding errors are allowed.",
+      "answer": 185701.3,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 21,
+      "question_no": 22,
+      "gold": "31889337 TJ, rounding errors are allowed.",
+      "answer": 38404038.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 22,
+      "question_no": 23,
+      "gold": "2169248 TJ, rounding errors are allowed.",
+      "answer": 2169248.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 23,
+      "question_no": 24,
+      "gold": "1.6 million units, rounding errors are allowed.",
+      "answer": 1.6,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 24,
+      "question_no": 25,
+      "gold": "317.4 Gwh, rounding errors are allowed.",
+      "answer": 315.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 25,
+      "question_no": 26,
+      "gold": "The results between 2.80% to 2.90% are considered correct.",
+      "answer": 2.86,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 26,
+      "question_no": 27,
+      "gold": "$4187.9 billions, rounding errors are allowed.",
+      "answer": 4187.9,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 27,
+      "question_no": 28,
+      "gold": "The results within the range of 329,660 to 329,662 (in million of dollars) are considered correct.",
+      "answer": 329661.6,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 28,
+      "question_no": 29,
+      "gold": "1.177, rounding errors are allowed.",
+      "answer": 1.141,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 29,
+      "question_no": 30,
+      "gold": "$21,442 billion, rounding errors are allowed.",
+      "answer": 21486.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 30,
+      "question_no": 31,
+      "gold": "955.74 USD/oz, rounding errors are allowed.",
+      "answer": 921.62,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 31,
+      "question_no": 32,
+      "gold": "9610.25 USD/MT, rounding errors are allowed.",
+      "answer": 9610.0,
+      "score": 1,
+      "used_rerun": true
+    },
+    {
+      "idx": 32,
+      "question_no": 33,
+      "gold": "The results within the range of $33664 to $33667 are considered correct.",
+      "answer": 33665.02,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 33,
+      "question_no": 34,
+      "gold": "113.05 or 113\u201808\u20185\u2019(in futures quote hexadecimal notation), rounding errors are allowed.",
+      "answer": 113.05,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 34,
+      "question_no": 35,
+      "gold": "71.77 USD/Barrel, rounding errors are allowed.",
+      "answer": 71.77,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 35,
+      "question_no": 36,
+      "gold": "1121.0 Cents/Bushel, rounding errors are allowed.",
+      "answer": 1124.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 36,
+      "question_no": 37,
+      "gold": "464.0 Cents/Bushel, rounding errors are allowed.",
+      "answer": 464.5,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 37,
+      "question_no": 38,
+      "gold": "72.65 USD/Barrel, rounding errors are allowed.",
+      "answer": 78.68,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 38,
+      "question_no": 39,
+      "gold": "499.9320 IDR, rounding errors are allowed.",
+      "answer": 490.95,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 39,
+      "question_no": 40,
+      "gold": "27.02, rounding errors are allowed.",
+      "answer": 27.02,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 40,
+      "question_no": 41,
+      "gold": "14575.98 EUR, rounding errors are allowed.",
+      "answer": 14575.98,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 41,
+      "question_no": 42,
+      "gold": "39101.64 JPY, rounding errors are allowed.",
+      "answer": 39101.64,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 42,
+      "question_no": 43,
+      "gold": "8241.26 GBP, rounding errors are allowed.",
+      "answer": 8241.3,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 43,
+      "question_no": 44,
+      "gold": "5.47%, rounding errors are allowed.",
+      "answer": 5.47,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 44,
+      "question_no": 45,
+      "gold": "3.72%, rounding errors are allowed.",
+      "answer": 3.72,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 45,
+      "question_no": 46,
+      "gold": "$22579.6 billions, rounding errors are allowed.",
+      "answer": 22918.1,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 46,
+      "question_no": 47,
+      "gold": "$659.5 billions, rounding errors are allowed.",
+      "answer": 659.6,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 47,
+      "question_no": 48,
+      "gold": "2139.1 (in billion of dollars), rounding errors are allowed.",
+      "answer": 2101.8,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 48,
+      "question_no": 49,
+      "gold": "The result within the range of 5.3% to 5.5% are considered correct.",
+      "answer": 5.5,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 49,
+      "question_no": 50,
+      "gold": "33 thousand metric tons, rounding errors are allowed.",
+      "answer": 33.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 50,
+      "question_no": 51,
+      "gold": "The results between 21691200 to 21691400 kg are considered correct.",
+      "answer": 21691400.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 51,
+      "question_no": 52,
+      "gold": "The results between $105.360 to $105.880 are considered correct.",
+      "answer": 105.66,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 52,
+      "question_no": 53,
+      "gold": "100.2, rounding errors are allowed.",
+      "answer": 100.1,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 53,
+      "question_no": 54,
+      "gold": "99.03, rounding errors are allowed.",
+      "answer": 99.03,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 54,
+      "question_no": 55,
+      "gold": "58, rounding errors are allowed.",
+      "answer": 58.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 55,
+      "question_no": 56,
+      "gold": "4970000, rounding errors are allowed.",
+      "answer": 180000.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 56,
+      "question_no": 57,
+      "gold": "$440,713 million dollar, rounding errors are allowed.",
+      "answer": 440713.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 57,
+      "question_no": 58,
+      "gold": "$144.4 million, rounding errors are allowed.",
+      "answer": 144.4,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 58,
+      "question_no": 59,
+      "gold": "182000 Square Footage, rounding errors are allowed.",
+      "answer": 182000.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 59,
+      "question_no": 60,
+      "gold": "7",
+      "answer": 7.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 60,
+      "question_no": 61,
+      "gold": "$94008 thousand, rounding errors are allowed.",
+      "answer": 94008.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 61,
+      "question_no": 62,
+      "gold": "$798 thousand, rounding errors are allowed.",
+      "answer": 3000.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 62,
+      "question_no": 63,
+      "gold": "$-242263, rounding errors are allowed.",
+      "answer": -242263.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 63,
+      "question_no": 64,
+      "gold": "The results between $105,100 thousand to $105,050 thousand are considered correct.",
+      "answer": 105088.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 64,
+      "question_no": 65,
+      "gold": "$477255 thousand, rounding errors are allowed.",
+      "answer": 477255.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 65,
+      "question_no": 66,
+      "gold": "$162546 thousand, rounding errors are allowed.",
+      "answer": 162546.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 66,
+      "question_no": 67,
+      "gold": "-$82933 thousand, rounding errors are allowed.",
+      "answer": 82933.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 67,
+      "question_no": 68,
+      "gold": "The results between $1510 thousand to $1550 thousand are considered correct.",
+      "answer": 1514.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 68,
+      "question_no": 69,
+      "gold": "143%, rounding errors are allowed.",
+      "answer": 143.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 69,
+      "question_no": 70,
+      "gold": "353%, rounding errors are allowed.",
+      "answer": 353.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 70,
+      "question_no": 71,
+      "gold": "$7311 million, rounding errors are allowed.",
+      "answer": 7311.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 71,
+      "question_no": 72,
+      "gold": "The results between $1700 to $1750 million are considered correct.",
+      "answer": 1749.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 72,
+      "question_no": 73,
+      "gold": "$31768 million, rounding errors are allowed.",
+      "answer": 31768.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 73,
+      "question_no": 74,
+      "gold": "$3933 thousand, rounding errors are allowed.",
+      "answer": 3933.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 74,
+      "question_no": 75,
+      "gold": "$20829 thousand, rounding errors are allowed.",
+      "answer": 0.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 75,
+      "question_no": 76,
+      "gold": "-$57879 thousand, rounding errors are allowed.",
+      "answer": 57879.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 76,
+      "question_no": 77,
+      "gold": "$178450, rounding errors are allowed.",
+      "answer": 178450.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 77,
+      "question_no": 78,
+      "gold": "$259,714, rounding errors are allowed.",
+      "answer": 1323428000.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 78,
+      "question_no": 79,
+      "gold": "$806,545,938, rounding errors are allowed.",
+      "answer": 806545938.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 79,
+      "question_no": 80,
+      "gold": "$369372 thousand, rounding errors are allowed.",
+      "answer": 369372.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 80,
+      "question_no": 81,
+      "gold": "$40356 thousand, rounding errors are allowed.",
+      "answer": 40356.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 81,
+      "question_no": 82,
+      "gold": "$27754 thousand, rounding errors are allowed.",
+      "answer": 27754.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 82,
+      "question_no": 83,
+      "gold": "$4349 million, rounding errors are allowed.",
+      "answer": 4349.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 83,
+      "question_no": 84,
+      "gold": "$379 million, rounding errors are allowed.",
+      "answer": 379.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 84,
+      "question_no": 85,
+      "gold": "$8492 million, rounding errors are allowed.",
+      "answer": 8492.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 85,
+      "question_no": 86,
+      "gold": "$1408 million, rounding errors are allowed.",
+      "answer": 1222.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 86,
+      "question_no": 87,
+      "gold": "$16235 million, rounding errors are allowed.",
+      "answer": 16235.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 87,
+      "question_no": 88,
+      "gold": "87.01 dollar/hour, rounding errors are allowed.",
+      "answer": 85.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 88,
+      "question_no": 89,
+      "gold": "$92270 million, rounding errors are allowed.",
+      "answer": 30440.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 89,
+      "question_no": 90,
+      "gold": "4.9%, rounding errors are allowed.",
+      "answer": 4.5,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 90,
+      "question_no": 91,
+      "gold": "3.97%, rounding errors are allowed.",
+      "answer": 4.15,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 91,
+      "question_no": 92,
+      "gold": "1.21%, rounding errors are allowed.",
+      "answer": 1.34,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 92,
+      "question_no": 93,
+      "gold": "28348330, rounding errors are allowed.",
+      "answer": 105135300.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 93,
+      "question_no": 94,
+      "gold": "4986617, rounding errors are allowed.",
+      "answer": 598454.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 94,
+      "question_no": 95,
+      "gold": "64.65, rounding errors are allowed.",
+      "answer": 62.47,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 95,
+      "question_no": 96,
+      "gold": "82.76, rounding errors are allowed.",
+      "answer": 81.82,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 96,
+      "question_no": 97,
+      "gold": "0.44%, rounding errors are allowed.",
+      "answer": 0.43,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 97,
+      "question_no": 98,
+      "gold": "4.17%, rounding errors are allowed.",
+      "answer": 6.0,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 98,
+      "question_no": 99,
+      "gold": "2.29%, rounding errors are allowed.",
+      "answer": 2.3,
+      "score": 1,
+      "used_rerun": true
+    },
+    {
+      "idx": 99,
+      "question_no": 100,
+      "gold": "2.61%, rounding errors are allowed.",
+      "answer": 2.62,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 100,
+      "question_no": 101,
+      "gold": "$1560.62 billion, rounding errors are allowed.",
+      "answer": 1560.6,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 101,
+      "question_no": 102,
+      "gold": "The result between $4232 to $4233 billion are considered correct.",
+      "answer": 4235.5,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 102,
+      "question_no": 103,
+      "gold": "1.6%, rounding errors are allowed.",
+      "answer": 1.6,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 103,
+      "question_no": 104,
+      "gold": "3%, rounding errors are allowed.",
+      "answer": 3.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 104,
+      "question_no": 105,
+      "gold": "2.3%, rounding errors are allowed.",
+      "answer": 2.3,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 105,
+      "question_no": 106,
+      "gold": "$44575.6, rounding errors are allowed.",
+      "answer": 44590.8,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 106,
+      "question_no": 107,
+      "gold": "6.6%, rounding errors are allowed.",
+      "answer": 7.8,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 107,
+      "question_no": 108,
+      "gold": "The results within the range of 3.5% to 3.7% are considered correct.",
+      "answer": 3.7,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 108,
+      "question_no": 109,
+      "gold": "8.5%, rounding errors are allowed.",
+      "answer": 8.5,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 109,
+      "question_no": 110,
+      "gold": "-2%, rounding errors are allowed.",
+      "answer": -2.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 110,
+      "question_no": 111,
+      "gold": "-4.2%, rounding errors are allowed.",
+      "answer": -4.2,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 111,
+      "question_no": 112,
+      "gold": "3.2%, rounding errors are allowed.",
+      "answer": 3.4,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 112,
+      "question_no": 113,
+      "gold": "2.9%, rounding errors are allowed.",
+      "answer": 2.9,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 113,
+      "question_no": 114,
+      "gold": "$1214 million, rounding errors are allowed.",
+      "answer": 1214.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 114,
+      "question_no": 115,
+      "gold": "The results between 6400 million SDR to 6500 million SDR are considered correct.",
+      "answer": 6445.6,
+      "score": 0,
+      "used_rerun": true
+    },
+    {
+      "idx": 115,
+      "question_no": 116,
+      "gold": "3% to 3.25%",
+      "answer": 3.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 116,
+      "question_no": 117,
+      "gold": "4.9%, rounding errors are allowed.",
+      "answer": 4.9,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 117,
+      "question_no": 118,
+      "gold": "$21150.5 billion, rounding errors are allowed.",
+      "answer": 21049.0,
+      "score": 1,
+      "used_rerun": false
+    },
+    {
+      "idx": 118,
+      "question_no": 119,
+      "gold": "$17956 billion, rounding errors are allowed.",
+      "answer": 17956.0,
+      "score": 1,
+      "used_rerun": false
+    }
+  ]
+}

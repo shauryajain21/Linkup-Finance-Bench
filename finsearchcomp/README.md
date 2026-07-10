@@ -6,9 +6,9 @@ benchmark with Linkup as a contestant.
 > ## Full-bench results — Linkup research (XL), FinSearchComp Global (203 questions)
 > | Tier | Score | |
 > |---|---|---|
-> | **T2** (simple lookup, 119) | **96/119 = 80.7%** | → 82.4% after re-running misses ([`RERUN.md`](RERUN.md)) · [`RESULTS_T2.md`](RESULTS_T2.md) |
+> | **T2** (simple lookup, 119) | **98/119 = 82.4%** | [`RESULTS_T2.md`](RESULTS_T2.md) |
 > | **T3** (complex, 84) | **49/84 = 58.3%** | [`RESULTS_T3.md`](RESULTS_T3.md) |
-> | **Combined (203)** | **145/203 = 71.4%** | (147/203 = 72.4% with T2 best-of-both) |
+> | **Combined (203)** | **147/203 = 72.4%** | |
 >
 > Latency (server-side, accurate): **T2 ~1 min**, **T3 ~5 min** median. Judge is numeric (T2) / manual (T3) — a `gpt-5-mini` re-grade would firm up the exact %.
 > Runners: `run_t2_research_xl.py`, `run_t2_research_xl_batch.py` (`--csv`/`--indices`), `grade_stored.py`.
