@@ -1,0 +1,47 @@
+Running 31 questions | Linkup research XL | 2 wave(s) of <= 24 | 10.0 QPS
+(waves keep concurrency under the cap so latency stays clean)
+
+--- wave 1/2 (24 questions) ---
+  submitted idx=052 id=8f422280-af22-4049-9735-f9c767f0040a
+  submitted idx=054 id=7991b942-64c0-4a43-bea4-4dbb5d9060e6
+  submitted idx=055 id=9ddf34ee-b962-4b09-9ec8-8fd7cfa5fd51
+  submitted idx=056 id=620b29df-00ee-4d1a-b59f-2c0b4ad0b22c
+  submitted idx=057 id=5dcaba3a-acbf-4696-b541-aea85b914471
+  submitted idx=058 id=10c90e1d-efea-4ea5-a5e2-d345c17c1675
+  submitted idx=059 id=5ccb1a18-81cf-4c7e-b398-66bddb53a9e7
+  submitted idx=060 id=d265fe03-6a0a-4478-8f73-2ee09626f81c
+  submitted idx=061 id=5c6c4c29-09c1-45ab-92c7-efdfc1bb17dd
+  submitted idx=062 id=2e7f54e5-f158-4327-9eae-0cba2d9dd440
+  submitted idx=063 id=7b1864b8-2024-4159-a437-9601ddda588c
+  submitted idx=064 id=94703f87-1234-4312-b01c-b90b3c889e41
+  submitted idx=065 id=ebca64b2-8254-4e11-bd35-f4d3262aa001
+  submitted idx=066 id=b7bdc242-9df7-4518-8a19-3734fd07a109
+  submitted idx=067 id=2ceaf86e-6cd8-4e53-b399-a1bc1f9dbdfd
+  submitted idx=068 id=2cc53687-3626-4819-bd10-51bd3e59cfe4
+  submitted idx=069 id=f360bbec-5cb2-4d4b-9de7-8ae694555ca5
+  submitted idx=070 id=899d7838-b8f9-4d20-a7c4-6b21f412b84f
+  submitted idx=071 id=bab30dea-bc52-4f14-b03e-9b3a26a5ff88
+  submitted idx=072 id=60aa7200-4744-4ca9-af0c-f472793c1b9e
+  submitted idx=073 id=612ce51b-79ae-415b-8c69-4bbe955a6802
+  submitted idx=074 id=072f7cf7-be8b-41c1-b699-2ee3e62b0344
+  submitted idx=075 id=6c246b9a-19aa-4ce1-b94d-812e91b6358b
+  submitted idx=076 id=ba6dc541-1678-40e8-bfda-629b30369cb5
+  [completed] idx=071 server=75.9s client=76.9s done=1/31
+  [completed] idx=069 server=99.0s client=95.3s done=2/31
+  [completed] idx=054 server=117.9s client=102.1s done=3/31
+  [completed] idx=058 server=123.6s client=123.2s done=4/31
+  [completed] idx=070 server=124.7s client=132.6s done=5/31
+  [completed] idx=059 server=151.5s client=141.6s done=6/31
+  [completed] idx=068 server=154.8s client=149.0s done=7/31
+  [completed] idx=066 server=165.6s client=162.4s done=8/31
+  [completed] idx=052 server=184.4s client=168.4s done=9/31
+  [completed] idx=074 server=206.1s client=204.8s done=10/31
+  [completed] idx=076 server=196.9s client=206.4s done=11/31
+  [completed] idx=072 server=207.8s client=216.1s done=12/31
+  [completed] idx=057 server=251.7s client=240.8s done=13/31
+  [completed] idx=065 server=293.2s client=293.6s done=14/31
+  [completed] idx=061 server=302.5s client=299.6s done=15/31
+  [completed] idx=064 server=325.3s client=317.7s done=16/31
+  [completed] idx=060 server=403.6s client=395.7s done=17/31
+  [completed] idx=055 server=460.0s client=449.7s done=18/31
+  [completed] idx=067 server=456.8s client=453.4s done=19/31
